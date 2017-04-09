@@ -8,7 +8,7 @@ import napalm_yang
 import yaml
 
 models = [
-    napalm_yang.models.openconfig_bgp,
+    napalm_yang.models.openconfig_network_instance,
     napalm_yang.models.openconfig_interfaces,
     napalm_yang.models.openconfig_platform,
     napalm_yang.models.openconfig_vlan,
