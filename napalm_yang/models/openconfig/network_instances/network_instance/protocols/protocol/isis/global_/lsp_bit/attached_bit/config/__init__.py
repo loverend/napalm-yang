@@ -26,8 +26,8 @@ class config(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__suppress_bit = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="suppress-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
-    self.__ignore_bit = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="ignore-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__suppress_bit = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="suppress-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
+    self.__ignore_bit = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="ignore-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -83,12 +83,12 @@ with the attached bit set.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="ignore-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="ignore-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ignore_bit must be of a type compatible with boolean""",
           'defined-type': "boolean",
-          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="ignore-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="ignore-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)""",
         })
 
     self.__ignore_bit = t
@@ -96,7 +96,7 @@ with the attached bit set.
       self._set()
 
   def _unset_ignore_bit(self):
-    self.__ignore_bit = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="ignore-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__ignore_bit = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="ignore-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
 
 
   def _get_suppress_bit(self):
@@ -122,12 +122,12 @@ attached bit is not advertised in locally generated PDUs.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="suppress-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="suppress-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """suppress_bit must be of a type compatible with boolean""",
           'defined-type': "boolean",
-          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="suppress-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="suppress-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)""",
         })
 
     self.__suppress_bit = t
@@ -135,7 +135,7 @@ attached bit is not advertised in locally generated PDUs.
       self._set()
 
   def _unset_suppress_bit(self):
-    self.__suppress_bit = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="suppress-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__suppress_bit = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="suppress-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
 
   ignore_bit = __builtin__.property(_get_ignore_bit, _set_ignore_bit)
   suppress_bit = __builtin__.property(_get_suppress_bit, _set_suppress_bit)
@@ -164,8 +164,8 @@ class config(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__suppress_bit = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="suppress-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
-    self.__ignore_bit = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="ignore-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__suppress_bit = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="suppress-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
+    self.__ignore_bit = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="ignore-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -221,12 +221,12 @@ with the attached bit set.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="ignore-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="ignore-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ignore_bit must be of a type compatible with boolean""",
           'defined-type': "boolean",
-          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="ignore-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="ignore-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)""",
         })
 
     self.__ignore_bit = t
@@ -234,7 +234,7 @@ with the attached bit set.
       self._set()
 
   def _unset_ignore_bit(self):
-    self.__ignore_bit = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="ignore-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__ignore_bit = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="ignore-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
 
 
   def _get_suppress_bit(self):
@@ -260,12 +260,12 @@ attached bit is not advertised in locally generated PDUs.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="suppress-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="suppress-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """suppress_bit must be of a type compatible with boolean""",
           'defined-type': "boolean",
-          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="suppress-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="suppress-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)""",
         })
 
     self.__suppress_bit = t
@@ -273,7 +273,7 @@ attached bit is not advertised in locally generated PDUs.
       self._set()
 
   def _unset_suppress_bit(self):
-    self.__suppress_bit = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="suppress-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__suppress_bit = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="suppress-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
 
   ignore_bit = __builtin__.property(_get_ignore_bit, _set_ignore_bit)
   suppress_bit = __builtin__.property(_get_suppress_bit, _set_suppress_bit)

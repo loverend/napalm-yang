@@ -26,7 +26,7 @@ class config(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__hello_authentication = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="hello-authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__hello_authentication = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="hello-authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -76,12 +76,12 @@ class config(PybindBase):
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="hello-authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="hello-authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """hello_authentication must be of a type compatible with boolean""",
           'defined-type': "boolean",
-          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="hello-authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="hello-authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)""",
         })
 
     self.__hello_authentication = t
@@ -89,7 +89,7 @@ class config(PybindBase):
       self._set()
 
   def _unset_hello_authentication(self):
-    self.__hello_authentication = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="hello-authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__hello_authentication = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="hello-authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
 
   hello_authentication = __builtin__.property(_get_hello_authentication, _set_hello_authentication)
 
@@ -117,7 +117,7 @@ class config(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__hello_authentication = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="hello-authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__hello_authentication = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="hello-authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -167,12 +167,12 @@ class config(PybindBase):
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="hello-authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="hello-authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """hello_authentication must be of a type compatible with boolean""",
           'defined-type': "boolean",
-          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="hello-authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="hello-authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)""",
         })
 
     self.__hello_authentication = t
@@ -180,7 +180,7 @@ class config(PybindBase):
       self._set()
 
   def _unset_hello_authentication(self):
-    self.__hello_authentication = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="hello-authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__hello_authentication = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="hello-authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='boolean', is_config=True)
 
   hello_authentication = __builtin__.property(_get_hello_authentication, _set_hello_authentication)
 

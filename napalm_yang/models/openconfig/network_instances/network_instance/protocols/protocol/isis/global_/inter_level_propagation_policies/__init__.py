@@ -28,8 +28,8 @@ class inter_level_propagation_policies(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__level1_to_level2 = YANGDynClass(base=level1_to_level2.level1_to_level2, is_container='container', yang_name="level1-to-level2", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__level2_to_level1 = YANGDynClass(base=level2_to_level1.level2_to_level1, is_container='container', yang_name="level2-to-level1", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__level1_to_level2 = YANGDynClass(base=level1_to_level2.level1_to_level2, is_container='container', yang_name="level1-to-level2", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
+    self.__level2_to_level1 = YANGDynClass(base=level2_to_level1.level2_to_level1, is_container='container', yang_name="level2-to-level1", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -81,12 +81,12 @@ Level 1 to Level 2.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=level1_to_level2.level1_to_level2, is_container='container', yang_name="level1-to-level2", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=level1_to_level2.level1_to_level2, is_container='container', yang_name="level1-to-level2", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """level1_to_level2 must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=level1_to_level2.level1_to_level2, is_container='container', yang_name="level1-to-level2", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=level1_to_level2.level1_to_level2, is_container='container', yang_name="level1-to-level2", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)""",
         })
 
     self.__level1_to_level2 = t
@@ -94,7 +94,7 @@ Level 1 to Level 2.
       self._set()
 
   def _unset_level1_to_level2(self):
-    self.__level1_to_level2 = YANGDynClass(base=level1_to_level2.level1_to_level2, is_container='container', yang_name="level1-to-level2", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__level1_to_level2 = YANGDynClass(base=level1_to_level2.level1_to_level2, is_container='container', yang_name="level1-to-level2", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
 
 
   def _get_level2_to_level1(self):
@@ -120,12 +120,12 @@ Level2 to Level 1.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=level2_to_level1.level2_to_level1, is_container='container', yang_name="level2-to-level1", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=level2_to_level1.level2_to_level1, is_container='container', yang_name="level2-to-level1", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """level2_to_level1 must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=level2_to_level1.level2_to_level1, is_container='container', yang_name="level2-to-level1", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=level2_to_level1.level2_to_level1, is_container='container', yang_name="level2-to-level1", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)""",
         })
 
     self.__level2_to_level1 = t
@@ -133,7 +133,7 @@ Level2 to Level 1.
       self._set()
 
   def _unset_level2_to_level1(self):
-    self.__level2_to_level1 = YANGDynClass(base=level2_to_level1.level2_to_level1, is_container='container', yang_name="level2-to-level1", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__level2_to_level1 = YANGDynClass(base=level2_to_level1.level2_to_level1, is_container='container', yang_name="level2-to-level1", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
 
   level1_to_level2 = __builtin__.property(_get_level1_to_level2, _set_level1_to_level2)
   level2_to_level1 = __builtin__.property(_get_level2_to_level1, _set_level2_to_level1)
@@ -164,8 +164,8 @@ class inter_level_propagation_policies(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__level1_to_level2 = YANGDynClass(base=level1_to_level2.level1_to_level2, is_container='container', yang_name="level1-to-level2", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__level2_to_level1 = YANGDynClass(base=level2_to_level1.level2_to_level1, is_container='container', yang_name="level2-to-level1", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__level1_to_level2 = YANGDynClass(base=level1_to_level2.level1_to_level2, is_container='container', yang_name="level1-to-level2", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
+    self.__level2_to_level1 = YANGDynClass(base=level2_to_level1.level2_to_level1, is_container='container', yang_name="level2-to-level1", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -217,12 +217,12 @@ Level 1 to Level 2.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=level1_to_level2.level1_to_level2, is_container='container', yang_name="level1-to-level2", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=level1_to_level2.level1_to_level2, is_container='container', yang_name="level1-to-level2", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """level1_to_level2 must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=level1_to_level2.level1_to_level2, is_container='container', yang_name="level1-to-level2", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=level1_to_level2.level1_to_level2, is_container='container', yang_name="level1-to-level2", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)""",
         })
 
     self.__level1_to_level2 = t
@@ -230,7 +230,7 @@ Level 1 to Level 2.
       self._set()
 
   def _unset_level1_to_level2(self):
-    self.__level1_to_level2 = YANGDynClass(base=level1_to_level2.level1_to_level2, is_container='container', yang_name="level1-to-level2", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__level1_to_level2 = YANGDynClass(base=level1_to_level2.level1_to_level2, is_container='container', yang_name="level1-to-level2", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
 
 
   def _get_level2_to_level1(self):
@@ -256,12 +256,12 @@ Level2 to Level 1.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=level2_to_level1.level2_to_level1, is_container='container', yang_name="level2-to-level1", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=level2_to_level1.level2_to_level1, is_container='container', yang_name="level2-to-level1", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """level2_to_level1 must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=level2_to_level1.level2_to_level1, is_container='container', yang_name="level2-to-level1", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=level2_to_level1.level2_to_level1, is_container='container', yang_name="level2-to-level1", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)""",
         })
 
     self.__level2_to_level1 = t
@@ -269,7 +269,7 @@ Level2 to Level 1.
       self._set()
 
   def _unset_level2_to_level1(self):
-    self.__level2_to_level1 = YANGDynClass(base=level2_to_level1.level2_to_level1, is_container='container', yang_name="level2-to-level1", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__level2_to_level1 = YANGDynClass(base=level2_to_level1.level2_to_level1, is_container='container', yang_name="level2-to-level1", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
 
   level1_to_level2 = __builtin__.property(_get_level1_to_level2, _set_level1_to_level2)
   level2_to_level1 = __builtin__.property(_get_level2_to_level1, _set_level2_to_level1)

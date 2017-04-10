@@ -28,7 +28,7 @@ state information.
     self._path_helper = False
 
     self._extmethods = False
-    self.__level = YANGDynClass(base=YANGListType("level_number",level.level, yang_name="level", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='level-number', extensions=None), is_container='list', yang_name="level", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__level = YANGDynClass(base=YANGListType("level_number",level.level, yang_name="level", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='level-number', extensions=None), is_container='list', yang_name="level", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -80,12 +80,12 @@ particular level on an IS-IS enabled interface.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("level_number",level.level, yang_name="level", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='level-number', extensions=None), is_container='list', yang_name="level", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("level_number",level.level, yang_name="level", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='level-number', extensions=None), is_container='list', yang_name="level", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """level must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("level_number",level.level, yang_name="level", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='level-number', extensions=None), is_container='list', yang_name="level", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("level_number",level.level, yang_name="level", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='level-number', extensions=None), is_container='list', yang_name="level", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='list', is_config=True)""",
         })
 
     self.__level = t
@@ -93,7 +93,7 @@ particular level on an IS-IS enabled interface.
       self._set()
 
   def _unset_level(self):
-    self.__level = YANGDynClass(base=YANGListType("level_number",level.level, yang_name="level", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='level-number', extensions=None), is_container='list', yang_name="level", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__level = YANGDynClass(base=YANGListType("level_number",level.level, yang_name="level", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='level-number', extensions=None), is_container='list', yang_name="level", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='list', is_config=True)
 
   level = __builtin__.property(_get_level, _set_level)
 
@@ -123,7 +123,7 @@ state information.
     self._path_helper = False
 
     self._extmethods = False
-    self.__level = YANGDynClass(base=YANGListType("level_number",level.level, yang_name="level", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='level-number', extensions=None), is_container='list', yang_name="level", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__level = YANGDynClass(base=YANGListType("level_number",level.level, yang_name="level", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='level-number', extensions=None), is_container='list', yang_name="level", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -175,12 +175,12 @@ particular level on an IS-IS enabled interface.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("level_number",level.level, yang_name="level", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='level-number', extensions=None), is_container='list', yang_name="level", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("level_number",level.level, yang_name="level", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='level-number', extensions=None), is_container='list', yang_name="level", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """level must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("level_number",level.level, yang_name="level", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='level-number', extensions=None), is_container='list', yang_name="level", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("level_number",level.level, yang_name="level", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='level-number', extensions=None), is_container='list', yang_name="level", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='list', is_config=True)""",
         })
 
     self.__level = t
@@ -188,7 +188,7 @@ particular level on an IS-IS enabled interface.
       self._set()
 
   def _unset_level(self):
-    self.__level = YANGDynClass(base=YANGListType("level_number",level.level, yang_name="level", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='level-number', extensions=None), is_container='list', yang_name="level", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__level = YANGDynClass(base=YANGListType("level_number",level.level, yang_name="level", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='level-number', extensions=None), is_container='list', yang_name="level", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='list', is_config=True)
 
   level = __builtin__.property(_get_level, _set_level)
 

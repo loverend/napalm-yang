@@ -28,7 +28,7 @@ neighbor
     self._path_helper = False
 
     self._extmethods = False
-    self.__treat_as_withdraw = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="treat-as-withdraw", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__treat_as_withdraw = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="treat-as-withdraw", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='boolean', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -82,12 +82,12 @@ withdrawn - avoiding session reset
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="treat-as-withdraw", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="treat-as-withdraw", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='boolean', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """treat_as_withdraw must be of a type compatible with boolean""",
           'defined-type': "boolean",
-          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="treat-as-withdraw", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="treat-as-withdraw", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='boolean', is_config=True)""",
         })
 
     self.__treat_as_withdraw = t
@@ -95,7 +95,7 @@ withdrawn - avoiding session reset
       self._set()
 
   def _unset_treat_as_withdraw(self):
-    self.__treat_as_withdraw = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="treat-as-withdraw", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__treat_as_withdraw = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="treat-as-withdraw", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='boolean', is_config=True)
 
   treat_as_withdraw = __builtin__.property(_get_treat_as_withdraw, _set_treat_as_withdraw)
 
@@ -125,7 +125,7 @@ neighbor
     self._path_helper = False
 
     self._extmethods = False
-    self.__treat_as_withdraw = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="treat-as-withdraw", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__treat_as_withdraw = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="treat-as-withdraw", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='boolean', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -179,12 +179,12 @@ withdrawn - avoiding session reset
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="treat-as-withdraw", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="treat-as-withdraw", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='boolean', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """treat_as_withdraw must be of a type compatible with boolean""",
           'defined-type': "boolean",
-          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="treat-as-withdraw", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="treat-as-withdraw", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='boolean', is_config=True)""",
         })
 
     self.__treat_as_withdraw = t
@@ -192,7 +192,7 @@ withdrawn - avoiding session reset
       self._set()
 
   def _unset_treat_as_withdraw(self):
-    self.__treat_as_withdraw = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="treat-as-withdraw", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__treat_as_withdraw = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="treat-as-withdraw", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='boolean', is_config=True)
 
   treat_as_withdraw = __builtin__.property(_get_treat_as_withdraw, _set_treat_as_withdraw)
 

@@ -28,7 +28,7 @@ instance
     self._path_helper = False
 
     self._extmethods = False
-    self.__connection_point = YANGDynClass(base=YANGListType("connection_point_id",connection_point.connection_point, yang_name="connection-point", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='connection-point-id', extensions=None), is_container='list', yang_name="connection-point", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__connection_point = YANGDynClass(base=YANGListType("connection_point_id",connection_point.connection_point, yang_name="connection-point", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='connection-point-id', extensions=None), is_container='list', yang_name="connection-point", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -88,12 +88,12 @@ all configuration and state parameters are common
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("connection_point_id",connection_point.connection_point, yang_name="connection-point", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='connection-point-id', extensions=None), is_container='list', yang_name="connection-point", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("connection_point_id",connection_point.connection_point, yang_name="connection-point", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='connection-point-id', extensions=None), is_container='list', yang_name="connection-point", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """connection_point must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("connection_point_id",connection_point.connection_point, yang_name="connection-point", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='connection-point-id', extensions=None), is_container='list', yang_name="connection-point", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("connection_point_id",connection_point.connection_point, yang_name="connection-point", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='connection-point-id', extensions=None), is_container='list', yang_name="connection-point", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)""",
         })
 
     self.__connection_point = t
@@ -101,7 +101,7 @@ all configuration and state parameters are common
       self._set()
 
   def _unset_connection_point(self):
-    self.__connection_point = YANGDynClass(base=YANGListType("connection_point_id",connection_point.connection_point, yang_name="connection-point", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='connection-point-id', extensions=None), is_container='list', yang_name="connection-point", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__connection_point = YANGDynClass(base=YANGListType("connection_point_id",connection_point.connection_point, yang_name="connection-point", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='connection-point-id', extensions=None), is_container='list', yang_name="connection-point", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
   connection_point = __builtin__.property(_get_connection_point, _set_connection_point)
 
@@ -131,7 +131,7 @@ instance
     self._path_helper = False
 
     self._extmethods = False
-    self.__connection_point = YANGDynClass(base=YANGListType("connection_point_id",connection_point.connection_point, yang_name="connection-point", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='connection-point-id', extensions=None), is_container='list', yang_name="connection-point", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__connection_point = YANGDynClass(base=YANGListType("connection_point_id",connection_point.connection_point, yang_name="connection-point", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='connection-point-id', extensions=None), is_container='list', yang_name="connection-point", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -191,12 +191,12 @@ all configuration and state parameters are common
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("connection_point_id",connection_point.connection_point, yang_name="connection-point", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='connection-point-id', extensions=None), is_container='list', yang_name="connection-point", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("connection_point_id",connection_point.connection_point, yang_name="connection-point", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='connection-point-id', extensions=None), is_container='list', yang_name="connection-point", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """connection_point must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("connection_point_id",connection_point.connection_point, yang_name="connection-point", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='connection-point-id', extensions=None), is_container='list', yang_name="connection-point", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("connection_point_id",connection_point.connection_point, yang_name="connection-point", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='connection-point-id', extensions=None), is_container='list', yang_name="connection-point", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)""",
         })
 
     self.__connection_point = t
@@ -204,7 +204,7 @@ all configuration and state parameters are common
       self._set()
 
   def _unset_connection_point(self):
-    self.__connection_point = YANGDynClass(base=YANGListType("connection_point_id",connection_point.connection_point, yang_name="connection-point", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='connection-point-id', extensions=None), is_container='list', yang_name="connection-point", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__connection_point = YANGDynClass(base=YANGListType("connection_point_id",connection_point.connection_point, yang_name="connection-point", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='connection-point-id', extensions=None), is_container='list', yang_name="connection-point", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
   connection_point = __builtin__.property(_get_connection_point, _set_connection_point)
 

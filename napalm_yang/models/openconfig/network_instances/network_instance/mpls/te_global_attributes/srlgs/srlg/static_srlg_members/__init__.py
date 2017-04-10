@@ -27,7 +27,7 @@ class static_srlg_members(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__members_list = YANGDynClass(base=YANGListType("from_address",members_list.members_list, yang_name="members-list", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='from-address', extensions=None), is_container='list', yang_name="members-list", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__members_list = YANGDynClass(base=YANGListType("from_address",members_list.members_list, yang_name="members-list", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='from-address', extensions=None), is_container='list', yang_name="members-list", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -81,12 +81,12 @@ SRLG
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("from_address",members_list.members_list, yang_name="members-list", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='from-address', extensions=None), is_container='list', yang_name="members-list", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("from_address",members_list.members_list, yang_name="members-list", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='from-address', extensions=None), is_container='list', yang_name="members-list", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """members_list must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("from_address",members_list.members_list, yang_name="members-list", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='from-address', extensions=None), is_container='list', yang_name="members-list", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("from_address",members_list.members_list, yang_name="members-list", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='from-address', extensions=None), is_container='list', yang_name="members-list", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='list', is_config=True)""",
         })
 
     self.__members_list = t
@@ -94,7 +94,7 @@ SRLG
       self._set()
 
   def _unset_members_list(self):
-    self.__members_list = YANGDynClass(base=YANGListType("from_address",members_list.members_list, yang_name="members-list", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='from-address', extensions=None), is_container='list', yang_name="members-list", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__members_list = YANGDynClass(base=YANGListType("from_address",members_list.members_list, yang_name="members-list", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='from-address', extensions=None), is_container='list', yang_name="members-list", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='list', is_config=True)
 
   members_list = __builtin__.property(_get_members_list, _set_members_list)
 
@@ -123,7 +123,7 @@ class static_srlg_members(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__members_list = YANGDynClass(base=YANGListType("from_address",members_list.members_list, yang_name="members-list", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='from-address', extensions=None), is_container='list', yang_name="members-list", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__members_list = YANGDynClass(base=YANGListType("from_address",members_list.members_list, yang_name="members-list", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='from-address', extensions=None), is_container='list', yang_name="members-list", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -177,12 +177,12 @@ SRLG
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("from_address",members_list.members_list, yang_name="members-list", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='from-address', extensions=None), is_container='list', yang_name="members-list", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("from_address",members_list.members_list, yang_name="members-list", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='from-address', extensions=None), is_container='list', yang_name="members-list", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """members_list must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("from_address",members_list.members_list, yang_name="members-list", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='from-address', extensions=None), is_container='list', yang_name="members-list", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("from_address",members_list.members_list, yang_name="members-list", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='from-address', extensions=None), is_container='list', yang_name="members-list", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='list', is_config=True)""",
         })
 
     self.__members_list = t
@@ -190,7 +190,7 @@ SRLG
       self._set()
 
   def _unset_members_list(self):
-    self.__members_list = YANGDynClass(base=YANGListType("from_address",members_list.members_list, yang_name="members-list", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='from-address', extensions=None), is_container='list', yang_name="members-list", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__members_list = YANGDynClass(base=YANGListType("from_address",members_list.members_list, yang_name="members-list", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='from-address', extensions=None), is_container='list', yang_name="members-list", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='list', is_config=True)
 
   members_list = __builtin__.property(_get_members_list, _set_members_list)
 

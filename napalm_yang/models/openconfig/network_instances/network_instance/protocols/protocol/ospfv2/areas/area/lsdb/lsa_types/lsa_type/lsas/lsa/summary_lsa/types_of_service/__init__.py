@@ -28,7 +28,7 @@ TOS values
     self._path_helper = False
 
     self._extmethods = False
-    self.__type_of_service = YANGDynClass(base=YANGListType("tos",type_of_service.type_of_service, yang_name="type-of-service", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='tos', extensions=None), is_container='list', yang_name="type-of-service", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=False)
+    self.__type_of_service = YANGDynClass(base=YANGListType("tos",type_of_service.type_of_service, yang_name="type-of-service", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='tos', extensions=None), is_container='list', yang_name="type-of-service", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='list', is_config=False)
 
     load = kwargs.pop("load", None)
     if args:
@@ -78,12 +78,12 @@ TOS values
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("tos",type_of_service.type_of_service, yang_name="type-of-service", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='tos', extensions=None), is_container='list', yang_name="type-of-service", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=False)
+      t = YANGDynClass(v,base=YANGListType("tos",type_of_service.type_of_service, yang_name="type-of-service", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='tos', extensions=None), is_container='list', yang_name="type-of-service", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='list', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """type_of_service must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("tos",type_of_service.type_of_service, yang_name="type-of-service", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='tos', extensions=None), is_container='list', yang_name="type-of-service", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=False)""",
+          'generated-type': """YANGDynClass(base=YANGListType("tos",type_of_service.type_of_service, yang_name="type-of-service", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='tos', extensions=None), is_container='list', yang_name="type-of-service", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='list', is_config=False)""",
         })
 
     self.__type_of_service = t
@@ -91,7 +91,7 @@ TOS values
       self._set()
 
   def _unset_type_of_service(self):
-    self.__type_of_service = YANGDynClass(base=YANGListType("tos",type_of_service.type_of_service, yang_name="type-of-service", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='tos', extensions=None), is_container='list', yang_name="type-of-service", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=False)
+    self.__type_of_service = YANGDynClass(base=YANGListType("tos",type_of_service.type_of_service, yang_name="type-of-service", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='tos', extensions=None), is_container='list', yang_name="type-of-service", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='list', is_config=False)
 
   type_of_service = __builtin__.property(_get_type_of_service)
 
@@ -121,7 +121,7 @@ TOS values
     self._path_helper = False
 
     self._extmethods = False
-    self.__type_of_service = YANGDynClass(base=YANGListType("tos",type_of_service.type_of_service, yang_name="type-of-service", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='tos', extensions=None), is_container='list', yang_name="type-of-service", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=False)
+    self.__type_of_service = YANGDynClass(base=YANGListType("tos",type_of_service.type_of_service, yang_name="type-of-service", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='tos', extensions=None), is_container='list', yang_name="type-of-service", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='list', is_config=False)
 
     load = kwargs.pop("load", None)
     if args:
@@ -171,12 +171,12 @@ TOS values
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("tos",type_of_service.type_of_service, yang_name="type-of-service", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='tos', extensions=None), is_container='list', yang_name="type-of-service", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=False)
+      t = YANGDynClass(v,base=YANGListType("tos",type_of_service.type_of_service, yang_name="type-of-service", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='tos', extensions=None), is_container='list', yang_name="type-of-service", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='list', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """type_of_service must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("tos",type_of_service.type_of_service, yang_name="type-of-service", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='tos', extensions=None), is_container='list', yang_name="type-of-service", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=False)""",
+          'generated-type': """YANGDynClass(base=YANGListType("tos",type_of_service.type_of_service, yang_name="type-of-service", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='tos', extensions=None), is_container='list', yang_name="type-of-service", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='list', is_config=False)""",
         })
 
     self.__type_of_service = t
@@ -184,7 +184,7 @@ TOS values
       self._set()
 
   def _unset_type_of_service(self):
-    self.__type_of_service = YANGDynClass(base=YANGListType("tos",type_of_service.type_of_service, yang_name="type-of-service", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='tos', extensions=None), is_container='list', yang_name="type-of-service", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=False)
+    self.__type_of_service = YANGDynClass(base=YANGListType("tos",type_of_service.type_of_service, yang_name="type-of-service", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='tos', extensions=None), is_container='list', yang_name="type-of-service", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='list', is_config=False)
 
   type_of_service = __builtin__.property(_get_type_of_service)
 

@@ -28,8 +28,8 @@ class lsp_bit(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__attached_bit = YANGDynClass(base=attached_bit.attached_bit, is_container='container', yang_name="attached-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__overload_bit = YANGDynClass(base=overload_bit.overload_bit, is_container='container', yang_name="overload-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__attached_bit = YANGDynClass(base=attached_bit.attached_bit, is_container='container', yang_name="attached-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
+    self.__overload_bit = YANGDynClass(base=overload_bit.overload_bit, is_container='container', yang_name="overload-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -79,12 +79,12 @@ class lsp_bit(PybindBase):
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=overload_bit.overload_bit, is_container='container', yang_name="overload-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=overload_bit.overload_bit, is_container='container', yang_name="overload-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """overload_bit must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=overload_bit.overload_bit, is_container='container', yang_name="overload-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=overload_bit.overload_bit, is_container='container', yang_name="overload-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)""",
         })
 
     self.__overload_bit = t
@@ -92,7 +92,7 @@ class lsp_bit(PybindBase):
       self._set()
 
   def _unset_overload_bit(self):
-    self.__overload_bit = YANGDynClass(base=overload_bit.overload_bit, is_container='container', yang_name="overload-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__overload_bit = YANGDynClass(base=overload_bit.overload_bit, is_container='container', yang_name="overload-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
 
 
   def _get_attached_bit(self):
@@ -116,12 +116,12 @@ class lsp_bit(PybindBase):
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=attached_bit.attached_bit, is_container='container', yang_name="attached-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=attached_bit.attached_bit, is_container='container', yang_name="attached-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """attached_bit must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=attached_bit.attached_bit, is_container='container', yang_name="attached-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=attached_bit.attached_bit, is_container='container', yang_name="attached-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)""",
         })
 
     self.__attached_bit = t
@@ -129,7 +129,7 @@ class lsp_bit(PybindBase):
       self._set()
 
   def _unset_attached_bit(self):
-    self.__attached_bit = YANGDynClass(base=attached_bit.attached_bit, is_container='container', yang_name="attached-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__attached_bit = YANGDynClass(base=attached_bit.attached_bit, is_container='container', yang_name="attached-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
 
   overload_bit = __builtin__.property(_get_overload_bit, _set_overload_bit)
   attached_bit = __builtin__.property(_get_attached_bit, _set_attached_bit)
@@ -160,8 +160,8 @@ class lsp_bit(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__attached_bit = YANGDynClass(base=attached_bit.attached_bit, is_container='container', yang_name="attached-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__overload_bit = YANGDynClass(base=overload_bit.overload_bit, is_container='container', yang_name="overload-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__attached_bit = YANGDynClass(base=attached_bit.attached_bit, is_container='container', yang_name="attached-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
+    self.__overload_bit = YANGDynClass(base=overload_bit.overload_bit, is_container='container', yang_name="overload-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -211,12 +211,12 @@ class lsp_bit(PybindBase):
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=overload_bit.overload_bit, is_container='container', yang_name="overload-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=overload_bit.overload_bit, is_container='container', yang_name="overload-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """overload_bit must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=overload_bit.overload_bit, is_container='container', yang_name="overload-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=overload_bit.overload_bit, is_container='container', yang_name="overload-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)""",
         })
 
     self.__overload_bit = t
@@ -224,7 +224,7 @@ class lsp_bit(PybindBase):
       self._set()
 
   def _unset_overload_bit(self):
-    self.__overload_bit = YANGDynClass(base=overload_bit.overload_bit, is_container='container', yang_name="overload-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__overload_bit = YANGDynClass(base=overload_bit.overload_bit, is_container='container', yang_name="overload-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
 
 
   def _get_attached_bit(self):
@@ -248,12 +248,12 @@ class lsp_bit(PybindBase):
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=attached_bit.attached_bit, is_container='container', yang_name="attached-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=attached_bit.attached_bit, is_container='container', yang_name="attached-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """attached_bit must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=attached_bit.attached_bit, is_container='container', yang_name="attached-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=attached_bit.attached_bit, is_container='container', yang_name="attached-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)""",
         })
 
     self.__attached_bit = t
@@ -261,7 +261,7 @@ class lsp_bit(PybindBase):
       self._set()
 
   def _unset_attached_bit(self):
-    self.__attached_bit = YANGDynClass(base=attached_bit.attached_bit, is_container='container', yang_name="attached-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__attached_bit = YANGDynClass(base=attached_bit.attached_bit, is_container='container', yang_name="attached-bit", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
 
   overload_bit = __builtin__.property(_get_overload_bit, _set_overload_bit)
   attached_bit = __builtin__.property(_get_attached_bit, _set_attached_bit)

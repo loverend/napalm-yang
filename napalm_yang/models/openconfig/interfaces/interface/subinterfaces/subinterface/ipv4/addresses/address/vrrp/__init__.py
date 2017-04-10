@@ -28,7 +28,7 @@ IP interface
     self._path_helper = False
 
     self._extmethods = False
-    self.__vrrp_group = YANGDynClass(base=YANGListType("virtual_router_id",vrrp_group.vrrp_group, yang_name="vrrp-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='virtual-router-id', extensions=None), is_container='list', yang_name="vrrp-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/interfaces/ip', defining_module='openconfig-if-ip', yang_type='list', is_config=True)
+    self.__vrrp_group = YANGDynClass(base=YANGListType("virtual_router_id",vrrp_group.vrrp_group, yang_name="vrrp-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='virtual-router-id', extensions=None), is_container='list', yang_name="vrrp-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/interfaces/ip', defining_module='openconfig-if-ip', original_module='openconfig-if-ip', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -78,12 +78,12 @@ IP interface
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("virtual_router_id",vrrp_group.vrrp_group, yang_name="vrrp-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='virtual-router-id', extensions=None), is_container='list', yang_name="vrrp-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/interfaces/ip', defining_module='openconfig-if-ip', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("virtual_router_id",vrrp_group.vrrp_group, yang_name="vrrp-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='virtual-router-id', extensions=None), is_container='list', yang_name="vrrp-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/interfaces/ip', defining_module='openconfig-if-ip', original_module='openconfig-if-ip', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """vrrp_group must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("virtual_router_id",vrrp_group.vrrp_group, yang_name="vrrp-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='virtual-router-id', extensions=None), is_container='list', yang_name="vrrp-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/interfaces/ip', defining_module='openconfig-if-ip', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("virtual_router_id",vrrp_group.vrrp_group, yang_name="vrrp-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='virtual-router-id', extensions=None), is_container='list', yang_name="vrrp-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/interfaces/ip', defining_module='openconfig-if-ip', original_module='openconfig-if-ip', yang_type='list', is_config=True)""",
         })
 
     self.__vrrp_group = t
@@ -91,7 +91,7 @@ IP interface
       self._set()
 
   def _unset_vrrp_group(self):
-    self.__vrrp_group = YANGDynClass(base=YANGListType("virtual_router_id",vrrp_group.vrrp_group, yang_name="vrrp-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='virtual-router-id', extensions=None), is_container='list', yang_name="vrrp-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/interfaces/ip', defining_module='openconfig-if-ip', yang_type='list', is_config=True)
+    self.__vrrp_group = YANGDynClass(base=YANGListType("virtual_router_id",vrrp_group.vrrp_group, yang_name="vrrp-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='virtual-router-id', extensions=None), is_container='list', yang_name="vrrp-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/interfaces/ip', defining_module='openconfig-if-ip', original_module='openconfig-if-ip', yang_type='list', is_config=True)
 
   vrrp_group = __builtin__.property(_get_vrrp_group, _set_vrrp_group)
 

@@ -28,7 +28,7 @@ corresponding VLANs in the bridge domain
     self._path_helper = False
 
     self._extmethods = False
-    self.__entries = YANGDynClass(base=entries.entries, is_container='container', yang_name="entries", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__entries = YANGDynClass(base=entries.entries, is_container='container', yang_name="entries", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance-l2', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -78,12 +78,12 @@ corresponding VLANs in the bridge domain
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=entries.entries, is_container='container', yang_name="entries", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=entries.entries, is_container='container', yang_name="entries", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance-l2', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """entries must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=entries.entries, is_container='container', yang_name="entries", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=entries.entries, is_container='container', yang_name="entries", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance-l2', yang_type='container', is_config=True)""",
         })
 
     self.__entries = t
@@ -91,7 +91,7 @@ corresponding VLANs in the bridge domain
       self._set()
 
   def _unset_entries(self):
-    self.__entries = YANGDynClass(base=entries.entries, is_container='container', yang_name="entries", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__entries = YANGDynClass(base=entries.entries, is_container='container', yang_name="entries", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance-l2', yang_type='container', is_config=True)
 
   entries = __builtin__.property(_get_entries, _set_entries)
 
@@ -121,7 +121,7 @@ corresponding VLANs in the bridge domain
     self._path_helper = False
 
     self._extmethods = False
-    self.__entries = YANGDynClass(base=entries.entries, is_container='container', yang_name="entries", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__entries = YANGDynClass(base=entries.entries, is_container='container', yang_name="entries", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance-l2', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -171,12 +171,12 @@ corresponding VLANs in the bridge domain
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=entries.entries, is_container='container', yang_name="entries", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=entries.entries, is_container='container', yang_name="entries", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance-l2', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """entries must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=entries.entries, is_container='container', yang_name="entries", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=entries.entries, is_container='container', yang_name="entries", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance-l2', yang_type='container', is_config=True)""",
         })
 
     self.__entries = t
@@ -184,7 +184,7 @@ corresponding VLANs in the bridge domain
       self._set()
 
   def _unset_entries(self):
-    self.__entries = YANGDynClass(base=entries.entries, is_container='container', yang_name="entries", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__entries = YANGDynClass(base=entries.entries, is_container='container', yang_name="entries", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance-l2', yang_type='container', is_config=True)
 
   entries = __builtin__.property(_get_entries, _set_entries)
 

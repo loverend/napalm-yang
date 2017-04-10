@@ -34,7 +34,7 @@ forwarding entry.
     self._path_helper = False
 
     self._extmethods = False
-    self.__aft = YANGDynClass(base=YANGListType("address_family",aft.aft, yang_name="aft", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='address-family', extensions=None), is_container='list', yang_name="aft", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__aft = YANGDynClass(base=YANGListType("address_family",aft.aft, yang_name="aft", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='address-family', extensions=None), is_container='list', yang_name="aft", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-aft', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -86,12 +86,12 @@ an address family wtihin the network instance.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("address_family",aft.aft, yang_name="aft", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='address-family', extensions=None), is_container='list', yang_name="aft", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("address_family",aft.aft, yang_name="aft", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='address-family', extensions=None), is_container='list', yang_name="aft", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-aft', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """aft must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("address_family",aft.aft, yang_name="aft", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='address-family', extensions=None), is_container='list', yang_name="aft", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("address_family",aft.aft, yang_name="aft", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='address-family', extensions=None), is_container='list', yang_name="aft", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-aft', yang_type='list', is_config=True)""",
         })
 
     self.__aft = t
@@ -99,7 +99,7 @@ an address family wtihin the network instance.
       self._set()
 
   def _unset_aft(self):
-    self.__aft = YANGDynClass(base=YANGListType("address_family",aft.aft, yang_name="aft", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='address-family', extensions=None), is_container='list', yang_name="aft", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__aft = YANGDynClass(base=YANGListType("address_family",aft.aft, yang_name="aft", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='address-family', extensions=None), is_container='list', yang_name="aft", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-aft', yang_type='list', is_config=True)
 
   aft = __builtin__.property(_get_aft, _set_aft)
 
@@ -135,7 +135,7 @@ forwarding entry.
     self._path_helper = False
 
     self._extmethods = False
-    self.__aft = YANGDynClass(base=YANGListType("address_family",aft.aft, yang_name="aft", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='address-family', extensions=None), is_container='list', yang_name="aft", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__aft = YANGDynClass(base=YANGListType("address_family",aft.aft, yang_name="aft", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='address-family', extensions=None), is_container='list', yang_name="aft", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-aft', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -187,12 +187,12 @@ an address family wtihin the network instance.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("address_family",aft.aft, yang_name="aft", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='address-family', extensions=None), is_container='list', yang_name="aft", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("address_family",aft.aft, yang_name="aft", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='address-family', extensions=None), is_container='list', yang_name="aft", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-aft', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """aft must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("address_family",aft.aft, yang_name="aft", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='address-family', extensions=None), is_container='list', yang_name="aft", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("address_family",aft.aft, yang_name="aft", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='address-family', extensions=None), is_container='list', yang_name="aft", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-aft', yang_type='list', is_config=True)""",
         })
 
     self.__aft = t
@@ -200,7 +200,7 @@ an address family wtihin the network instance.
       self._set()
 
   def _unset_aft(self):
-    self.__aft = YANGDynClass(base=YANGListType("address_family",aft.aft, yang_name="aft", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='address-family', extensions=None), is_container='list', yang_name="aft", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__aft = YANGDynClass(base=YANGListType("address_family",aft.aft, yang_name="aft", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='address-family', extensions=None), is_container='list', yang_name="aft", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-aft', yang_type='list', is_config=True)
 
   aft = __builtin__.property(_get_aft, _set_aft)
 

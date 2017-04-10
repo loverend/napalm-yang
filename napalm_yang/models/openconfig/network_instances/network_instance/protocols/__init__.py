@@ -28,7 +28,7 @@ network-instance.
     self._path_helper = False
 
     self._extmethods = False
-    self.__protocol = YANGDynClass(base=YANGListType("identifier name",protocol.protocol, yang_name="protocol", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier name', extensions=None), is_container='list', yang_name="protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__protocol = YANGDynClass(base=YANGListType("identifier name",protocol.protocol, yang_name="protocol", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier name', extensions=None), is_container='list', yang_name="protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -82,12 +82,12 @@ a particular routing protocol
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("identifier name",protocol.protocol, yang_name="protocol", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier name', extensions=None), is_container='list', yang_name="protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("identifier name",protocol.protocol, yang_name="protocol", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier name', extensions=None), is_container='list', yang_name="protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """protocol must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("identifier name",protocol.protocol, yang_name="protocol", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier name', extensions=None), is_container='list', yang_name="protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("identifier name",protocol.protocol, yang_name="protocol", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier name', extensions=None), is_container='list', yang_name="protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)""",
         })
 
     self.__protocol = t
@@ -95,7 +95,7 @@ a particular routing protocol
       self._set()
 
   def _unset_protocol(self):
-    self.__protocol = YANGDynClass(base=YANGListType("identifier name",protocol.protocol, yang_name="protocol", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier name', extensions=None), is_container='list', yang_name="protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__protocol = YANGDynClass(base=YANGListType("identifier name",protocol.protocol, yang_name="protocol", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier name', extensions=None), is_container='list', yang_name="protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
   protocol = __builtin__.property(_get_protocol, _set_protocol)
 
@@ -125,7 +125,7 @@ network-instance.
     self._path_helper = False
 
     self._extmethods = False
-    self.__protocol = YANGDynClass(base=YANGListType("identifier name",protocol.protocol, yang_name="protocol", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier name', extensions=None), is_container='list', yang_name="protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__protocol = YANGDynClass(base=YANGListType("identifier name",protocol.protocol, yang_name="protocol", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier name', extensions=None), is_container='list', yang_name="protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -179,12 +179,12 @@ a particular routing protocol
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("identifier name",protocol.protocol, yang_name="protocol", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier name', extensions=None), is_container='list', yang_name="protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("identifier name",protocol.protocol, yang_name="protocol", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier name', extensions=None), is_container='list', yang_name="protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """protocol must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("identifier name",protocol.protocol, yang_name="protocol", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier name', extensions=None), is_container='list', yang_name="protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("identifier name",protocol.protocol, yang_name="protocol", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier name', extensions=None), is_container='list', yang_name="protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)""",
         })
 
     self.__protocol = t
@@ -192,7 +192,7 @@ a particular routing protocol
       self._set()
 
   def _unset_protocol(self):
-    self.__protocol = YANGDynClass(base=YANGListType("identifier name",protocol.protocol, yang_name="protocol", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier name', extensions=None), is_container='list', yang_name="protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__protocol = YANGDynClass(base=YANGListType("identifier name",protocol.protocol, yang_name="protocol", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier name', extensions=None), is_container='list', yang_name="protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
   protocol = __builtin__.property(_get_protocol, _set_protocol)
 

@@ -29,8 +29,8 @@ segment routing.
     self._path_helper = False
 
     self._extmethods = False
-    self.__srlbs = YANGDynClass(base=srlbs.srlbs, is_container='container', yang_name="srlbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__srgbs = YANGDynClass(base=srgbs.srgbs, is_container='container', yang_name="srgbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__srlbs = YANGDynClass(base=srlbs.srlbs, is_container='container', yang_name="srlbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
+    self.__srgbs = YANGDynClass(base=srgbs.srgbs, is_container='container', yang_name="srgbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -82,12 +82,12 @@ SRGBs defined for the system.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=srgbs.srgbs, is_container='container', yang_name="srgbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=srgbs.srgbs, is_container='container', yang_name="srgbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """srgbs must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=srgbs.srgbs, is_container='container', yang_name="srgbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=srgbs.srgbs, is_container='container', yang_name="srgbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)""",
         })
 
     self.__srgbs = t
@@ -95,7 +95,7 @@ SRGBs defined for the system.
       self._set()
 
   def _unset_srgbs(self):
-    self.__srgbs = YANGDynClass(base=srgbs.srgbs, is_container='container', yang_name="srgbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__srgbs = YANGDynClass(base=srgbs.srgbs, is_container='container', yang_name="srgbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
 
 
   def _get_srlbs(self):
@@ -121,12 +121,12 @@ Segment Routing Local Blocks (SRLBs) defined for the system.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=srlbs.srlbs, is_container='container', yang_name="srlbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=srlbs.srlbs, is_container='container', yang_name="srlbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """srlbs must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=srlbs.srlbs, is_container='container', yang_name="srlbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=srlbs.srlbs, is_container='container', yang_name="srlbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)""",
         })
 
     self.__srlbs = t
@@ -134,7 +134,7 @@ Segment Routing Local Blocks (SRLBs) defined for the system.
       self._set()
 
   def _unset_srlbs(self):
-    self.__srlbs = YANGDynClass(base=srlbs.srlbs, is_container='container', yang_name="srlbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__srlbs = YANGDynClass(base=srlbs.srlbs, is_container='container', yang_name="srlbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
 
   srgbs = __builtin__.property(_get_srgbs, _set_srgbs)
   srlbs = __builtin__.property(_get_srlbs, _set_srlbs)
@@ -166,8 +166,8 @@ segment routing.
     self._path_helper = False
 
     self._extmethods = False
-    self.__srlbs = YANGDynClass(base=srlbs.srlbs, is_container='container', yang_name="srlbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__srgbs = YANGDynClass(base=srgbs.srgbs, is_container='container', yang_name="srgbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__srlbs = YANGDynClass(base=srlbs.srlbs, is_container='container', yang_name="srlbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
+    self.__srgbs = YANGDynClass(base=srgbs.srgbs, is_container='container', yang_name="srgbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -219,12 +219,12 @@ SRGBs defined for the system.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=srgbs.srgbs, is_container='container', yang_name="srgbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=srgbs.srgbs, is_container='container', yang_name="srgbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """srgbs must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=srgbs.srgbs, is_container='container', yang_name="srgbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=srgbs.srgbs, is_container='container', yang_name="srgbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)""",
         })
 
     self.__srgbs = t
@@ -232,7 +232,7 @@ SRGBs defined for the system.
       self._set()
 
   def _unset_srgbs(self):
-    self.__srgbs = YANGDynClass(base=srgbs.srgbs, is_container='container', yang_name="srgbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__srgbs = YANGDynClass(base=srgbs.srgbs, is_container='container', yang_name="srgbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
 
 
   def _get_srlbs(self):
@@ -258,12 +258,12 @@ Segment Routing Local Blocks (SRLBs) defined for the system.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=srlbs.srlbs, is_container='container', yang_name="srlbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=srlbs.srlbs, is_container='container', yang_name="srlbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """srlbs must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=srlbs.srlbs, is_container='container', yang_name="srlbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=srlbs.srlbs, is_container='container', yang_name="srlbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)""",
         })
 
     self.__srlbs = t
@@ -271,7 +271,7 @@ Segment Routing Local Blocks (SRLBs) defined for the system.
       self._set()
 
   def _unset_srlbs(self):
-    self.__srlbs = YANGDynClass(base=srlbs.srlbs, is_container='container', yang_name="srlbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__srlbs = YANGDynClass(base=srlbs.srlbs, is_container='container', yang_name="srlbs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
 
   srgbs = __builtin__.property(_get_srgbs, _set_srgbs)
   srlbs = __builtin__.property(_get_srlbs, _set_srlbs)

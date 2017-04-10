@@ -29,9 +29,9 @@ class te_global_attributes(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__mpls_admin_groups = YANGDynClass(base=mpls_admin_groups.mpls_admin_groups, is_container='container', yang_name="mpls-admin-groups", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__te_lsp_timers = YANGDynClass(base=te_lsp_timers.te_lsp_timers, is_container='container', yang_name="te-lsp-timers", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__srlgs = YANGDynClass(base=srlgs.srlgs, is_container='container', yang_name="srlgs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__mpls_admin_groups = YANGDynClass(base=mpls_admin_groups.mpls_admin_groups, is_container='container', yang_name="mpls-admin-groups", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
+    self.__te_lsp_timers = YANGDynClass(base=te_lsp_timers.te_lsp_timers, is_container='container', yang_name="te-lsp-timers", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
+    self.__srlgs = YANGDynClass(base=srlgs.srlgs, is_container='container', yang_name="srlgs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -81,12 +81,12 @@ class te_global_attributes(PybindBase):
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=srlgs.srlgs, is_container='container', yang_name="srlgs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=srlgs.srlgs, is_container='container', yang_name="srlgs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """srlgs must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=srlgs.srlgs, is_container='container', yang_name="srlgs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=srlgs.srlgs, is_container='container', yang_name="srlgs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='container', is_config=True)""",
         })
 
     self.__srlgs = t
@@ -94,7 +94,7 @@ class te_global_attributes(PybindBase):
       self._set()
 
   def _unset_srlgs(self):
-    self.__srlgs = YANGDynClass(base=srlgs.srlgs, is_container='container', yang_name="srlgs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__srlgs = YANGDynClass(base=srlgs.srlgs, is_container='container', yang_name="srlgs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='container', is_config=True)
 
 
   def _get_mpls_admin_groups(self):
@@ -120,12 +120,12 @@ and state
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=mpls_admin_groups.mpls_admin_groups, is_container='container', yang_name="mpls-admin-groups", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=mpls_admin_groups.mpls_admin_groups, is_container='container', yang_name="mpls-admin-groups", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """mpls_admin_groups must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=mpls_admin_groups.mpls_admin_groups, is_container='container', yang_name="mpls-admin-groups", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=mpls_admin_groups.mpls_admin_groups, is_container='container', yang_name="mpls-admin-groups", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)""",
         })
 
     self.__mpls_admin_groups = t
@@ -133,7 +133,7 @@ and state
       self._set()
 
   def _unset_mpls_admin_groups(self):
-    self.__mpls_admin_groups = YANGDynClass(base=mpls_admin_groups.mpls_admin_groups, is_container='container', yang_name="mpls-admin-groups", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__mpls_admin_groups = YANGDynClass(base=mpls_admin_groups.mpls_admin_groups, is_container='container', yang_name="mpls-admin-groups", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
 
 
   def _get_te_lsp_timers(self):
@@ -159,12 +159,12 @@ and cleanup of TE LSPs
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=te_lsp_timers.te_lsp_timers, is_container='container', yang_name="te-lsp-timers", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=te_lsp_timers.te_lsp_timers, is_container='container', yang_name="te-lsp-timers", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """te_lsp_timers must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=te_lsp_timers.te_lsp_timers, is_container='container', yang_name="te-lsp-timers", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=te_lsp_timers.te_lsp_timers, is_container='container', yang_name="te-lsp-timers", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)""",
         })
 
     self.__te_lsp_timers = t
@@ -172,7 +172,7 @@ and cleanup of TE LSPs
       self._set()
 
   def _unset_te_lsp_timers(self):
-    self.__te_lsp_timers = YANGDynClass(base=te_lsp_timers.te_lsp_timers, is_container='container', yang_name="te-lsp-timers", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__te_lsp_timers = YANGDynClass(base=te_lsp_timers.te_lsp_timers, is_container='container', yang_name="te-lsp-timers", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
 
   srlgs = __builtin__.property(_get_srlgs, _set_srlgs)
   mpls_admin_groups = __builtin__.property(_get_mpls_admin_groups, _set_mpls_admin_groups)
@@ -205,9 +205,9 @@ class te_global_attributes(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__mpls_admin_groups = YANGDynClass(base=mpls_admin_groups.mpls_admin_groups, is_container='container', yang_name="mpls-admin-groups", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__te_lsp_timers = YANGDynClass(base=te_lsp_timers.te_lsp_timers, is_container='container', yang_name="te-lsp-timers", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__srlgs = YANGDynClass(base=srlgs.srlgs, is_container='container', yang_name="srlgs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__mpls_admin_groups = YANGDynClass(base=mpls_admin_groups.mpls_admin_groups, is_container='container', yang_name="mpls-admin-groups", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
+    self.__te_lsp_timers = YANGDynClass(base=te_lsp_timers.te_lsp_timers, is_container='container', yang_name="te-lsp-timers", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
+    self.__srlgs = YANGDynClass(base=srlgs.srlgs, is_container='container', yang_name="srlgs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -257,12 +257,12 @@ class te_global_attributes(PybindBase):
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=srlgs.srlgs, is_container='container', yang_name="srlgs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=srlgs.srlgs, is_container='container', yang_name="srlgs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """srlgs must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=srlgs.srlgs, is_container='container', yang_name="srlgs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=srlgs.srlgs, is_container='container', yang_name="srlgs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='container', is_config=True)""",
         })
 
     self.__srlgs = t
@@ -270,7 +270,7 @@ class te_global_attributes(PybindBase):
       self._set()
 
   def _unset_srlgs(self):
-    self.__srlgs = YANGDynClass(base=srlgs.srlgs, is_container='container', yang_name="srlgs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__srlgs = YANGDynClass(base=srlgs.srlgs, is_container='container', yang_name="srlgs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='container', is_config=True)
 
 
   def _get_mpls_admin_groups(self):
@@ -296,12 +296,12 @@ and state
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=mpls_admin_groups.mpls_admin_groups, is_container='container', yang_name="mpls-admin-groups", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=mpls_admin_groups.mpls_admin_groups, is_container='container', yang_name="mpls-admin-groups", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """mpls_admin_groups must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=mpls_admin_groups.mpls_admin_groups, is_container='container', yang_name="mpls-admin-groups", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=mpls_admin_groups.mpls_admin_groups, is_container='container', yang_name="mpls-admin-groups", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)""",
         })
 
     self.__mpls_admin_groups = t
@@ -309,7 +309,7 @@ and state
       self._set()
 
   def _unset_mpls_admin_groups(self):
-    self.__mpls_admin_groups = YANGDynClass(base=mpls_admin_groups.mpls_admin_groups, is_container='container', yang_name="mpls-admin-groups", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__mpls_admin_groups = YANGDynClass(base=mpls_admin_groups.mpls_admin_groups, is_container='container', yang_name="mpls-admin-groups", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
 
 
   def _get_te_lsp_timers(self):
@@ -335,12 +335,12 @@ and cleanup of TE LSPs
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=te_lsp_timers.te_lsp_timers, is_container='container', yang_name="te-lsp-timers", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=te_lsp_timers.te_lsp_timers, is_container='container', yang_name="te-lsp-timers", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """te_lsp_timers must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=te_lsp_timers.te_lsp_timers, is_container='container', yang_name="te-lsp-timers", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=te_lsp_timers.te_lsp_timers, is_container='container', yang_name="te-lsp-timers", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)""",
         })
 
     self.__te_lsp_timers = t
@@ -348,7 +348,7 @@ and cleanup of TE LSPs
       self._set()
 
   def _unset_te_lsp_timers(self):
-    self.__te_lsp_timers = YANGDynClass(base=te_lsp_timers.te_lsp_timers, is_container='container', yang_name="te-lsp-timers", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__te_lsp_timers = YANGDynClass(base=te_lsp_timers.te_lsp_timers, is_container='container', yang_name="te-lsp-timers", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
 
   srlgs = __builtin__.property(_get_srlgs, _set_srlgs)
   mpls_admin_groups = __builtin__.property(_get_mpls_admin_groups, _set_mpls_admin_groups)

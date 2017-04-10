@@ -29,8 +29,8 @@ neighbor
     self._path_helper = False
 
     self._extmethods = False
-    self.__received = YANGDynClass(base=received.received, is_container='container', yang_name="received", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__sent = YANGDynClass(base=sent.sent, is_container='container', yang_name="sent", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__received = YANGDynClass(base=received.received, is_container='container', yang_name="received", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='container', is_config=False)
+    self.__sent = YANGDynClass(base=sent.sent, is_container='container', yang_name="sent", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='container', is_config=False)
 
     load = kwargs.pop("load", None)
     if args:
@@ -80,12 +80,12 @@ neighbor
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=sent.sent, is_container='container', yang_name="sent", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=sent.sent, is_container='container', yang_name="sent", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """sent must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=sent.sent, is_container='container', yang_name="sent", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=sent.sent, is_container='container', yang_name="sent", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='container', is_config=False)""",
         })
 
     self.__sent = t
@@ -93,7 +93,7 @@ neighbor
       self._set()
 
   def _unset_sent(self):
-    self.__sent = YANGDynClass(base=sent.sent, is_container='container', yang_name="sent", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__sent = YANGDynClass(base=sent.sent, is_container='container', yang_name="sent", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='container', is_config=False)
 
 
   def _get_received(self):
@@ -117,12 +117,12 @@ neighbor
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=received.received, is_container='container', yang_name="received", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=received.received, is_container='container', yang_name="received", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """received must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=received.received, is_container='container', yang_name="received", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=received.received, is_container='container', yang_name="received", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='container', is_config=False)""",
         })
 
     self.__received = t
@@ -130,7 +130,7 @@ neighbor
       self._set()
 
   def _unset_received(self):
-    self.__received = YANGDynClass(base=received.received, is_container='container', yang_name="received", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__received = YANGDynClass(base=received.received, is_container='container', yang_name="received", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='container', is_config=False)
 
   sent = __builtin__.property(_get_sent)
   received = __builtin__.property(_get_received)
@@ -162,8 +162,8 @@ neighbor
     self._path_helper = False
 
     self._extmethods = False
-    self.__received = YANGDynClass(base=received.received, is_container='container', yang_name="received", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__sent = YANGDynClass(base=sent.sent, is_container='container', yang_name="sent", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__received = YANGDynClass(base=received.received, is_container='container', yang_name="received", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='container', is_config=False)
+    self.__sent = YANGDynClass(base=sent.sent, is_container='container', yang_name="sent", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='container', is_config=False)
 
     load = kwargs.pop("load", None)
     if args:
@@ -213,12 +213,12 @@ neighbor
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=sent.sent, is_container='container', yang_name="sent", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=sent.sent, is_container='container', yang_name="sent", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """sent must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=sent.sent, is_container='container', yang_name="sent", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=sent.sent, is_container='container', yang_name="sent", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='container', is_config=False)""",
         })
 
     self.__sent = t
@@ -226,7 +226,7 @@ neighbor
       self._set()
 
   def _unset_sent(self):
-    self.__sent = YANGDynClass(base=sent.sent, is_container='container', yang_name="sent", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__sent = YANGDynClass(base=sent.sent, is_container='container', yang_name="sent", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='container', is_config=False)
 
 
   def _get_received(self):
@@ -250,12 +250,12 @@ neighbor
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=received.received, is_container='container', yang_name="received", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=received.received, is_container='container', yang_name="received", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """received must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=received.received, is_container='container', yang_name="received", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=received.received, is_container='container', yang_name="received", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='container', is_config=False)""",
         })
 
     self.__received = t
@@ -263,7 +263,7 @@ neighbor
       self._set()
 
   def _unset_received(self):
-    self.__received = YANGDynClass(base=received.received, is_container='container', yang_name="received", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__received = YANGDynClass(base=received.received, is_container='container', yang_name="received", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='container', is_config=False)
 
   sent = __builtin__.property(_get_sent)
   received = __builtin__.property(_get_received)

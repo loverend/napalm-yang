@@ -27,7 +27,7 @@ network instance connection point
     self._path_helper = False
 
     self._extmethods = False
-    self.__connection_point_id = YANGDynClass(base=unicode, is_leaf=True, yang_name="connection-point-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='string', is_config=True)
+    self.__connection_point_id = YANGDynClass(base=unicode, is_leaf=True, yang_name="connection-point-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='string', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -77,12 +77,12 @@ network instance connection point
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=unicode, is_leaf=True, yang_name="connection-point-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='string', is_config=True)
+      t = YANGDynClass(v,base=unicode, is_leaf=True, yang_name="connection-point-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='string', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """connection_point_id must be of a type compatible with string""",
           'defined-type': "string",
-          'generated-type': """YANGDynClass(base=unicode, is_leaf=True, yang_name="connection-point-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='string', is_config=True)""",
+          'generated-type': """YANGDynClass(base=unicode, is_leaf=True, yang_name="connection-point-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='string', is_config=True)""",
         })
 
     self.__connection_point_id = t
@@ -90,7 +90,7 @@ network instance connection point
       self._set()
 
   def _unset_connection_point_id(self):
-    self.__connection_point_id = YANGDynClass(base=unicode, is_leaf=True, yang_name="connection-point-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='string', is_config=True)
+    self.__connection_point_id = YANGDynClass(base=unicode, is_leaf=True, yang_name="connection-point-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='string', is_config=True)
 
   connection_point_id = __builtin__.property(_get_connection_point_id, _set_connection_point_id)
 
@@ -119,7 +119,7 @@ network instance connection point
     self._path_helper = False
 
     self._extmethods = False
-    self.__connection_point_id = YANGDynClass(base=unicode, is_leaf=True, yang_name="connection-point-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='string', is_config=True)
+    self.__connection_point_id = YANGDynClass(base=unicode, is_leaf=True, yang_name="connection-point-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='string', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -169,12 +169,12 @@ network instance connection point
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=unicode, is_leaf=True, yang_name="connection-point-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='string', is_config=True)
+      t = YANGDynClass(v,base=unicode, is_leaf=True, yang_name="connection-point-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='string', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """connection_point_id must be of a type compatible with string""",
           'defined-type': "string",
-          'generated-type': """YANGDynClass(base=unicode, is_leaf=True, yang_name="connection-point-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='string', is_config=True)""",
+          'generated-type': """YANGDynClass(base=unicode, is_leaf=True, yang_name="connection-point-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='string', is_config=True)""",
         })
 
     self.__connection_point_id = t
@@ -182,7 +182,7 @@ network instance connection point
       self._set()
 
   def _unset_connection_point_id(self):
-    self.__connection_point_id = YANGDynClass(base=unicode, is_leaf=True, yang_name="connection-point-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='string', is_config=True)
+    self.__connection_point_id = YANGDynClass(base=unicode, is_leaf=True, yang_name="connection-point-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='string', is_config=True)
 
   connection_point_id = __builtin__.property(_get_connection_point_id, _set_connection_point_id)
 

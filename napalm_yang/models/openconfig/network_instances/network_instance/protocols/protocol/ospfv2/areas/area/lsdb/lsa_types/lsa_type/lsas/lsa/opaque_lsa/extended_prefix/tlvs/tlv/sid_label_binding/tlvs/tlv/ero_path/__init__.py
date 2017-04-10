@@ -28,7 +28,7 @@ binding TLV
     self._path_helper = False
 
     self._extmethods = False
-    self.__segments = YANGDynClass(base=segments.segments, is_container='container', yang_name="segments", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__segments = YANGDynClass(base=segments.segments, is_container='container', yang_name="segments", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='container', is_config=False)
 
     load = kwargs.pop("load", None)
     if args:
@@ -80,12 +80,12 @@ Binding sub-TLV
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=segments.segments, is_container='container', yang_name="segments", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=segments.segments, is_container='container', yang_name="segments", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """segments must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=segments.segments, is_container='container', yang_name="segments", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=segments.segments, is_container='container', yang_name="segments", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='container', is_config=False)""",
         })
 
     self.__segments = t
@@ -93,7 +93,7 @@ Binding sub-TLV
       self._set()
 
   def _unset_segments(self):
-    self.__segments = YANGDynClass(base=segments.segments, is_container='container', yang_name="segments", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__segments = YANGDynClass(base=segments.segments, is_container='container', yang_name="segments", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='container', is_config=False)
 
   segments = __builtin__.property(_get_segments)
 
@@ -123,7 +123,7 @@ binding TLV
     self._path_helper = False
 
     self._extmethods = False
-    self.__segments = YANGDynClass(base=segments.segments, is_container='container', yang_name="segments", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__segments = YANGDynClass(base=segments.segments, is_container='container', yang_name="segments", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='container', is_config=False)
 
     load = kwargs.pop("load", None)
     if args:
@@ -175,12 +175,12 @@ Binding sub-TLV
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=segments.segments, is_container='container', yang_name="segments", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=segments.segments, is_container='container', yang_name="segments", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """segments must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=segments.segments, is_container='container', yang_name="segments", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=segments.segments, is_container='container', yang_name="segments", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='container', is_config=False)""",
         })
 
     self.__segments = t
@@ -188,7 +188,7 @@ Binding sub-TLV
       self._set()
 
   def _unset_segments(self):
-    self.__segments = YANGDynClass(base=segments.segments, is_container='container', yang_name="segments", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__segments = YANGDynClass(base=segments.segments, is_container='container', yang_name="segments", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='container', is_config=False)
 
   segments = __builtin__.property(_get_segments)
 

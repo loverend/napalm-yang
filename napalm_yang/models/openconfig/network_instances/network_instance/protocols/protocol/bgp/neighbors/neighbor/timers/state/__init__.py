@@ -27,11 +27,11 @@ neighbor
     self._path_helper = False
 
     self._extmethods = False
-    self.__keepalive_interval = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="keepalive-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
-    self.__hold_time = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(90), is_leaf=True, yang_name="hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
-    self.__minimum_advertisement_interval = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="minimum-advertisement-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
-    self.__connect_retry = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="connect-retry", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
-    self.__negotiated_hold_time = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), is_leaf=True, yang_name="negotiated-hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+    self.__keepalive_interval = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="keepalive-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
+    self.__hold_time = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(90), is_leaf=True, yang_name="hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
+    self.__minimum_advertisement_interval = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="minimum-advertisement-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
+    self.__connect_retry = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="connect-retry", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
+    self.__negotiated_hold_time = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), is_leaf=True, yang_name="negotiated-hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='decimal64', is_config=False)
 
     load = kwargs.pop("load", None)
     if args:
@@ -83,12 +83,12 @@ session with the peer.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="connect-retry", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="connect-retry", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """connect_retry must be of a type compatible with decimal64""",
           'defined-type': "decimal64",
-          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="connect-retry", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)""",
+          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="connect-retry", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)""",
         })
 
     self.__connect_retry = t
@@ -96,7 +96,7 @@ session with the peer.
       self._set()
 
   def _unset_connect_retry(self):
-    self.__connect_retry = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="connect-retry", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+    self.__connect_retry = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="connect-retry", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
 
 
   def _get_hold_time(self):
@@ -126,12 +126,12 @@ set to 3x the keepalive-interval.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(90), is_leaf=True, yang_name="hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(90), is_leaf=True, yang_name="hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """hold_time must be of a type compatible with decimal64""",
           'defined-type': "decimal64",
-          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(90), is_leaf=True, yang_name="hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)""",
+          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(90), is_leaf=True, yang_name="hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)""",
         })
 
     self.__hold_time = t
@@ -139,7 +139,7 @@ set to 3x the keepalive-interval.
       self._set()
 
   def _unset_hold_time(self):
-    self.__hold_time = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(90), is_leaf=True, yang_name="hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+    self.__hold_time = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(90), is_leaf=True, yang_name="hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
 
 
   def _get_keepalive_interval(self):
@@ -167,12 +167,12 @@ hold-time.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="keepalive-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="keepalive-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """keepalive_interval must be of a type compatible with decimal64""",
           'defined-type': "decimal64",
-          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="keepalive-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)""",
+          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="keepalive-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)""",
         })
 
     self.__keepalive_interval = t
@@ -180,7 +180,7 @@ hold-time.
       self._set()
 
   def _unset_keepalive_interval(self):
-    self.__keepalive_interval = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="keepalive-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+    self.__keepalive_interval = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="keepalive-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
 
 
   def _get_minimum_advertisement_interval(self):
@@ -214,12 +214,12 @@ particular set of NLRI exhibit instability.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="minimum-advertisement-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="minimum-advertisement-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """minimum_advertisement_interval must be of a type compatible with decimal64""",
           'defined-type': "decimal64",
-          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="minimum-advertisement-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)""",
+          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="minimum-advertisement-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)""",
         })
 
     self.__minimum_advertisement_interval = t
@@ -227,7 +227,7 @@ particular set of NLRI exhibit instability.
       self._set()
 
   def _unset_minimum_advertisement_interval(self):
-    self.__minimum_advertisement_interval = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="minimum-advertisement-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+    self.__minimum_advertisement_interval = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="minimum-advertisement-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
 
 
   def _get_negotiated_hold_time(self):
@@ -251,12 +251,12 @@ particular set of NLRI exhibit instability.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), is_leaf=True, yang_name="negotiated-hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), is_leaf=True, yang_name="negotiated-hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='decimal64', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """negotiated_hold_time must be of a type compatible with decimal64""",
           'defined-type': "decimal64",
-          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), is_leaf=True, yang_name="negotiated-hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)""",
+          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), is_leaf=True, yang_name="negotiated-hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='decimal64', is_config=False)""",
         })
 
     self.__negotiated_hold_time = t
@@ -264,7 +264,7 @@ particular set of NLRI exhibit instability.
       self._set()
 
   def _unset_negotiated_hold_time(self):
-    self.__negotiated_hold_time = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), is_leaf=True, yang_name="negotiated-hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+    self.__negotiated_hold_time = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), is_leaf=True, yang_name="negotiated-hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='decimal64', is_config=False)
 
   connect_retry = __builtin__.property(_get_connect_retry)
   hold_time = __builtin__.property(_get_hold_time)
@@ -297,11 +297,11 @@ neighbor
     self._path_helper = False
 
     self._extmethods = False
-    self.__keepalive_interval = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="keepalive-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
-    self.__hold_time = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(90), is_leaf=True, yang_name="hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
-    self.__minimum_advertisement_interval = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="minimum-advertisement-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
-    self.__connect_retry = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="connect-retry", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
-    self.__negotiated_hold_time = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), is_leaf=True, yang_name="negotiated-hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+    self.__keepalive_interval = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="keepalive-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
+    self.__hold_time = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(90), is_leaf=True, yang_name="hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
+    self.__minimum_advertisement_interval = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="minimum-advertisement-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
+    self.__connect_retry = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="connect-retry", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
+    self.__negotiated_hold_time = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), is_leaf=True, yang_name="negotiated-hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='decimal64', is_config=False)
 
     load = kwargs.pop("load", None)
     if args:
@@ -353,12 +353,12 @@ session with the peer.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="connect-retry", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="connect-retry", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """connect_retry must be of a type compatible with decimal64""",
           'defined-type': "decimal64",
-          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="connect-retry", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)""",
+          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="connect-retry", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)""",
         })
 
     self.__connect_retry = t
@@ -366,7 +366,7 @@ session with the peer.
       self._set()
 
   def _unset_connect_retry(self):
-    self.__connect_retry = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="connect-retry", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+    self.__connect_retry = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="connect-retry", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
 
 
   def _get_hold_time(self):
@@ -396,12 +396,12 @@ set to 3x the keepalive-interval.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(90), is_leaf=True, yang_name="hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(90), is_leaf=True, yang_name="hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """hold_time must be of a type compatible with decimal64""",
           'defined-type': "decimal64",
-          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(90), is_leaf=True, yang_name="hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)""",
+          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(90), is_leaf=True, yang_name="hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)""",
         })
 
     self.__hold_time = t
@@ -409,7 +409,7 @@ set to 3x the keepalive-interval.
       self._set()
 
   def _unset_hold_time(self):
-    self.__hold_time = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(90), is_leaf=True, yang_name="hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+    self.__hold_time = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(90), is_leaf=True, yang_name="hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
 
 
   def _get_keepalive_interval(self):
@@ -437,12 +437,12 @@ hold-time.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="keepalive-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="keepalive-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """keepalive_interval must be of a type compatible with decimal64""",
           'defined-type': "decimal64",
-          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="keepalive-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)""",
+          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="keepalive-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)""",
         })
 
     self.__keepalive_interval = t
@@ -450,7 +450,7 @@ hold-time.
       self._set()
 
   def _unset_keepalive_interval(self):
-    self.__keepalive_interval = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="keepalive-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+    self.__keepalive_interval = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="keepalive-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
 
 
   def _get_minimum_advertisement_interval(self):
@@ -484,12 +484,12 @@ particular set of NLRI exhibit instability.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="minimum-advertisement-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="minimum-advertisement-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """minimum_advertisement_interval must be of a type compatible with decimal64""",
           'defined-type': "decimal64",
-          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="minimum-advertisement-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)""",
+          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="minimum-advertisement-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)""",
         })
 
     self.__minimum_advertisement_interval = t
@@ -497,7 +497,7 @@ particular set of NLRI exhibit instability.
       self._set()
 
   def _unset_minimum_advertisement_interval(self):
-    self.__minimum_advertisement_interval = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="minimum-advertisement-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+    self.__minimum_advertisement_interval = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), default=Decimal(30), is_leaf=True, yang_name="minimum-advertisement-interval", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='decimal64', is_config=False)
 
 
   def _get_negotiated_hold_time(self):
@@ -521,12 +521,12 @@ particular set of NLRI exhibit instability.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), is_leaf=True, yang_name="negotiated-hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+      t = YANGDynClass(v,base=RestrictedPrecisionDecimalType(precision=2), is_leaf=True, yang_name="negotiated-hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='decimal64', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """negotiated_hold_time must be of a type compatible with decimal64""",
           'defined-type': "decimal64",
-          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), is_leaf=True, yang_name="negotiated-hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)""",
+          'generated-type': """YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), is_leaf=True, yang_name="negotiated-hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='decimal64', is_config=False)""",
         })
 
     self.__negotiated_hold_time = t
@@ -534,7 +534,7 @@ particular set of NLRI exhibit instability.
       self._set()
 
   def _unset_negotiated_hold_time(self):
-    self.__negotiated_hold_time = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), is_leaf=True, yang_name="negotiated-hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='decimal64', is_config=False)
+    self.__negotiated_hold_time = YANGDynClass(base=RestrictedPrecisionDecimalType(precision=2), is_leaf=True, yang_name="negotiated-hold-time", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-neighbor', yang_type='decimal64', is_config=False)
 
   connect_retry = __builtin__.property(_get_connect_retry)
   hold_time = __builtin__.property(_get_hold_time)

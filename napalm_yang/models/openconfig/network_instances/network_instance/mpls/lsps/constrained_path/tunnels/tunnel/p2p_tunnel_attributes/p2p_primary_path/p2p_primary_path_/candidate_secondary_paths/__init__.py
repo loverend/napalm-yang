@@ -36,7 +36,7 @@ is in use.
     self._path_helper = False
 
     self._extmethods = False
-    self.__candidate_secondary_path = YANGDynClass(base=YANGListType("secondary_path",candidate_secondary_path.candidate_secondary_path, yang_name="candidate-secondary-path", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='secondary-path', extensions=None), is_container='list', yang_name="candidate-secondary-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__candidate_secondary_path = YANGDynClass(base=YANGListType("secondary_path",candidate_secondary_path.candidate_secondary_path, yang_name="candidate-secondary-path", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='secondary-path', extensions=None), is_container='list', yang_name="candidate-secondary-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -88,12 +88,12 @@ current primary path is in use
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("secondary_path",candidate_secondary_path.candidate_secondary_path, yang_name="candidate-secondary-path", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='secondary-path', extensions=None), is_container='list', yang_name="candidate-secondary-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("secondary_path",candidate_secondary_path.candidate_secondary_path, yang_name="candidate-secondary-path", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='secondary-path', extensions=None), is_container='list', yang_name="candidate-secondary-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """candidate_secondary_path must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("secondary_path",candidate_secondary_path.candidate_secondary_path, yang_name="candidate-secondary-path", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='secondary-path', extensions=None), is_container='list', yang_name="candidate-secondary-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("secondary_path",candidate_secondary_path.candidate_secondary_path, yang_name="candidate-secondary-path", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='secondary-path', extensions=None), is_container='list', yang_name="candidate-secondary-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='list', is_config=True)""",
         })
 
     self.__candidate_secondary_path = t
@@ -101,7 +101,7 @@ current primary path is in use
       self._set()
 
   def _unset_candidate_secondary_path(self):
-    self.__candidate_secondary_path = YANGDynClass(base=YANGListType("secondary_path",candidate_secondary_path.candidate_secondary_path, yang_name="candidate-secondary-path", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='secondary-path', extensions=None), is_container='list', yang_name="candidate-secondary-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__candidate_secondary_path = YANGDynClass(base=YANGListType("secondary_path",candidate_secondary_path.candidate_secondary_path, yang_name="candidate-secondary-path", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='secondary-path', extensions=None), is_container='list', yang_name="candidate-secondary-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='list', is_config=True)
 
   candidate_secondary_path = __builtin__.property(_get_candidate_secondary_path, _set_candidate_secondary_path)
 
@@ -139,7 +139,7 @@ is in use.
     self._path_helper = False
 
     self._extmethods = False
-    self.__candidate_secondary_path = YANGDynClass(base=YANGListType("secondary_path",candidate_secondary_path.candidate_secondary_path, yang_name="candidate-secondary-path", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='secondary-path', extensions=None), is_container='list', yang_name="candidate-secondary-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__candidate_secondary_path = YANGDynClass(base=YANGListType("secondary_path",candidate_secondary_path.candidate_secondary_path, yang_name="candidate-secondary-path", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='secondary-path', extensions=None), is_container='list', yang_name="candidate-secondary-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -191,12 +191,12 @@ current primary path is in use
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("secondary_path",candidate_secondary_path.candidate_secondary_path, yang_name="candidate-secondary-path", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='secondary-path', extensions=None), is_container='list', yang_name="candidate-secondary-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("secondary_path",candidate_secondary_path.candidate_secondary_path, yang_name="candidate-secondary-path", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='secondary-path', extensions=None), is_container='list', yang_name="candidate-secondary-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """candidate_secondary_path must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("secondary_path",candidate_secondary_path.candidate_secondary_path, yang_name="candidate-secondary-path", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='secondary-path', extensions=None), is_container='list', yang_name="candidate-secondary-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("secondary_path",candidate_secondary_path.candidate_secondary_path, yang_name="candidate-secondary-path", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='secondary-path', extensions=None), is_container='list', yang_name="candidate-secondary-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='list', is_config=True)""",
         })
 
     self.__candidate_secondary_path = t
@@ -204,7 +204,7 @@ current primary path is in use
       self._set()
 
   def _unset_candidate_secondary_path(self):
-    self.__candidate_secondary_path = YANGDynClass(base=YANGListType("secondary_path",candidate_secondary_path.candidate_secondary_path, yang_name="candidate-secondary-path", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='secondary-path', extensions=None), is_container='list', yang_name="candidate-secondary-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__candidate_secondary_path = YANGDynClass(base=YANGListType("secondary_path",candidate_secondary_path.candidate_secondary_path, yang_name="candidate-secondary-path", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='secondary-path', extensions=None), is_container='list', yang_name="candidate-secondary-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-te', yang_type='list', is_config=True)
 
   candidate_secondary_path = __builtin__.property(_get_candidate_secondary_path, _set_candidate_secondary_path)
 

@@ -26,7 +26,7 @@ class config(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__allow_multiple_as = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="allow-multiple-as", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__allow_multiple_as = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="allow-multiple-as", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='boolean', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -80,12 +80,12 @@ the same neighbouring AS.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="allow-multiple-as", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="allow-multiple-as", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='boolean', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """allow_multiple_as must be of a type compatible with boolean""",
           'defined-type': "boolean",
-          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="allow-multiple-as", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="allow-multiple-as", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='boolean', is_config=True)""",
         })
 
     self.__allow_multiple_as = t
@@ -93,7 +93,7 @@ the same neighbouring AS.
       self._set()
 
   def _unset_allow_multiple_as(self):
-    self.__allow_multiple_as = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="allow-multiple-as", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__allow_multiple_as = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="allow-multiple-as", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='boolean', is_config=True)
 
   allow_multiple_as = __builtin__.property(_get_allow_multiple_as, _set_allow_multiple_as)
 
@@ -121,7 +121,7 @@ class config(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__allow_multiple_as = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="allow-multiple-as", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__allow_multiple_as = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="allow-multiple-as", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='boolean', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -175,12 +175,12 @@ the same neighbouring AS.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="allow-multiple-as", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+      t = YANGDynClass(v,base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="allow-multiple-as", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='boolean', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """allow_multiple_as must be of a type compatible with boolean""",
           'defined-type': "boolean",
-          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="allow-multiple-as", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="allow-multiple-as", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='boolean', is_config=True)""",
         })
 
     self.__allow_multiple_as = t
@@ -188,7 +188,7 @@ the same neighbouring AS.
       self._set()
 
   def _unset_allow_multiple_as(self):
-    self.__allow_multiple_as = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="allow-multiple-as", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=True)
+    self.__allow_multiple_as = YANGDynClass(base=YANGBool, default=YANGBool("false"), is_leaf=True, yang_name="allow-multiple-as", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='boolean', is_config=True)
 
   allow_multiple_as = __builtin__.property(_get_allow_multiple_as, _set_allow_multiple_as)
 

@@ -35,7 +35,7 @@ configuration was derived.
     self._path_helper = False
 
     self._extmethods = False
-    self.__dynamic_neighbor_prefix = YANGDynClass(base=YANGListType("prefix",dynamic_neighbor_prefix.dynamic_neighbor_prefix, yang_name="dynamic-neighbor-prefix", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='prefix', extensions=None), is_container='list', yang_name="dynamic-neighbor-prefix", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__dynamic_neighbor_prefix = YANGDynClass(base=YANGListType("prefix",dynamic_neighbor_prefix.dynamic_neighbor_prefix, yang_name="dynamic-neighbor-prefix", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='prefix', extensions=None), is_container='list', yang_name="dynamic-neighbor-prefix", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -87,12 +87,12 @@ connections are allowed.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("prefix",dynamic_neighbor_prefix.dynamic_neighbor_prefix, yang_name="dynamic-neighbor-prefix", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='prefix', extensions=None), is_container='list', yang_name="dynamic-neighbor-prefix", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("prefix",dynamic_neighbor_prefix.dynamic_neighbor_prefix, yang_name="dynamic-neighbor-prefix", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='prefix', extensions=None), is_container='list', yang_name="dynamic-neighbor-prefix", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """dynamic_neighbor_prefix must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("prefix",dynamic_neighbor_prefix.dynamic_neighbor_prefix, yang_name="dynamic-neighbor-prefix", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='prefix', extensions=None), is_container='list', yang_name="dynamic-neighbor-prefix", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("prefix",dynamic_neighbor_prefix.dynamic_neighbor_prefix, yang_name="dynamic-neighbor-prefix", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='prefix', extensions=None), is_container='list', yang_name="dynamic-neighbor-prefix", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='list', is_config=True)""",
         })
 
     self.__dynamic_neighbor_prefix = t
@@ -100,7 +100,7 @@ connections are allowed.
       self._set()
 
   def _unset_dynamic_neighbor_prefix(self):
-    self.__dynamic_neighbor_prefix = YANGDynClass(base=YANGListType("prefix",dynamic_neighbor_prefix.dynamic_neighbor_prefix, yang_name="dynamic-neighbor-prefix", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='prefix', extensions=None), is_container='list', yang_name="dynamic-neighbor-prefix", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__dynamic_neighbor_prefix = YANGDynClass(base=YANGListType("prefix",dynamic_neighbor_prefix.dynamic_neighbor_prefix, yang_name="dynamic-neighbor-prefix", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='prefix', extensions=None), is_container='list', yang_name="dynamic-neighbor-prefix", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='list', is_config=True)
 
   dynamic_neighbor_prefix = __builtin__.property(_get_dynamic_neighbor_prefix, _set_dynamic_neighbor_prefix)
 
@@ -137,7 +137,7 @@ configuration was derived.
     self._path_helper = False
 
     self._extmethods = False
-    self.__dynamic_neighbor_prefix = YANGDynClass(base=YANGListType("prefix",dynamic_neighbor_prefix.dynamic_neighbor_prefix, yang_name="dynamic-neighbor-prefix", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='prefix', extensions=None), is_container='list', yang_name="dynamic-neighbor-prefix", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__dynamic_neighbor_prefix = YANGDynClass(base=YANGListType("prefix",dynamic_neighbor_prefix.dynamic_neighbor_prefix, yang_name="dynamic-neighbor-prefix", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='prefix', extensions=None), is_container='list', yang_name="dynamic-neighbor-prefix", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -189,12 +189,12 @@ connections are allowed.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("prefix",dynamic_neighbor_prefix.dynamic_neighbor_prefix, yang_name="dynamic-neighbor-prefix", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='prefix', extensions=None), is_container='list', yang_name="dynamic-neighbor-prefix", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("prefix",dynamic_neighbor_prefix.dynamic_neighbor_prefix, yang_name="dynamic-neighbor-prefix", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='prefix', extensions=None), is_container='list', yang_name="dynamic-neighbor-prefix", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """dynamic_neighbor_prefix must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("prefix",dynamic_neighbor_prefix.dynamic_neighbor_prefix, yang_name="dynamic-neighbor-prefix", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='prefix', extensions=None), is_container='list', yang_name="dynamic-neighbor-prefix", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("prefix",dynamic_neighbor_prefix.dynamic_neighbor_prefix, yang_name="dynamic-neighbor-prefix", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='prefix', extensions=None), is_container='list', yang_name="dynamic-neighbor-prefix", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='list', is_config=True)""",
         })
 
     self.__dynamic_neighbor_prefix = t
@@ -202,7 +202,7 @@ connections are allowed.
       self._set()
 
   def _unset_dynamic_neighbor_prefix(self):
-    self.__dynamic_neighbor_prefix = YANGDynClass(base=YANGListType("prefix",dynamic_neighbor_prefix.dynamic_neighbor_prefix, yang_name="dynamic-neighbor-prefix", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='prefix', extensions=None), is_container='list', yang_name="dynamic-neighbor-prefix", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__dynamic_neighbor_prefix = YANGDynClass(base=YANGListType("prefix",dynamic_neighbor_prefix.dynamic_neighbor_prefix, yang_name="dynamic-neighbor-prefix", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='prefix', extensions=None), is_container='list', yang_name="dynamic-neighbor-prefix", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='list', is_config=True)
 
   dynamic_neighbor_prefix = __builtin__.property(_get_dynamic_neighbor_prefix, _set_dynamic_neighbor_prefix)
 

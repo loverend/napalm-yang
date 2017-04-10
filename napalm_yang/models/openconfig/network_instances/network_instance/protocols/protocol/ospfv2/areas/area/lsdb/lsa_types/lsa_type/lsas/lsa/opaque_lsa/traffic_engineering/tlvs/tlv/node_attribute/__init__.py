@@ -27,7 +27,7 @@ class node_attribute(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__sub_tlvs = YANGDynClass(base=sub_tlvs.sub_tlvs, is_container='container', yang_name="sub-tlvs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__sub_tlvs = YANGDynClass(base=sub_tlvs.sub_tlvs, is_container='container', yang_name="sub-tlvs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='container', is_config=False)
 
     load = kwargs.pop("load", None)
     if args:
@@ -79,12 +79,12 @@ Engineering LSA
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=sub_tlvs.sub_tlvs, is_container='container', yang_name="sub-tlvs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=sub_tlvs.sub_tlvs, is_container='container', yang_name="sub-tlvs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """sub_tlvs must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=sub_tlvs.sub_tlvs, is_container='container', yang_name="sub-tlvs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=sub_tlvs.sub_tlvs, is_container='container', yang_name="sub-tlvs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='container', is_config=False)""",
         })
 
     self.__sub_tlvs = t
@@ -92,7 +92,7 @@ Engineering LSA
       self._set()
 
   def _unset_sub_tlvs(self):
-    self.__sub_tlvs = YANGDynClass(base=sub_tlvs.sub_tlvs, is_container='container', yang_name="sub-tlvs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__sub_tlvs = YANGDynClass(base=sub_tlvs.sub_tlvs, is_container='container', yang_name="sub-tlvs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='container', is_config=False)
 
   sub_tlvs = __builtin__.property(_get_sub_tlvs)
 
@@ -121,7 +121,7 @@ class node_attribute(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__sub_tlvs = YANGDynClass(base=sub_tlvs.sub_tlvs, is_container='container', yang_name="sub-tlvs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__sub_tlvs = YANGDynClass(base=sub_tlvs.sub_tlvs, is_container='container', yang_name="sub-tlvs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='container', is_config=False)
 
     load = kwargs.pop("load", None)
     if args:
@@ -173,12 +173,12 @@ Engineering LSA
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=sub_tlvs.sub_tlvs, is_container='container', yang_name="sub-tlvs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=sub_tlvs.sub_tlvs, is_container='container', yang_name="sub-tlvs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """sub_tlvs must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=sub_tlvs.sub_tlvs, is_container='container', yang_name="sub-tlvs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=sub_tlvs.sub_tlvs, is_container='container', yang_name="sub-tlvs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='container', is_config=False)""",
         })
 
     self.__sub_tlvs = t
@@ -186,7 +186,7 @@ Engineering LSA
       self._set()
 
   def _unset_sub_tlvs(self):
-    self.__sub_tlvs = YANGDynClass(base=sub_tlvs.sub_tlvs, is_container='container', yang_name="sub-tlvs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__sub_tlvs = YANGDynClass(base=sub_tlvs.sub_tlvs, is_container='container', yang_name="sub-tlvs", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-lsdb', yang_type='container', is_config=False)
 
   sub_tlvs = __builtin__.property(_get_sub_tlvs)
 

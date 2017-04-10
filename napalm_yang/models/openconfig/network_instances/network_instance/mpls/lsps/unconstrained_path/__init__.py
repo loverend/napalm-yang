@@ -28,7 +28,7 @@ traffic-engineered, or non constrained-path
     self._path_helper = False
 
     self._extmethods = False
-    self.__path_setup_protocol = YANGDynClass(base=path_setup_protocol.path_setup_protocol, is_container='container', yang_name="path-setup-protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__path_setup_protocol = YANGDynClass(base=path_setup_protocol.path_setup_protocol, is_container='container', yang_name="path-setup-protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-igp', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -80,12 +80,12 @@ traffic-engineered, or non constrained-path
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=path_setup_protocol.path_setup_protocol, is_container='container', yang_name="path-setup-protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=path_setup_protocol.path_setup_protocol, is_container='container', yang_name="path-setup-protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-igp', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """path_setup_protocol must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=path_setup_protocol.path_setup_protocol, is_container='container', yang_name="path-setup-protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=path_setup_protocol.path_setup_protocol, is_container='container', yang_name="path-setup-protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-igp', yang_type='container', is_config=True)""",
         })
 
     self.__path_setup_protocol = t
@@ -93,7 +93,7 @@ traffic-engineered, or non constrained-path
       self._set()
 
   def _unset_path_setup_protocol(self):
-    self.__path_setup_protocol = YANGDynClass(base=path_setup_protocol.path_setup_protocol, is_container='container', yang_name="path-setup-protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__path_setup_protocol = YANGDynClass(base=path_setup_protocol.path_setup_protocol, is_container='container', yang_name="path-setup-protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-igp', yang_type='container', is_config=True)
 
   path_setup_protocol = __builtin__.property(_get_path_setup_protocol, _set_path_setup_protocol)
 
@@ -123,7 +123,7 @@ traffic-engineered, or non constrained-path
     self._path_helper = False
 
     self._extmethods = False
-    self.__path_setup_protocol = YANGDynClass(base=path_setup_protocol.path_setup_protocol, is_container='container', yang_name="path-setup-protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__path_setup_protocol = YANGDynClass(base=path_setup_protocol.path_setup_protocol, is_container='container', yang_name="path-setup-protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-igp', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -175,12 +175,12 @@ traffic-engineered, or non constrained-path
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=path_setup_protocol.path_setup_protocol, is_container='container', yang_name="path-setup-protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=path_setup_protocol.path_setup_protocol, is_container='container', yang_name="path-setup-protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-igp', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """path_setup_protocol must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=path_setup_protocol.path_setup_protocol, is_container='container', yang_name="path-setup-protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=path_setup_protocol.path_setup_protocol, is_container='container', yang_name="path-setup-protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-igp', yang_type='container', is_config=True)""",
         })
 
     self.__path_setup_protocol = t
@@ -188,7 +188,7 @@ traffic-engineered, or non constrained-path
       self._set()
 
   def _unset_path_setup_protocol(self):
-    self.__path_setup_protocol = YANGDynClass(base=path_setup_protocol.path_setup_protocol, is_container='container', yang_name="path-setup-protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__path_setup_protocol = YANGDynClass(base=path_setup_protocol.path_setup_protocol, is_container='container', yang_name="path-setup-protocol", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls-igp', yang_type='container', is_config=True)
 
   path_setup_protocol = __builtin__.property(_get_path_setup_protocol, _set_path_setup_protocol)
 

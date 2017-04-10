@@ -26,7 +26,7 @@ class state(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__vlan = YANGDynClass(base=[RestrictedClassType(base_type=int, restriction_dict={'range': ['0..65535']},int_size=16),unicode,], is_leaf=True, yang_name="vlan", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/vlan', defining_module='openconfig-vlan', yang_type='union', is_config=False)
+    self.__vlan = YANGDynClass(base=[RestrictedClassType(base_type=int, restriction_dict={'range': ['0..65535']},int_size=16),unicode,], is_leaf=True, yang_name="vlan", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/vlan', defining_module='openconfig-vlan', original_module='openconfig-vlan', yang_type='union', is_config=False)
 
     load = kwargs.pop("load", None)
     if args:
@@ -82,12 +82,12 @@ interface (SVI), or integrated routing and bridging interface
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=[RestrictedClassType(base_type=int, restriction_dict={'range': ['0..65535']},int_size=16),unicode,], is_leaf=True, yang_name="vlan", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/vlan', defining_module='openconfig-vlan', yang_type='union', is_config=False)
+      t = YANGDynClass(v,base=[RestrictedClassType(base_type=int, restriction_dict={'range': ['0..65535']},int_size=16),unicode,], is_leaf=True, yang_name="vlan", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/vlan', defining_module='openconfig-vlan', original_module='openconfig-vlan', yang_type='union', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """vlan must be of a type compatible with union""",
           'defined-type': "openconfig-vlan:union",
-          'generated-type': """YANGDynClass(base=[RestrictedClassType(base_type=int, restriction_dict={'range': ['0..65535']},int_size=16),unicode,], is_leaf=True, yang_name="vlan", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/vlan', defining_module='openconfig-vlan', yang_type='union', is_config=False)""",
+          'generated-type': """YANGDynClass(base=[RestrictedClassType(base_type=int, restriction_dict={'range': ['0..65535']},int_size=16),unicode,], is_leaf=True, yang_name="vlan", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/vlan', defining_module='openconfig-vlan', original_module='openconfig-vlan', yang_type='union', is_config=False)""",
         })
 
     self.__vlan = t
@@ -95,7 +95,7 @@ interface (SVI), or integrated routing and bridging interface
       self._set()
 
   def _unset_vlan(self):
-    self.__vlan = YANGDynClass(base=[RestrictedClassType(base_type=int, restriction_dict={'range': ['0..65535']},int_size=16),unicode,], is_leaf=True, yang_name="vlan", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/vlan', defining_module='openconfig-vlan', yang_type='union', is_config=False)
+    self.__vlan = YANGDynClass(base=[RestrictedClassType(base_type=int, restriction_dict={'range': ['0..65535']},int_size=16),unicode,], is_leaf=True, yang_name="vlan", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/vlan', defining_module='openconfig-vlan', original_module='openconfig-vlan', yang_type='union', is_config=False)
 
   vlan = __builtin__.property(_get_vlan)
 

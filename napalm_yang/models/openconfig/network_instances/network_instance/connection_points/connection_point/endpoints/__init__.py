@@ -28,7 +28,7 @@ connection point
     self._path_helper = False
 
     self._extmethods = False
-    self.__endpoint = YANGDynClass(base=YANGListType("endpoint_id",endpoint.endpoint, yang_name="endpoint", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='endpoint-id', extensions=None), is_container='list', yang_name="endpoint", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__endpoint = YANGDynClass(base=YANGListType("endpoint_id",endpoint.endpoint, yang_name="endpoint", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='endpoint-id', extensions=None), is_container='list', yang_name="endpoint", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -86,12 +86,12 @@ with
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("endpoint_id",endpoint.endpoint, yang_name="endpoint", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='endpoint-id', extensions=None), is_container='list', yang_name="endpoint", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("endpoint_id",endpoint.endpoint, yang_name="endpoint", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='endpoint-id', extensions=None), is_container='list', yang_name="endpoint", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """endpoint must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("endpoint_id",endpoint.endpoint, yang_name="endpoint", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='endpoint-id', extensions=None), is_container='list', yang_name="endpoint", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("endpoint_id",endpoint.endpoint, yang_name="endpoint", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='endpoint-id', extensions=None), is_container='list', yang_name="endpoint", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)""",
         })
 
     self.__endpoint = t
@@ -99,7 +99,7 @@ with
       self._set()
 
   def _unset_endpoint(self):
-    self.__endpoint = YANGDynClass(base=YANGListType("endpoint_id",endpoint.endpoint, yang_name="endpoint", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='endpoint-id', extensions=None), is_container='list', yang_name="endpoint", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__endpoint = YANGDynClass(base=YANGListType("endpoint_id",endpoint.endpoint, yang_name="endpoint", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='endpoint-id', extensions=None), is_container='list', yang_name="endpoint", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
   endpoint = __builtin__.property(_get_endpoint, _set_endpoint)
 
@@ -129,7 +129,7 @@ connection point
     self._path_helper = False
 
     self._extmethods = False
-    self.__endpoint = YANGDynClass(base=YANGListType("endpoint_id",endpoint.endpoint, yang_name="endpoint", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='endpoint-id', extensions=None), is_container='list', yang_name="endpoint", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__endpoint = YANGDynClass(base=YANGListType("endpoint_id",endpoint.endpoint, yang_name="endpoint", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='endpoint-id', extensions=None), is_container='list', yang_name="endpoint", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -187,12 +187,12 @@ with
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("endpoint_id",endpoint.endpoint, yang_name="endpoint", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='endpoint-id', extensions=None), is_container='list', yang_name="endpoint", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("endpoint_id",endpoint.endpoint, yang_name="endpoint", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='endpoint-id', extensions=None), is_container='list', yang_name="endpoint", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """endpoint must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("endpoint_id",endpoint.endpoint, yang_name="endpoint", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='endpoint-id', extensions=None), is_container='list', yang_name="endpoint", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("endpoint_id",endpoint.endpoint, yang_name="endpoint", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='endpoint-id', extensions=None), is_container='list', yang_name="endpoint", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)""",
         })
 
     self.__endpoint = t
@@ -200,7 +200,7 @@ with
       self._set()
 
   def _unset_endpoint(self):
-    self.__endpoint = YANGDynClass(base=YANGListType("endpoint_id",endpoint.endpoint, yang_name="endpoint", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='endpoint-id', extensions=None), is_container='list', yang_name="endpoint", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__endpoint = YANGDynClass(base=YANGListType("endpoint_id",endpoint.endpoint, yang_name="endpoint", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='endpoint-id', extensions=None), is_container='list', yang_name="endpoint", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
   endpoint = __builtin__.property(_get_endpoint, _set_endpoint)
 

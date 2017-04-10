@@ -30,9 +30,9 @@ timers
     self._path_helper = False
 
     self._extmethods = False
-    self.__lsa_generation = YANGDynClass(base=lsa_generation.lsa_generation, is_container='container', yang_name="lsa-generation", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__spf = YANGDynClass(base=spf.spf, is_container='container', yang_name="spf", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__max_metric = YANGDynClass(base=max_metric.max_metric, is_container='container', yang_name="max-metric", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__lsa_generation = YANGDynClass(base=lsa_generation.lsa_generation, is_container='container', yang_name="lsa-generation", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
+    self.__spf = YANGDynClass(base=spf.spf, is_container='container', yang_name="spf", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
+    self.__max_metric = YANGDynClass(base=max_metric.max_metric, is_container='container', yang_name="max-metric", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -84,12 +84,12 @@ to timers governing the operation of SPF runs
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=spf.spf, is_container='container', yang_name="spf", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=spf.spf, is_container='container', yang_name="spf", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """spf must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=spf.spf, is_container='container', yang_name="spf", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=spf.spf, is_container='container', yang_name="spf", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)""",
         })
 
     self.__spf = t
@@ -97,7 +97,7 @@ to timers governing the operation of SPF runs
       self._set()
 
   def _unset_spf(self):
-    self.__spf = YANGDynClass(base=spf.spf, is_container='container', yang_name="spf", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__spf = YANGDynClass(base=spf.spf, is_container='container', yang_name="spf", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
 
 
   def _get_max_metric(self):
@@ -123,12 +123,12 @@ to setting the OSPFv2 maximum metric.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=max_metric.max_metric, is_container='container', yang_name="max-metric", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=max_metric.max_metric, is_container='container', yang_name="max-metric", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """max_metric must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=max_metric.max_metric, is_container='container', yang_name="max-metric", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=max_metric.max_metric, is_container='container', yang_name="max-metric", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)""",
         })
 
     self.__max_metric = t
@@ -136,7 +136,7 @@ to setting the OSPFv2 maximum metric.
       self._set()
 
   def _unset_max_metric(self):
-    self.__max_metric = YANGDynClass(base=max_metric.max_metric, is_container='container', yang_name="max-metric", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__max_metric = YANGDynClass(base=max_metric.max_metric, is_container='container', yang_name="max-metric", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
 
 
   def _get_lsa_generation(self):
@@ -164,12 +164,12 @@ system
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=lsa_generation.lsa_generation, is_container='container', yang_name="lsa-generation", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=lsa_generation.lsa_generation, is_container='container', yang_name="lsa-generation", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """lsa_generation must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=lsa_generation.lsa_generation, is_container='container', yang_name="lsa-generation", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=lsa_generation.lsa_generation, is_container='container', yang_name="lsa-generation", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)""",
         })
 
     self.__lsa_generation = t
@@ -177,7 +177,7 @@ system
       self._set()
 
   def _unset_lsa_generation(self):
-    self.__lsa_generation = YANGDynClass(base=lsa_generation.lsa_generation, is_container='container', yang_name="lsa-generation", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__lsa_generation = YANGDynClass(base=lsa_generation.lsa_generation, is_container='container', yang_name="lsa-generation", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
 
   spf = __builtin__.property(_get_spf, _set_spf)
   max_metric = __builtin__.property(_get_max_metric, _set_max_metric)
@@ -211,9 +211,9 @@ timers
     self._path_helper = False
 
     self._extmethods = False
-    self.__lsa_generation = YANGDynClass(base=lsa_generation.lsa_generation, is_container='container', yang_name="lsa-generation", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__spf = YANGDynClass(base=spf.spf, is_container='container', yang_name="spf", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__max_metric = YANGDynClass(base=max_metric.max_metric, is_container='container', yang_name="max-metric", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__lsa_generation = YANGDynClass(base=lsa_generation.lsa_generation, is_container='container', yang_name="lsa-generation", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
+    self.__spf = YANGDynClass(base=spf.spf, is_container='container', yang_name="spf", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
+    self.__max_metric = YANGDynClass(base=max_metric.max_metric, is_container='container', yang_name="max-metric", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -265,12 +265,12 @@ to timers governing the operation of SPF runs
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=spf.spf, is_container='container', yang_name="spf", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=spf.spf, is_container='container', yang_name="spf", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """spf must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=spf.spf, is_container='container', yang_name="spf", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=spf.spf, is_container='container', yang_name="spf", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)""",
         })
 
     self.__spf = t
@@ -278,7 +278,7 @@ to timers governing the operation of SPF runs
       self._set()
 
   def _unset_spf(self):
-    self.__spf = YANGDynClass(base=spf.spf, is_container='container', yang_name="spf", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__spf = YANGDynClass(base=spf.spf, is_container='container', yang_name="spf", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
 
 
   def _get_max_metric(self):
@@ -304,12 +304,12 @@ to setting the OSPFv2 maximum metric.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=max_metric.max_metric, is_container='container', yang_name="max-metric", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=max_metric.max_metric, is_container='container', yang_name="max-metric", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """max_metric must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=max_metric.max_metric, is_container='container', yang_name="max-metric", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=max_metric.max_metric, is_container='container', yang_name="max-metric", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)""",
         })
 
     self.__max_metric = t
@@ -317,7 +317,7 @@ to setting the OSPFv2 maximum metric.
       self._set()
 
   def _unset_max_metric(self):
-    self.__max_metric = YANGDynClass(base=max_metric.max_metric, is_container='container', yang_name="max-metric", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__max_metric = YANGDynClass(base=max_metric.max_metric, is_container='container', yang_name="max-metric", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
 
 
   def _get_lsa_generation(self):
@@ -345,12 +345,12 @@ system
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=lsa_generation.lsa_generation, is_container='container', yang_name="lsa-generation", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=lsa_generation.lsa_generation, is_container='container', yang_name="lsa-generation", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """lsa_generation must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=lsa_generation.lsa_generation, is_container='container', yang_name="lsa-generation", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=lsa_generation.lsa_generation, is_container='container', yang_name="lsa-generation", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)""",
         })
 
     self.__lsa_generation = t
@@ -358,7 +358,7 @@ system
       self._set()
 
   def _unset_lsa_generation(self):
-    self.__lsa_generation = YANGDynClass(base=lsa_generation.lsa_generation, is_container='container', yang_name="lsa-generation", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__lsa_generation = YANGDynClass(base=lsa_generation.lsa_generation, is_container='container', yang_name="lsa-generation", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='container', is_config=True)
 
   spf = __builtin__.property(_get_spf, _set_spf)
   max_metric = __builtin__.property(_get_max_metric, _set_max_metric)

@@ -28,7 +28,7 @@ and state
     self._path_helper = False
 
     self._extmethods = False
-    self.__admin_group = YANGDynClass(base=YANGListType("admin_group_name",admin_group.admin_group, yang_name="admin-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='admin-group-name', extensions=None), is_container='list', yang_name="admin-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__admin_group = YANGDynClass(base=YANGListType("admin_group_name",admin_group.admin_group, yang_name="admin-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='admin-group-name', extensions=None), is_container='list', yang_name="admin-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -80,12 +80,12 @@ for mpls affinities/admin-groups
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("admin_group_name",admin_group.admin_group, yang_name="admin-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='admin-group-name', extensions=None), is_container='list', yang_name="admin-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("admin_group_name",admin_group.admin_group, yang_name="admin-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='admin-group-name', extensions=None), is_container='list', yang_name="admin-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """admin_group must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("admin_group_name",admin_group.admin_group, yang_name="admin-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='admin-group-name', extensions=None), is_container='list', yang_name="admin-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("admin_group_name",admin_group.admin_group, yang_name="admin-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='admin-group-name', extensions=None), is_container='list', yang_name="admin-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='list', is_config=True)""",
         })
 
     self.__admin_group = t
@@ -93,7 +93,7 @@ for mpls affinities/admin-groups
       self._set()
 
   def _unset_admin_group(self):
-    self.__admin_group = YANGDynClass(base=YANGListType("admin_group_name",admin_group.admin_group, yang_name="admin-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='admin-group-name', extensions=None), is_container='list', yang_name="admin-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__admin_group = YANGDynClass(base=YANGListType("admin_group_name",admin_group.admin_group, yang_name="admin-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='admin-group-name', extensions=None), is_container='list', yang_name="admin-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='list', is_config=True)
 
   admin_group = __builtin__.property(_get_admin_group, _set_admin_group)
 
@@ -123,7 +123,7 @@ and state
     self._path_helper = False
 
     self._extmethods = False
-    self.__admin_group = YANGDynClass(base=YANGListType("admin_group_name",admin_group.admin_group, yang_name="admin-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='admin-group-name', extensions=None), is_container='list', yang_name="admin-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__admin_group = YANGDynClass(base=YANGListType("admin_group_name",admin_group.admin_group, yang_name="admin-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='admin-group-name', extensions=None), is_container='list', yang_name="admin-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -175,12 +175,12 @@ for mpls affinities/admin-groups
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("admin_group_name",admin_group.admin_group, yang_name="admin-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='admin-group-name', extensions=None), is_container='list', yang_name="admin-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("admin_group_name",admin_group.admin_group, yang_name="admin-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='admin-group-name', extensions=None), is_container='list', yang_name="admin-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """admin_group must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("admin_group_name",admin_group.admin_group, yang_name="admin-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='admin-group-name', extensions=None), is_container='list', yang_name="admin-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("admin_group_name",admin_group.admin_group, yang_name="admin-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='admin-group-name', extensions=None), is_container='list', yang_name="admin-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='list', is_config=True)""",
         })
 
     self.__admin_group = t
@@ -188,7 +188,7 @@ for mpls affinities/admin-groups
       self._set()
 
   def _unset_admin_group(self):
-    self.__admin_group = YANGDynClass(base=YANGListType("admin_group_name",admin_group.admin_group, yang_name="admin-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='admin-group-name', extensions=None), is_container='list', yang_name="admin-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__admin_group = YANGDynClass(base=YANGListType("admin_group_name",admin_group.admin_group, yang_name="admin-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='admin-group-name', extensions=None), is_container='list', yang_name="admin-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='list', is_config=True)
 
   admin_group = __builtin__.property(_get_admin_group, _set_admin_group)
 

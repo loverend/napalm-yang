@@ -54,35 +54,35 @@ class tlv(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__mt_isis_neighbor_attribute = YANGDynClass(base=mt_isis_neighbor_attribute.mt_isis_neighbor_attribute, is_container='container', yang_name="mt-isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__type_block = YANGDynClass(base=type_block.type_block, is_container='container', yang_name="type-block", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv6_te_router_id = YANGDynClass(base=ipv6_te_router_id.ipv6_te_router_id, is_container='container', yang_name="ipv6-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__mt_ipv6_reachability = YANGDynClass(base=mt_ipv6_reachability.mt_ipv6_reachability, is_container='container', yang_name="mt-ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__mt_ipv4_reachability = YANGDynClass(base=mt_ipv4_reachability.mt_ipv4_reachability, is_container='container', yang_name="mt-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__mt_isn = YANGDynClass(base=mt_isn.mt_isn, is_container='container', yang_name="mt-isn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__isis_alias_id = YANGDynClass(base=isis_alias_id.isis_alias_id, is_container='container', yang_name="isis-alias-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__extended_ipv4_reachability = YANGDynClass(base=extended_ipv4_reachability.extended_ipv4_reachability, is_container='container', yang_name="extended-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__hostname = YANGDynClass(base=hostname.hostname, is_container='container', yang_name="hostname", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__purge_oi = YANGDynClass(base=purge_oi.purge_oi, is_container='container', yang_name="purge-oi", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__authentication = YANGDynClass(base=authentication.authentication, is_container='container', yang_name="authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__state = YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv4_srlg = YANGDynClass(base=ipv4_srlg.ipv4_srlg, is_container='container', yang_name="ipv4-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv4_te_router_id = YANGDynClass(base=ipv4_te_router_id.ipv4_te_router_id, is_container='container', yang_name="ipv4-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv4_internal_reachability = YANGDynClass(base=ipv4_internal_reachability.ipv4_internal_reachability, is_container='container', yang_name="ipv4-internal-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__router_capabilities = YANGDynClass(base=router_capabilities.router_capabilities, is_container='container', yang_name="router-capabilities", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__type = YANGDynClass(base=unicode, is_leaf=True, yang_name="type", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='leafref', is_config=False)
-    self.__multi_topology = YANGDynClass(base=multi_topology.multi_topology, is_container='container', yang_name="multi-topology", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__is_reachability = YANGDynClass(base=is_reachability.is_reachability, is_container='container', yang_name="is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__isis_neighbor_attribute = YANGDynClass(base=isis_neighbor_attribute.isis_neighbor_attribute, is_container='container', yang_name="isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv4_interface_addresses = YANGDynClass(base=ipv4_interface_addresses.ipv4_interface_addresses, is_container='container', yang_name="ipv4-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__extended_is_reachability = YANGDynClass(base=extended_is_reachability.extended_is_reachability, is_container='container', yang_name="extended-is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv6_interface_addresses = YANGDynClass(base=ipv6_interface_addresses.ipv6_interface_addresses, is_container='container', yang_name="ipv6-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv4_external_reachability = YANGDynClass(base=ipv4_external_reachability.ipv4_external_reachability, is_container='container', yang_name="ipv4-external-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__nlpid = YANGDynClass(base=nlpid.nlpid, is_container='container', yang_name="nlpid", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv6_reachability = YANGDynClass(base=ipv6_reachability.ipv6_reachability, is_container='container', yang_name="ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__instance_id = YANGDynClass(base=instance_id.instance_id, is_container='container', yang_name="instance-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__area_address = YANGDynClass(base=area_address.area_address, is_container='container', yang_name="area-address", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv6_srlg = YANGDynClass(base=ipv6_srlg.ipv6_srlg, is_container='container', yang_name="ipv6-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__mt_isis_neighbor_attribute = YANGDynClass(base=mt_isis_neighbor_attribute.mt_isis_neighbor_attribute, is_container='container', yang_name="mt-isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__type_block = YANGDynClass(base=type_block.type_block, is_container='container', yang_name="type-block", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv6_te_router_id = YANGDynClass(base=ipv6_te_router_id.ipv6_te_router_id, is_container='container', yang_name="ipv6-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__mt_ipv6_reachability = YANGDynClass(base=mt_ipv6_reachability.mt_ipv6_reachability, is_container='container', yang_name="mt-ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__mt_ipv4_reachability = YANGDynClass(base=mt_ipv4_reachability.mt_ipv4_reachability, is_container='container', yang_name="mt-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__mt_isn = YANGDynClass(base=mt_isn.mt_isn, is_container='container', yang_name="mt-isn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__isis_alias_id = YANGDynClass(base=isis_alias_id.isis_alias_id, is_container='container', yang_name="isis-alias-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__extended_ipv4_reachability = YANGDynClass(base=extended_ipv4_reachability.extended_ipv4_reachability, is_container='container', yang_name="extended-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__hostname = YANGDynClass(base=hostname.hostname, is_container='container', yang_name="hostname", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__purge_oi = YANGDynClass(base=purge_oi.purge_oi, is_container='container', yang_name="purge-oi", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__authentication = YANGDynClass(base=authentication.authentication, is_container='container', yang_name="authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__state = YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv4_srlg = YANGDynClass(base=ipv4_srlg.ipv4_srlg, is_container='container', yang_name="ipv4-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv4_te_router_id = YANGDynClass(base=ipv4_te_router_id.ipv4_te_router_id, is_container='container', yang_name="ipv4-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv4_internal_reachability = YANGDynClass(base=ipv4_internal_reachability.ipv4_internal_reachability, is_container='container', yang_name="ipv4-internal-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__router_capabilities = YANGDynClass(base=router_capabilities.router_capabilities, is_container='container', yang_name="router-capabilities", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__type = YANGDynClass(base=unicode, is_leaf=True, yang_name="type", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='leafref', is_config=False)
+    self.__multi_topology = YANGDynClass(base=multi_topology.multi_topology, is_container='container', yang_name="multi-topology", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__is_reachability = YANGDynClass(base=is_reachability.is_reachability, is_container='container', yang_name="is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__isis_neighbor_attribute = YANGDynClass(base=isis_neighbor_attribute.isis_neighbor_attribute, is_container='container', yang_name="isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv4_interface_addresses = YANGDynClass(base=ipv4_interface_addresses.ipv4_interface_addresses, is_container='container', yang_name="ipv4-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__extended_is_reachability = YANGDynClass(base=extended_is_reachability.extended_is_reachability, is_container='container', yang_name="extended-is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv6_interface_addresses = YANGDynClass(base=ipv6_interface_addresses.ipv6_interface_addresses, is_container='container', yang_name="ipv6-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv4_external_reachability = YANGDynClass(base=ipv4_external_reachability.ipv4_external_reachability, is_container='container', yang_name="ipv4-external-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__nlpid = YANGDynClass(base=nlpid.nlpid, is_container='container', yang_name="nlpid", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv6_reachability = YANGDynClass(base=ipv6_reachability.ipv6_reachability, is_container='container', yang_name="ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__instance_id = YANGDynClass(base=instance_id.instance_id, is_container='container', yang_name="instance-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__area_address = YANGDynClass(base=area_address.area_address, is_container='container', yang_name="area-address", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv6_srlg = YANGDynClass(base=ipv6_srlg.ipv6_srlg, is_container='container', yang_name="ipv6-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
     load = kwargs.pop("load", None)
     if args:
@@ -139,12 +139,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=unicode, is_leaf=True, yang_name="type", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='leafref', is_config=False)
+      t = YANGDynClass(v,base=unicode, is_leaf=True, yang_name="type", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='leafref', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """type must be of a type compatible with leafref""",
           'defined-type': "leafref",
-          'generated-type': """YANGDynClass(base=unicode, is_leaf=True, yang_name="type", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='leafref', is_config=False)""",
+          'generated-type': """YANGDynClass(base=unicode, is_leaf=True, yang_name="type", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='leafref', is_config=False)""",
         })
 
     self.__type = t
@@ -152,7 +152,7 @@ the LSDB.
       self._set()
 
   def _unset_type(self):
-    self.__type = YANGDynClass(base=unicode, is_leaf=True, yang_name="type", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='leafref', is_config=False)
+    self.__type = YANGDynClass(base=unicode, is_leaf=True, yang_name="type", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='leafref', is_config=False)
 
 
   def _get_state(self):
@@ -176,12 +176,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """state must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__state = t
@@ -189,7 +189,7 @@ the LSDB.
       self._set()
 
   def _unset_state(self):
-    self.__state = YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__state = YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_area_address(self):
@@ -213,12 +213,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=area_address.area_address, is_container='container', yang_name="area-address", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=area_address.area_address, is_container='container', yang_name="area-address", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """area_address must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=area_address.area_address, is_container='container', yang_name="area-address", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=area_address.area_address, is_container='container', yang_name="area-address", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__area_address = t
@@ -226,7 +226,7 @@ the LSDB.
       self._set()
 
   def _unset_area_address(self):
-    self.__area_address = YANGDynClass(base=area_address.area_address, is_container='container', yang_name="area-address", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__area_address = YANGDynClass(base=area_address.area_address, is_container='container', yang_name="area-address", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_nlpid(self):
@@ -250,12 +250,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=nlpid.nlpid, is_container='container', yang_name="nlpid", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=nlpid.nlpid, is_container='container', yang_name="nlpid", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """nlpid must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=nlpid.nlpid, is_container='container', yang_name="nlpid", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=nlpid.nlpid, is_container='container', yang_name="nlpid", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__nlpid = t
@@ -263,7 +263,7 @@ the LSDB.
       self._set()
 
   def _unset_nlpid(self):
-    self.__nlpid = YANGDynClass(base=nlpid.nlpid, is_container='container', yang_name="nlpid", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__nlpid = YANGDynClass(base=nlpid.nlpid, is_container='container', yang_name="nlpid", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_hostname(self):
@@ -287,12 +287,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=hostname.hostname, is_container='container', yang_name="hostname", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=hostname.hostname, is_container='container', yang_name="hostname", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """hostname must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=hostname.hostname, is_container='container', yang_name="hostname", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=hostname.hostname, is_container='container', yang_name="hostname", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__hostname = t
@@ -300,7 +300,7 @@ the LSDB.
       self._set()
 
   def _unset_hostname(self):
-    self.__hostname = YANGDynClass(base=hostname.hostname, is_container='container', yang_name="hostname", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__hostname = YANGDynClass(base=hostname.hostname, is_container='container', yang_name="hostname", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv4_interface_addresses(self):
@@ -324,12 +324,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv4_interface_addresses.ipv4_interface_addresses, is_container='container', yang_name="ipv4-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv4_interface_addresses.ipv4_interface_addresses, is_container='container', yang_name="ipv4-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv4_interface_addresses must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv4_interface_addresses.ipv4_interface_addresses, is_container='container', yang_name="ipv4-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv4_interface_addresses.ipv4_interface_addresses, is_container='container', yang_name="ipv4-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv4_interface_addresses = t
@@ -337,7 +337,7 @@ the LSDB.
       self._set()
 
   def _unset_ipv4_interface_addresses(self):
-    self.__ipv4_interface_addresses = YANGDynClass(base=ipv4_interface_addresses.ipv4_interface_addresses, is_container='container', yang_name="ipv4-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv4_interface_addresses = YANGDynClass(base=ipv4_interface_addresses.ipv4_interface_addresses, is_container='container', yang_name="ipv4-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv6_interface_addresses(self):
@@ -361,12 +361,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv6_interface_addresses.ipv6_interface_addresses, is_container='container', yang_name="ipv6-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv6_interface_addresses.ipv6_interface_addresses, is_container='container', yang_name="ipv6-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv6_interface_addresses must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv6_interface_addresses.ipv6_interface_addresses, is_container='container', yang_name="ipv6-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv6_interface_addresses.ipv6_interface_addresses, is_container='container', yang_name="ipv6-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv6_interface_addresses = t
@@ -374,7 +374,7 @@ the LSDB.
       self._set()
 
   def _unset_ipv6_interface_addresses(self):
-    self.__ipv6_interface_addresses = YANGDynClass(base=ipv6_interface_addresses.ipv6_interface_addresses, is_container='container', yang_name="ipv6-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv6_interface_addresses = YANGDynClass(base=ipv6_interface_addresses.ipv6_interface_addresses, is_container='container', yang_name="ipv6-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv4_te_router_id(self):
@@ -398,12 +398,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv4_te_router_id.ipv4_te_router_id, is_container='container', yang_name="ipv4-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv4_te_router_id.ipv4_te_router_id, is_container='container', yang_name="ipv4-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv4_te_router_id must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv4_te_router_id.ipv4_te_router_id, is_container='container', yang_name="ipv4-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv4_te_router_id.ipv4_te_router_id, is_container='container', yang_name="ipv4-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv4_te_router_id = t
@@ -411,7 +411,7 @@ the LSDB.
       self._set()
 
   def _unset_ipv4_te_router_id(self):
-    self.__ipv4_te_router_id = YANGDynClass(base=ipv4_te_router_id.ipv4_te_router_id, is_container='container', yang_name="ipv4-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv4_te_router_id = YANGDynClass(base=ipv4_te_router_id.ipv4_te_router_id, is_container='container', yang_name="ipv4-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv6_te_router_id(self):
@@ -435,12 +435,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv6_te_router_id.ipv6_te_router_id, is_container='container', yang_name="ipv6-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv6_te_router_id.ipv6_te_router_id, is_container='container', yang_name="ipv6-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv6_te_router_id must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv6_te_router_id.ipv6_te_router_id, is_container='container', yang_name="ipv6-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv6_te_router_id.ipv6_te_router_id, is_container='container', yang_name="ipv6-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv6_te_router_id = t
@@ -448,7 +448,7 @@ the LSDB.
       self._set()
 
   def _unset_ipv6_te_router_id(self):
-    self.__ipv6_te_router_id = YANGDynClass(base=ipv6_te_router_id.ipv6_te_router_id, is_container='container', yang_name="ipv6-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv6_te_router_id = YANGDynClass(base=ipv6_te_router_id.ipv6_te_router_id, is_container='container', yang_name="ipv6-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_instance_id(self):
@@ -472,12 +472,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=instance_id.instance_id, is_container='container', yang_name="instance-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=instance_id.instance_id, is_container='container', yang_name="instance-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """instance_id must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=instance_id.instance_id, is_container='container', yang_name="instance-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=instance_id.instance_id, is_container='container', yang_name="instance-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__instance_id = t
@@ -485,7 +485,7 @@ the LSDB.
       self._set()
 
   def _unset_instance_id(self):
-    self.__instance_id = YANGDynClass(base=instance_id.instance_id, is_container='container', yang_name="instance-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__instance_id = YANGDynClass(base=instance_id.instance_id, is_container='container', yang_name="instance-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv4_srlg(self):
@@ -509,12 +509,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv4_srlg.ipv4_srlg, is_container='container', yang_name="ipv4-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv4_srlg.ipv4_srlg, is_container='container', yang_name="ipv4-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv4_srlg must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv4_srlg.ipv4_srlg, is_container='container', yang_name="ipv4-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv4_srlg.ipv4_srlg, is_container='container', yang_name="ipv4-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv4_srlg = t
@@ -522,7 +522,7 @@ the LSDB.
       self._set()
 
   def _unset_ipv4_srlg(self):
-    self.__ipv4_srlg = YANGDynClass(base=ipv4_srlg.ipv4_srlg, is_container='container', yang_name="ipv4-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv4_srlg = YANGDynClass(base=ipv4_srlg.ipv4_srlg, is_container='container', yang_name="ipv4-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv6_srlg(self):
@@ -546,12 +546,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv6_srlg.ipv6_srlg, is_container='container', yang_name="ipv6-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv6_srlg.ipv6_srlg, is_container='container', yang_name="ipv6-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv6_srlg must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv6_srlg.ipv6_srlg, is_container='container', yang_name="ipv6-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv6_srlg.ipv6_srlg, is_container='container', yang_name="ipv6-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv6_srlg = t
@@ -559,7 +559,7 @@ the LSDB.
       self._set()
 
   def _unset_ipv6_srlg(self):
-    self.__ipv6_srlg = YANGDynClass(base=ipv6_srlg.ipv6_srlg, is_container='container', yang_name="ipv6-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv6_srlg = YANGDynClass(base=ipv6_srlg.ipv6_srlg, is_container='container', yang_name="ipv6-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_purge_oi(self):
@@ -583,12 +583,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=purge_oi.purge_oi, is_container='container', yang_name="purge-oi", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=purge_oi.purge_oi, is_container='container', yang_name="purge-oi", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """purge_oi must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=purge_oi.purge_oi, is_container='container', yang_name="purge-oi", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=purge_oi.purge_oi, is_container='container', yang_name="purge-oi", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__purge_oi = t
@@ -596,7 +596,7 @@ the LSDB.
       self._set()
 
   def _unset_purge_oi(self):
-    self.__purge_oi = YANGDynClass(base=purge_oi.purge_oi, is_container='container', yang_name="purge-oi", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__purge_oi = YANGDynClass(base=purge_oi.purge_oi, is_container='container', yang_name="purge-oi", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_router_capabilities(self):
@@ -620,12 +620,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=router_capabilities.router_capabilities, is_container='container', yang_name="router-capabilities", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=router_capabilities.router_capabilities, is_container='container', yang_name="router-capabilities", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """router_capabilities must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=router_capabilities.router_capabilities, is_container='container', yang_name="router-capabilities", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=router_capabilities.router_capabilities, is_container='container', yang_name="router-capabilities", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__router_capabilities = t
@@ -633,7 +633,7 @@ the LSDB.
       self._set()
 
   def _unset_router_capabilities(self):
-    self.__router_capabilities = YANGDynClass(base=router_capabilities.router_capabilities, is_container='container', yang_name="router-capabilities", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__router_capabilities = YANGDynClass(base=router_capabilities.router_capabilities, is_container='container', yang_name="router-capabilities", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_is_reachability(self):
@@ -657,12 +657,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=is_reachability.is_reachability, is_container='container', yang_name="is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=is_reachability.is_reachability, is_container='container', yang_name="is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """is_reachability must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=is_reachability.is_reachability, is_container='container', yang_name="is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=is_reachability.is_reachability, is_container='container', yang_name="is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__is_reachability = t
@@ -670,7 +670,7 @@ the LSDB.
       self._set()
 
   def _unset_is_reachability(self):
-    self.__is_reachability = YANGDynClass(base=is_reachability.is_reachability, is_container='container', yang_name="is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__is_reachability = YANGDynClass(base=is_reachability.is_reachability, is_container='container', yang_name="is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv4_internal_reachability(self):
@@ -696,12 +696,12 @@ information.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv4_internal_reachability.ipv4_internal_reachability, is_container='container', yang_name="ipv4-internal-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv4_internal_reachability.ipv4_internal_reachability, is_container='container', yang_name="ipv4-internal-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv4_internal_reachability must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv4_internal_reachability.ipv4_internal_reachability, is_container='container', yang_name="ipv4-internal-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv4_internal_reachability.ipv4_internal_reachability, is_container='container', yang_name="ipv4-internal-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv4_internal_reachability = t
@@ -709,7 +709,7 @@ information.
       self._set()
 
   def _unset_ipv4_internal_reachability(self):
-    self.__ipv4_internal_reachability = YANGDynClass(base=ipv4_internal_reachability.ipv4_internal_reachability, is_container='container', yang_name="ipv4-internal-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv4_internal_reachability = YANGDynClass(base=ipv4_internal_reachability.ipv4_internal_reachability, is_container='container', yang_name="ipv4-internal-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv4_external_reachability(self):
@@ -735,12 +735,12 @@ information.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv4_external_reachability.ipv4_external_reachability, is_container='container', yang_name="ipv4-external-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv4_external_reachability.ipv4_external_reachability, is_container='container', yang_name="ipv4-external-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv4_external_reachability must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv4_external_reachability.ipv4_external_reachability, is_container='container', yang_name="ipv4-external-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv4_external_reachability.ipv4_external_reachability, is_container='container', yang_name="ipv4-external-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv4_external_reachability = t
@@ -748,7 +748,7 @@ information.
       self._set()
 
   def _unset_ipv4_external_reachability(self):
-    self.__ipv4_external_reachability = YANGDynClass(base=ipv4_external_reachability.ipv4_external_reachability, is_container='container', yang_name="ipv4-external-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv4_external_reachability = YANGDynClass(base=ipv4_external_reachability.ipv4_external_reachability, is_container='container', yang_name="ipv4-external-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_type_block(self):
@@ -772,12 +772,12 @@ information.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=type_block.type_block, is_container='container', yang_name="type-block", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=type_block.type_block, is_container='container', yang_name="type-block", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """type_block must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=type_block.type_block, is_container='container', yang_name="type-block", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=type_block.type_block, is_container='container', yang_name="type-block", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__type_block = t
@@ -785,7 +785,7 @@ information.
       self._set()
 
   def _unset_type_block(self):
-    self.__type_block = YANGDynClass(base=type_block.type_block, is_container='container', yang_name="type-block", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__type_block = YANGDynClass(base=type_block.type_block, is_container='container', yang_name="type-block", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_authentication(self):
@@ -811,12 +811,12 @@ node.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=authentication.authentication, is_container='container', yang_name="authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=authentication.authentication, is_container='container', yang_name="authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """authentication must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=authentication.authentication, is_container='container', yang_name="authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=authentication.authentication, is_container='container', yang_name="authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__authentication = t
@@ -824,7 +824,7 @@ node.
       self._set()
 
   def _unset_authentication(self):
-    self.__authentication = YANGDynClass(base=authentication.authentication, is_container='container', yang_name="authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__authentication = YANGDynClass(base=authentication.authentication, is_container='container', yang_name="authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_extended_is_reachability(self):
@@ -850,12 +850,12 @@ neighbors.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=extended_is_reachability.extended_is_reachability, is_container='container', yang_name="extended-is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=extended_is_reachability.extended_is_reachability, is_container='container', yang_name="extended-is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """extended_is_reachability must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=extended_is_reachability.extended_is_reachability, is_container='container', yang_name="extended-is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=extended_is_reachability.extended_is_reachability, is_container='container', yang_name="extended-is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__extended_is_reachability = t
@@ -863,7 +863,7 @@ neighbors.
       self._set()
 
   def _unset_extended_is_reachability(self):
-    self.__extended_is_reachability = YANGDynClass(base=extended_is_reachability.extended_is_reachability, is_container='container', yang_name="extended-is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__extended_is_reachability = YANGDynClass(base=extended_is_reachability.extended_is_reachability, is_container='container', yang_name="extended-is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_extended_ipv4_reachability(self):
@@ -889,12 +889,12 @@ information.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=extended_ipv4_reachability.extended_ipv4_reachability, is_container='container', yang_name="extended-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=extended_ipv4_reachability.extended_ipv4_reachability, is_container='container', yang_name="extended-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """extended_ipv4_reachability must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=extended_ipv4_reachability.extended_ipv4_reachability, is_container='container', yang_name="extended-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=extended_ipv4_reachability.extended_ipv4_reachability, is_container='container', yang_name="extended-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__extended_ipv4_reachability = t
@@ -902,7 +902,7 @@ information.
       self._set()
 
   def _unset_extended_ipv4_reachability(self):
-    self.__extended_ipv4_reachability = YANGDynClass(base=extended_ipv4_reachability.extended_ipv4_reachability, is_container='container', yang_name="extended-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__extended_ipv4_reachability = YANGDynClass(base=extended_ipv4_reachability.extended_ipv4_reachability, is_container='container', yang_name="extended-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv6_reachability(self):
@@ -928,12 +928,12 @@ information.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv6_reachability.ipv6_reachability, is_container='container', yang_name="ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv6_reachability.ipv6_reachability, is_container='container', yang_name="ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv6_reachability must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv6_reachability.ipv6_reachability, is_container='container', yang_name="ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv6_reachability.ipv6_reachability, is_container='container', yang_name="ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv6_reachability = t
@@ -941,7 +941,7 @@ information.
       self._set()
 
   def _unset_ipv6_reachability(self):
-    self.__ipv6_reachability = YANGDynClass(base=ipv6_reachability.ipv6_reachability, is_container='container', yang_name="ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv6_reachability = YANGDynClass(base=ipv6_reachability.ipv6_reachability, is_container='container', yang_name="ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_multi_topology(self):
@@ -965,12 +965,12 @@ information.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=multi_topology.multi_topology, is_container='container', yang_name="multi-topology", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=multi_topology.multi_topology, is_container='container', yang_name="multi-topology", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """multi_topology must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=multi_topology.multi_topology, is_container='container', yang_name="multi-topology", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=multi_topology.multi_topology, is_container='container', yang_name="multi-topology", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__multi_topology = t
@@ -978,7 +978,7 @@ information.
       self._set()
 
   def _unset_multi_topology(self):
-    self.__multi_topology = YANGDynClass(base=multi_topology.multi_topology, is_container='container', yang_name="multi-topology", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__multi_topology = YANGDynClass(base=multi_topology.multi_topology, is_container='container', yang_name="multi-topology", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_isis_neighbor_attribute(self):
@@ -1004,12 +1004,12 @@ for extended ISIS LSP(multiple system IDs).
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=isis_neighbor_attribute.isis_neighbor_attribute, is_container='container', yang_name="isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=isis_neighbor_attribute.isis_neighbor_attribute, is_container='container', yang_name="isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """isis_neighbor_attribute must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=isis_neighbor_attribute.isis_neighbor_attribute, is_container='container', yang_name="isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=isis_neighbor_attribute.isis_neighbor_attribute, is_container='container', yang_name="isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__isis_neighbor_attribute = t
@@ -1017,7 +1017,7 @@ for extended ISIS LSP(multiple system IDs).
       self._set()
 
   def _unset_isis_neighbor_attribute(self):
-    self.__isis_neighbor_attribute = YANGDynClass(base=isis_neighbor_attribute.isis_neighbor_attribute, is_container='container', yang_name="isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__isis_neighbor_attribute = YANGDynClass(base=isis_neighbor_attribute.isis_neighbor_attribute, is_container='container', yang_name="isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_isis_alias_id(self):
@@ -1047,12 +1047,12 @@ Originating System.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=isis_alias_id.isis_alias_id, is_container='container', yang_name="isis-alias-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=isis_alias_id.isis_alias_id, is_container='container', yang_name="isis-alias-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """isis_alias_id must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=isis_alias_id.isis_alias_id, is_container='container', yang_name="isis-alias-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=isis_alias_id.isis_alias_id, is_container='container', yang_name="isis-alias-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__isis_alias_id = t
@@ -1060,7 +1060,7 @@ Originating System.
       self._set()
 
   def _unset_isis_alias_id(self):
-    self.__isis_alias_id = YANGDynClass(base=isis_alias_id.isis_alias_id, is_container='container', yang_name="isis-alias-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__isis_alias_id = YANGDynClass(base=isis_alias_id.isis_alias_id, is_container='container', yang_name="isis-alias-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_mt_isn(self):
@@ -1086,12 +1086,12 @@ neighbors.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=mt_isn.mt_isn, is_container='container', yang_name="mt-isn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=mt_isn.mt_isn, is_container='container', yang_name="mt-isn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """mt_isn must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=mt_isn.mt_isn, is_container='container', yang_name="mt-isn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=mt_isn.mt_isn, is_container='container', yang_name="mt-isn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__mt_isn = t
@@ -1099,7 +1099,7 @@ neighbors.
       self._set()
 
   def _unset_mt_isn(self):
-    self.__mt_isn = YANGDynClass(base=mt_isn.mt_isn, is_container='container', yang_name="mt-isn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__mt_isn = YANGDynClass(base=mt_isn.mt_isn, is_container='container', yang_name="mt-isn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_mt_isis_neighbor_attribute(self):
@@ -1125,12 +1125,12 @@ neighbors.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=mt_isis_neighbor_attribute.mt_isis_neighbor_attribute, is_container='container', yang_name="mt-isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=mt_isis_neighbor_attribute.mt_isis_neighbor_attribute, is_container='container', yang_name="mt-isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """mt_isis_neighbor_attribute must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=mt_isis_neighbor_attribute.mt_isis_neighbor_attribute, is_container='container', yang_name="mt-isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=mt_isis_neighbor_attribute.mt_isis_neighbor_attribute, is_container='container', yang_name="mt-isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__mt_isis_neighbor_attribute = t
@@ -1138,7 +1138,7 @@ neighbors.
       self._set()
 
   def _unset_mt_isis_neighbor_attribute(self):
-    self.__mt_isis_neighbor_attribute = YANGDynClass(base=mt_isis_neighbor_attribute.mt_isis_neighbor_attribute, is_container='container', yang_name="mt-isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__mt_isis_neighbor_attribute = YANGDynClass(base=mt_isis_neighbor_attribute.mt_isis_neighbor_attribute, is_container='container', yang_name="mt-isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_mt_ipv4_reachability(self):
@@ -1164,12 +1164,12 @@ in multi-topology environment.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=mt_ipv4_reachability.mt_ipv4_reachability, is_container='container', yang_name="mt-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=mt_ipv4_reachability.mt_ipv4_reachability, is_container='container', yang_name="mt-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """mt_ipv4_reachability must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=mt_ipv4_reachability.mt_ipv4_reachability, is_container='container', yang_name="mt-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=mt_ipv4_reachability.mt_ipv4_reachability, is_container='container', yang_name="mt-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__mt_ipv4_reachability = t
@@ -1177,7 +1177,7 @@ in multi-topology environment.
       self._set()
 
   def _unset_mt_ipv4_reachability(self):
-    self.__mt_ipv4_reachability = YANGDynClass(base=mt_ipv4_reachability.mt_ipv4_reachability, is_container='container', yang_name="mt-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__mt_ipv4_reachability = YANGDynClass(base=mt_ipv4_reachability.mt_ipv4_reachability, is_container='container', yang_name="mt-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_mt_ipv6_reachability(self):
@@ -1203,12 +1203,12 @@ in multi - topology environment.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=mt_ipv6_reachability.mt_ipv6_reachability, is_container='container', yang_name="mt-ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=mt_ipv6_reachability.mt_ipv6_reachability, is_container='container', yang_name="mt-ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """mt_ipv6_reachability must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=mt_ipv6_reachability.mt_ipv6_reachability, is_container='container', yang_name="mt-ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=mt_ipv6_reachability.mt_ipv6_reachability, is_container='container', yang_name="mt-ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__mt_ipv6_reachability = t
@@ -1216,7 +1216,7 @@ in multi - topology environment.
       self._set()
 
   def _unset_mt_ipv6_reachability(self):
-    self.__mt_ipv6_reachability = YANGDynClass(base=mt_ipv6_reachability.mt_ipv6_reachability, is_container='container', yang_name="mt-ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__mt_ipv6_reachability = YANGDynClass(base=mt_ipv6_reachability.mt_ipv6_reachability, is_container='container', yang_name="mt-ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
   type = __builtin__.property(_get_type)
   state = __builtin__.property(_get_state)
@@ -1300,35 +1300,35 @@ class tlv(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__mt_isis_neighbor_attribute = YANGDynClass(base=mt_isis_neighbor_attribute.mt_isis_neighbor_attribute, is_container='container', yang_name="mt-isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__type_block = YANGDynClass(base=type_block.type_block, is_container='container', yang_name="type-block", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv6_te_router_id = YANGDynClass(base=ipv6_te_router_id.ipv6_te_router_id, is_container='container', yang_name="ipv6-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__mt_ipv6_reachability = YANGDynClass(base=mt_ipv6_reachability.mt_ipv6_reachability, is_container='container', yang_name="mt-ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__mt_ipv4_reachability = YANGDynClass(base=mt_ipv4_reachability.mt_ipv4_reachability, is_container='container', yang_name="mt-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__mt_isn = YANGDynClass(base=mt_isn.mt_isn, is_container='container', yang_name="mt-isn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__isis_alias_id = YANGDynClass(base=isis_alias_id.isis_alias_id, is_container='container', yang_name="isis-alias-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__extended_ipv4_reachability = YANGDynClass(base=extended_ipv4_reachability.extended_ipv4_reachability, is_container='container', yang_name="extended-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__hostname = YANGDynClass(base=hostname.hostname, is_container='container', yang_name="hostname", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__purge_oi = YANGDynClass(base=purge_oi.purge_oi, is_container='container', yang_name="purge-oi", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__authentication = YANGDynClass(base=authentication.authentication, is_container='container', yang_name="authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__state = YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv4_srlg = YANGDynClass(base=ipv4_srlg.ipv4_srlg, is_container='container', yang_name="ipv4-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv4_te_router_id = YANGDynClass(base=ipv4_te_router_id.ipv4_te_router_id, is_container='container', yang_name="ipv4-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv4_internal_reachability = YANGDynClass(base=ipv4_internal_reachability.ipv4_internal_reachability, is_container='container', yang_name="ipv4-internal-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__router_capabilities = YANGDynClass(base=router_capabilities.router_capabilities, is_container='container', yang_name="router-capabilities", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__type = YANGDynClass(base=unicode, is_leaf=True, yang_name="type", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='leafref', is_config=False)
-    self.__multi_topology = YANGDynClass(base=multi_topology.multi_topology, is_container='container', yang_name="multi-topology", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__is_reachability = YANGDynClass(base=is_reachability.is_reachability, is_container='container', yang_name="is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__isis_neighbor_attribute = YANGDynClass(base=isis_neighbor_attribute.isis_neighbor_attribute, is_container='container', yang_name="isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv4_interface_addresses = YANGDynClass(base=ipv4_interface_addresses.ipv4_interface_addresses, is_container='container', yang_name="ipv4-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__extended_is_reachability = YANGDynClass(base=extended_is_reachability.extended_is_reachability, is_container='container', yang_name="extended-is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv6_interface_addresses = YANGDynClass(base=ipv6_interface_addresses.ipv6_interface_addresses, is_container='container', yang_name="ipv6-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv4_external_reachability = YANGDynClass(base=ipv4_external_reachability.ipv4_external_reachability, is_container='container', yang_name="ipv4-external-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__nlpid = YANGDynClass(base=nlpid.nlpid, is_container='container', yang_name="nlpid", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv6_reachability = YANGDynClass(base=ipv6_reachability.ipv6_reachability, is_container='container', yang_name="ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__instance_id = YANGDynClass(base=instance_id.instance_id, is_container='container', yang_name="instance-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__area_address = YANGDynClass(base=area_address.area_address, is_container='container', yang_name="area-address", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
-    self.__ipv6_srlg = YANGDynClass(base=ipv6_srlg.ipv6_srlg, is_container='container', yang_name="ipv6-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__mt_isis_neighbor_attribute = YANGDynClass(base=mt_isis_neighbor_attribute.mt_isis_neighbor_attribute, is_container='container', yang_name="mt-isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__type_block = YANGDynClass(base=type_block.type_block, is_container='container', yang_name="type-block", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv6_te_router_id = YANGDynClass(base=ipv6_te_router_id.ipv6_te_router_id, is_container='container', yang_name="ipv6-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__mt_ipv6_reachability = YANGDynClass(base=mt_ipv6_reachability.mt_ipv6_reachability, is_container='container', yang_name="mt-ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__mt_ipv4_reachability = YANGDynClass(base=mt_ipv4_reachability.mt_ipv4_reachability, is_container='container', yang_name="mt-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__mt_isn = YANGDynClass(base=mt_isn.mt_isn, is_container='container', yang_name="mt-isn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__isis_alias_id = YANGDynClass(base=isis_alias_id.isis_alias_id, is_container='container', yang_name="isis-alias-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__extended_ipv4_reachability = YANGDynClass(base=extended_ipv4_reachability.extended_ipv4_reachability, is_container='container', yang_name="extended-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__hostname = YANGDynClass(base=hostname.hostname, is_container='container', yang_name="hostname", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__purge_oi = YANGDynClass(base=purge_oi.purge_oi, is_container='container', yang_name="purge-oi", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__authentication = YANGDynClass(base=authentication.authentication, is_container='container', yang_name="authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__state = YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv4_srlg = YANGDynClass(base=ipv4_srlg.ipv4_srlg, is_container='container', yang_name="ipv4-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv4_te_router_id = YANGDynClass(base=ipv4_te_router_id.ipv4_te_router_id, is_container='container', yang_name="ipv4-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv4_internal_reachability = YANGDynClass(base=ipv4_internal_reachability.ipv4_internal_reachability, is_container='container', yang_name="ipv4-internal-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__router_capabilities = YANGDynClass(base=router_capabilities.router_capabilities, is_container='container', yang_name="router-capabilities", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__type = YANGDynClass(base=unicode, is_leaf=True, yang_name="type", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='leafref', is_config=False)
+    self.__multi_topology = YANGDynClass(base=multi_topology.multi_topology, is_container='container', yang_name="multi-topology", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__is_reachability = YANGDynClass(base=is_reachability.is_reachability, is_container='container', yang_name="is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__isis_neighbor_attribute = YANGDynClass(base=isis_neighbor_attribute.isis_neighbor_attribute, is_container='container', yang_name="isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv4_interface_addresses = YANGDynClass(base=ipv4_interface_addresses.ipv4_interface_addresses, is_container='container', yang_name="ipv4-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__extended_is_reachability = YANGDynClass(base=extended_is_reachability.extended_is_reachability, is_container='container', yang_name="extended-is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv6_interface_addresses = YANGDynClass(base=ipv6_interface_addresses.ipv6_interface_addresses, is_container='container', yang_name="ipv6-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv4_external_reachability = YANGDynClass(base=ipv4_external_reachability.ipv4_external_reachability, is_container='container', yang_name="ipv4-external-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__nlpid = YANGDynClass(base=nlpid.nlpid, is_container='container', yang_name="nlpid", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv6_reachability = YANGDynClass(base=ipv6_reachability.ipv6_reachability, is_container='container', yang_name="ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__instance_id = YANGDynClass(base=instance_id.instance_id, is_container='container', yang_name="instance-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__area_address = YANGDynClass(base=area_address.area_address, is_container='container', yang_name="area-address", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
+    self.__ipv6_srlg = YANGDynClass(base=ipv6_srlg.ipv6_srlg, is_container='container', yang_name="ipv6-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
     load = kwargs.pop("load", None)
     if args:
@@ -1385,12 +1385,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=unicode, is_leaf=True, yang_name="type", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='leafref', is_config=False)
+      t = YANGDynClass(v,base=unicode, is_leaf=True, yang_name="type", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='leafref', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """type must be of a type compatible with leafref""",
           'defined-type': "leafref",
-          'generated-type': """YANGDynClass(base=unicode, is_leaf=True, yang_name="type", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='leafref', is_config=False)""",
+          'generated-type': """YANGDynClass(base=unicode, is_leaf=True, yang_name="type", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='leafref', is_config=False)""",
         })
 
     self.__type = t
@@ -1398,7 +1398,7 @@ the LSDB.
       self._set()
 
   def _unset_type(self):
-    self.__type = YANGDynClass(base=unicode, is_leaf=True, yang_name="type", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='leafref', is_config=False)
+    self.__type = YANGDynClass(base=unicode, is_leaf=True, yang_name="type", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='leafref', is_config=False)
 
 
   def _get_state(self):
@@ -1422,12 +1422,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """state must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__state = t
@@ -1435,7 +1435,7 @@ the LSDB.
       self._set()
 
   def _unset_state(self):
-    self.__state = YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__state = YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_area_address(self):
@@ -1459,12 +1459,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=area_address.area_address, is_container='container', yang_name="area-address", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=area_address.area_address, is_container='container', yang_name="area-address", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """area_address must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=area_address.area_address, is_container='container', yang_name="area-address", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=area_address.area_address, is_container='container', yang_name="area-address", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__area_address = t
@@ -1472,7 +1472,7 @@ the LSDB.
       self._set()
 
   def _unset_area_address(self):
-    self.__area_address = YANGDynClass(base=area_address.area_address, is_container='container', yang_name="area-address", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__area_address = YANGDynClass(base=area_address.area_address, is_container='container', yang_name="area-address", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_nlpid(self):
@@ -1496,12 +1496,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=nlpid.nlpid, is_container='container', yang_name="nlpid", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=nlpid.nlpid, is_container='container', yang_name="nlpid", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """nlpid must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=nlpid.nlpid, is_container='container', yang_name="nlpid", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=nlpid.nlpid, is_container='container', yang_name="nlpid", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__nlpid = t
@@ -1509,7 +1509,7 @@ the LSDB.
       self._set()
 
   def _unset_nlpid(self):
-    self.__nlpid = YANGDynClass(base=nlpid.nlpid, is_container='container', yang_name="nlpid", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__nlpid = YANGDynClass(base=nlpid.nlpid, is_container='container', yang_name="nlpid", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_hostname(self):
@@ -1533,12 +1533,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=hostname.hostname, is_container='container', yang_name="hostname", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=hostname.hostname, is_container='container', yang_name="hostname", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """hostname must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=hostname.hostname, is_container='container', yang_name="hostname", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=hostname.hostname, is_container='container', yang_name="hostname", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__hostname = t
@@ -1546,7 +1546,7 @@ the LSDB.
       self._set()
 
   def _unset_hostname(self):
-    self.__hostname = YANGDynClass(base=hostname.hostname, is_container='container', yang_name="hostname", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__hostname = YANGDynClass(base=hostname.hostname, is_container='container', yang_name="hostname", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv4_interface_addresses(self):
@@ -1570,12 +1570,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv4_interface_addresses.ipv4_interface_addresses, is_container='container', yang_name="ipv4-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv4_interface_addresses.ipv4_interface_addresses, is_container='container', yang_name="ipv4-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv4_interface_addresses must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv4_interface_addresses.ipv4_interface_addresses, is_container='container', yang_name="ipv4-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv4_interface_addresses.ipv4_interface_addresses, is_container='container', yang_name="ipv4-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv4_interface_addresses = t
@@ -1583,7 +1583,7 @@ the LSDB.
       self._set()
 
   def _unset_ipv4_interface_addresses(self):
-    self.__ipv4_interface_addresses = YANGDynClass(base=ipv4_interface_addresses.ipv4_interface_addresses, is_container='container', yang_name="ipv4-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv4_interface_addresses = YANGDynClass(base=ipv4_interface_addresses.ipv4_interface_addresses, is_container='container', yang_name="ipv4-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv6_interface_addresses(self):
@@ -1607,12 +1607,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv6_interface_addresses.ipv6_interface_addresses, is_container='container', yang_name="ipv6-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv6_interface_addresses.ipv6_interface_addresses, is_container='container', yang_name="ipv6-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv6_interface_addresses must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv6_interface_addresses.ipv6_interface_addresses, is_container='container', yang_name="ipv6-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv6_interface_addresses.ipv6_interface_addresses, is_container='container', yang_name="ipv6-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv6_interface_addresses = t
@@ -1620,7 +1620,7 @@ the LSDB.
       self._set()
 
   def _unset_ipv6_interface_addresses(self):
-    self.__ipv6_interface_addresses = YANGDynClass(base=ipv6_interface_addresses.ipv6_interface_addresses, is_container='container', yang_name="ipv6-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv6_interface_addresses = YANGDynClass(base=ipv6_interface_addresses.ipv6_interface_addresses, is_container='container', yang_name="ipv6-interface-addresses", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv4_te_router_id(self):
@@ -1644,12 +1644,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv4_te_router_id.ipv4_te_router_id, is_container='container', yang_name="ipv4-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv4_te_router_id.ipv4_te_router_id, is_container='container', yang_name="ipv4-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv4_te_router_id must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv4_te_router_id.ipv4_te_router_id, is_container='container', yang_name="ipv4-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv4_te_router_id.ipv4_te_router_id, is_container='container', yang_name="ipv4-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv4_te_router_id = t
@@ -1657,7 +1657,7 @@ the LSDB.
       self._set()
 
   def _unset_ipv4_te_router_id(self):
-    self.__ipv4_te_router_id = YANGDynClass(base=ipv4_te_router_id.ipv4_te_router_id, is_container='container', yang_name="ipv4-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv4_te_router_id = YANGDynClass(base=ipv4_te_router_id.ipv4_te_router_id, is_container='container', yang_name="ipv4-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv6_te_router_id(self):
@@ -1681,12 +1681,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv6_te_router_id.ipv6_te_router_id, is_container='container', yang_name="ipv6-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv6_te_router_id.ipv6_te_router_id, is_container='container', yang_name="ipv6-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv6_te_router_id must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv6_te_router_id.ipv6_te_router_id, is_container='container', yang_name="ipv6-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv6_te_router_id.ipv6_te_router_id, is_container='container', yang_name="ipv6-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv6_te_router_id = t
@@ -1694,7 +1694,7 @@ the LSDB.
       self._set()
 
   def _unset_ipv6_te_router_id(self):
-    self.__ipv6_te_router_id = YANGDynClass(base=ipv6_te_router_id.ipv6_te_router_id, is_container='container', yang_name="ipv6-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv6_te_router_id = YANGDynClass(base=ipv6_te_router_id.ipv6_te_router_id, is_container='container', yang_name="ipv6-te-router-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_instance_id(self):
@@ -1718,12 +1718,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=instance_id.instance_id, is_container='container', yang_name="instance-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=instance_id.instance_id, is_container='container', yang_name="instance-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """instance_id must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=instance_id.instance_id, is_container='container', yang_name="instance-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=instance_id.instance_id, is_container='container', yang_name="instance-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__instance_id = t
@@ -1731,7 +1731,7 @@ the LSDB.
       self._set()
 
   def _unset_instance_id(self):
-    self.__instance_id = YANGDynClass(base=instance_id.instance_id, is_container='container', yang_name="instance-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__instance_id = YANGDynClass(base=instance_id.instance_id, is_container='container', yang_name="instance-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv4_srlg(self):
@@ -1755,12 +1755,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv4_srlg.ipv4_srlg, is_container='container', yang_name="ipv4-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv4_srlg.ipv4_srlg, is_container='container', yang_name="ipv4-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv4_srlg must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv4_srlg.ipv4_srlg, is_container='container', yang_name="ipv4-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv4_srlg.ipv4_srlg, is_container='container', yang_name="ipv4-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv4_srlg = t
@@ -1768,7 +1768,7 @@ the LSDB.
       self._set()
 
   def _unset_ipv4_srlg(self):
-    self.__ipv4_srlg = YANGDynClass(base=ipv4_srlg.ipv4_srlg, is_container='container', yang_name="ipv4-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv4_srlg = YANGDynClass(base=ipv4_srlg.ipv4_srlg, is_container='container', yang_name="ipv4-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv6_srlg(self):
@@ -1792,12 +1792,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv6_srlg.ipv6_srlg, is_container='container', yang_name="ipv6-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv6_srlg.ipv6_srlg, is_container='container', yang_name="ipv6-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv6_srlg must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv6_srlg.ipv6_srlg, is_container='container', yang_name="ipv6-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv6_srlg.ipv6_srlg, is_container='container', yang_name="ipv6-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv6_srlg = t
@@ -1805,7 +1805,7 @@ the LSDB.
       self._set()
 
   def _unset_ipv6_srlg(self):
-    self.__ipv6_srlg = YANGDynClass(base=ipv6_srlg.ipv6_srlg, is_container='container', yang_name="ipv6-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv6_srlg = YANGDynClass(base=ipv6_srlg.ipv6_srlg, is_container='container', yang_name="ipv6-srlg", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_purge_oi(self):
@@ -1829,12 +1829,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=purge_oi.purge_oi, is_container='container', yang_name="purge-oi", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=purge_oi.purge_oi, is_container='container', yang_name="purge-oi", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """purge_oi must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=purge_oi.purge_oi, is_container='container', yang_name="purge-oi", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=purge_oi.purge_oi, is_container='container', yang_name="purge-oi", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__purge_oi = t
@@ -1842,7 +1842,7 @@ the LSDB.
       self._set()
 
   def _unset_purge_oi(self):
-    self.__purge_oi = YANGDynClass(base=purge_oi.purge_oi, is_container='container', yang_name="purge-oi", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__purge_oi = YANGDynClass(base=purge_oi.purge_oi, is_container='container', yang_name="purge-oi", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_router_capabilities(self):
@@ -1866,12 +1866,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=router_capabilities.router_capabilities, is_container='container', yang_name="router-capabilities", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=router_capabilities.router_capabilities, is_container='container', yang_name="router-capabilities", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """router_capabilities must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=router_capabilities.router_capabilities, is_container='container', yang_name="router-capabilities", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=router_capabilities.router_capabilities, is_container='container', yang_name="router-capabilities", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__router_capabilities = t
@@ -1879,7 +1879,7 @@ the LSDB.
       self._set()
 
   def _unset_router_capabilities(self):
-    self.__router_capabilities = YANGDynClass(base=router_capabilities.router_capabilities, is_container='container', yang_name="router-capabilities", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__router_capabilities = YANGDynClass(base=router_capabilities.router_capabilities, is_container='container', yang_name="router-capabilities", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_is_reachability(self):
@@ -1903,12 +1903,12 @@ the LSDB.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=is_reachability.is_reachability, is_container='container', yang_name="is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=is_reachability.is_reachability, is_container='container', yang_name="is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """is_reachability must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=is_reachability.is_reachability, is_container='container', yang_name="is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=is_reachability.is_reachability, is_container='container', yang_name="is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__is_reachability = t
@@ -1916,7 +1916,7 @@ the LSDB.
       self._set()
 
   def _unset_is_reachability(self):
-    self.__is_reachability = YANGDynClass(base=is_reachability.is_reachability, is_container='container', yang_name="is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__is_reachability = YANGDynClass(base=is_reachability.is_reachability, is_container='container', yang_name="is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv4_internal_reachability(self):
@@ -1942,12 +1942,12 @@ information.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv4_internal_reachability.ipv4_internal_reachability, is_container='container', yang_name="ipv4-internal-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv4_internal_reachability.ipv4_internal_reachability, is_container='container', yang_name="ipv4-internal-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv4_internal_reachability must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv4_internal_reachability.ipv4_internal_reachability, is_container='container', yang_name="ipv4-internal-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv4_internal_reachability.ipv4_internal_reachability, is_container='container', yang_name="ipv4-internal-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv4_internal_reachability = t
@@ -1955,7 +1955,7 @@ information.
       self._set()
 
   def _unset_ipv4_internal_reachability(self):
-    self.__ipv4_internal_reachability = YANGDynClass(base=ipv4_internal_reachability.ipv4_internal_reachability, is_container='container', yang_name="ipv4-internal-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv4_internal_reachability = YANGDynClass(base=ipv4_internal_reachability.ipv4_internal_reachability, is_container='container', yang_name="ipv4-internal-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv4_external_reachability(self):
@@ -1981,12 +1981,12 @@ information.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv4_external_reachability.ipv4_external_reachability, is_container='container', yang_name="ipv4-external-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv4_external_reachability.ipv4_external_reachability, is_container='container', yang_name="ipv4-external-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv4_external_reachability must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv4_external_reachability.ipv4_external_reachability, is_container='container', yang_name="ipv4-external-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv4_external_reachability.ipv4_external_reachability, is_container='container', yang_name="ipv4-external-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv4_external_reachability = t
@@ -1994,7 +1994,7 @@ information.
       self._set()
 
   def _unset_ipv4_external_reachability(self):
-    self.__ipv4_external_reachability = YANGDynClass(base=ipv4_external_reachability.ipv4_external_reachability, is_container='container', yang_name="ipv4-external-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv4_external_reachability = YANGDynClass(base=ipv4_external_reachability.ipv4_external_reachability, is_container='container', yang_name="ipv4-external-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_type_block(self):
@@ -2018,12 +2018,12 @@ information.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=type_block.type_block, is_container='container', yang_name="type-block", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=type_block.type_block, is_container='container', yang_name="type-block", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """type_block must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=type_block.type_block, is_container='container', yang_name="type-block", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=type_block.type_block, is_container='container', yang_name="type-block", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__type_block = t
@@ -2031,7 +2031,7 @@ information.
       self._set()
 
   def _unset_type_block(self):
-    self.__type_block = YANGDynClass(base=type_block.type_block, is_container='container', yang_name="type-block", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__type_block = YANGDynClass(base=type_block.type_block, is_container='container', yang_name="type-block", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_authentication(self):
@@ -2057,12 +2057,12 @@ node.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=authentication.authentication, is_container='container', yang_name="authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=authentication.authentication, is_container='container', yang_name="authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """authentication must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=authentication.authentication, is_container='container', yang_name="authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=authentication.authentication, is_container='container', yang_name="authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__authentication = t
@@ -2070,7 +2070,7 @@ node.
       self._set()
 
   def _unset_authentication(self):
-    self.__authentication = YANGDynClass(base=authentication.authentication, is_container='container', yang_name="authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__authentication = YANGDynClass(base=authentication.authentication, is_container='container', yang_name="authentication", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_extended_is_reachability(self):
@@ -2096,12 +2096,12 @@ neighbors.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=extended_is_reachability.extended_is_reachability, is_container='container', yang_name="extended-is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=extended_is_reachability.extended_is_reachability, is_container='container', yang_name="extended-is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """extended_is_reachability must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=extended_is_reachability.extended_is_reachability, is_container='container', yang_name="extended-is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=extended_is_reachability.extended_is_reachability, is_container='container', yang_name="extended-is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__extended_is_reachability = t
@@ -2109,7 +2109,7 @@ neighbors.
       self._set()
 
   def _unset_extended_is_reachability(self):
-    self.__extended_is_reachability = YANGDynClass(base=extended_is_reachability.extended_is_reachability, is_container='container', yang_name="extended-is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__extended_is_reachability = YANGDynClass(base=extended_is_reachability.extended_is_reachability, is_container='container', yang_name="extended-is-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_extended_ipv4_reachability(self):
@@ -2135,12 +2135,12 @@ information.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=extended_ipv4_reachability.extended_ipv4_reachability, is_container='container', yang_name="extended-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=extended_ipv4_reachability.extended_ipv4_reachability, is_container='container', yang_name="extended-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """extended_ipv4_reachability must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=extended_ipv4_reachability.extended_ipv4_reachability, is_container='container', yang_name="extended-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=extended_ipv4_reachability.extended_ipv4_reachability, is_container='container', yang_name="extended-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__extended_ipv4_reachability = t
@@ -2148,7 +2148,7 @@ information.
       self._set()
 
   def _unset_extended_ipv4_reachability(self):
-    self.__extended_ipv4_reachability = YANGDynClass(base=extended_ipv4_reachability.extended_ipv4_reachability, is_container='container', yang_name="extended-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__extended_ipv4_reachability = YANGDynClass(base=extended_ipv4_reachability.extended_ipv4_reachability, is_container='container', yang_name="extended-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_ipv6_reachability(self):
@@ -2174,12 +2174,12 @@ information.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv6_reachability.ipv6_reachability, is_container='container', yang_name="ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=ipv6_reachability.ipv6_reachability, is_container='container', yang_name="ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv6_reachability must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv6_reachability.ipv6_reachability, is_container='container', yang_name="ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=ipv6_reachability.ipv6_reachability, is_container='container', yang_name="ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__ipv6_reachability = t
@@ -2187,7 +2187,7 @@ information.
       self._set()
 
   def _unset_ipv6_reachability(self):
-    self.__ipv6_reachability = YANGDynClass(base=ipv6_reachability.ipv6_reachability, is_container='container', yang_name="ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__ipv6_reachability = YANGDynClass(base=ipv6_reachability.ipv6_reachability, is_container='container', yang_name="ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_multi_topology(self):
@@ -2211,12 +2211,12 @@ information.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=multi_topology.multi_topology, is_container='container', yang_name="multi-topology", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=multi_topology.multi_topology, is_container='container', yang_name="multi-topology", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """multi_topology must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=multi_topology.multi_topology, is_container='container', yang_name="multi-topology", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=multi_topology.multi_topology, is_container='container', yang_name="multi-topology", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__multi_topology = t
@@ -2224,7 +2224,7 @@ information.
       self._set()
 
   def _unset_multi_topology(self):
-    self.__multi_topology = YANGDynClass(base=multi_topology.multi_topology, is_container='container', yang_name="multi-topology", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__multi_topology = YANGDynClass(base=multi_topology.multi_topology, is_container='container', yang_name="multi-topology", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_isis_neighbor_attribute(self):
@@ -2250,12 +2250,12 @@ for extended ISIS LSP(multiple system IDs).
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=isis_neighbor_attribute.isis_neighbor_attribute, is_container='container', yang_name="isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=isis_neighbor_attribute.isis_neighbor_attribute, is_container='container', yang_name="isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """isis_neighbor_attribute must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=isis_neighbor_attribute.isis_neighbor_attribute, is_container='container', yang_name="isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=isis_neighbor_attribute.isis_neighbor_attribute, is_container='container', yang_name="isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__isis_neighbor_attribute = t
@@ -2263,7 +2263,7 @@ for extended ISIS LSP(multiple system IDs).
       self._set()
 
   def _unset_isis_neighbor_attribute(self):
-    self.__isis_neighbor_attribute = YANGDynClass(base=isis_neighbor_attribute.isis_neighbor_attribute, is_container='container', yang_name="isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__isis_neighbor_attribute = YANGDynClass(base=isis_neighbor_attribute.isis_neighbor_attribute, is_container='container', yang_name="isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_isis_alias_id(self):
@@ -2293,12 +2293,12 @@ Originating System.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=isis_alias_id.isis_alias_id, is_container='container', yang_name="isis-alias-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=isis_alias_id.isis_alias_id, is_container='container', yang_name="isis-alias-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """isis_alias_id must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=isis_alias_id.isis_alias_id, is_container='container', yang_name="isis-alias-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=isis_alias_id.isis_alias_id, is_container='container', yang_name="isis-alias-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__isis_alias_id = t
@@ -2306,7 +2306,7 @@ Originating System.
       self._set()
 
   def _unset_isis_alias_id(self):
-    self.__isis_alias_id = YANGDynClass(base=isis_alias_id.isis_alias_id, is_container='container', yang_name="isis-alias-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__isis_alias_id = YANGDynClass(base=isis_alias_id.isis_alias_id, is_container='container', yang_name="isis-alias-id", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_mt_isn(self):
@@ -2332,12 +2332,12 @@ neighbors.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=mt_isn.mt_isn, is_container='container', yang_name="mt-isn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=mt_isn.mt_isn, is_container='container', yang_name="mt-isn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """mt_isn must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=mt_isn.mt_isn, is_container='container', yang_name="mt-isn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=mt_isn.mt_isn, is_container='container', yang_name="mt-isn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__mt_isn = t
@@ -2345,7 +2345,7 @@ neighbors.
       self._set()
 
   def _unset_mt_isn(self):
-    self.__mt_isn = YANGDynClass(base=mt_isn.mt_isn, is_container='container', yang_name="mt-isn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__mt_isn = YANGDynClass(base=mt_isn.mt_isn, is_container='container', yang_name="mt-isn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_mt_isis_neighbor_attribute(self):
@@ -2371,12 +2371,12 @@ neighbors.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=mt_isis_neighbor_attribute.mt_isis_neighbor_attribute, is_container='container', yang_name="mt-isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=mt_isis_neighbor_attribute.mt_isis_neighbor_attribute, is_container='container', yang_name="mt-isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """mt_isis_neighbor_attribute must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=mt_isis_neighbor_attribute.mt_isis_neighbor_attribute, is_container='container', yang_name="mt-isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=mt_isis_neighbor_attribute.mt_isis_neighbor_attribute, is_container='container', yang_name="mt-isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__mt_isis_neighbor_attribute = t
@@ -2384,7 +2384,7 @@ neighbors.
       self._set()
 
   def _unset_mt_isis_neighbor_attribute(self):
-    self.__mt_isis_neighbor_attribute = YANGDynClass(base=mt_isis_neighbor_attribute.mt_isis_neighbor_attribute, is_container='container', yang_name="mt-isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__mt_isis_neighbor_attribute = YANGDynClass(base=mt_isis_neighbor_attribute.mt_isis_neighbor_attribute, is_container='container', yang_name="mt-isis-neighbor-attribute", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_mt_ipv4_reachability(self):
@@ -2410,12 +2410,12 @@ in multi-topology environment.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=mt_ipv4_reachability.mt_ipv4_reachability, is_container='container', yang_name="mt-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=mt_ipv4_reachability.mt_ipv4_reachability, is_container='container', yang_name="mt-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """mt_ipv4_reachability must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=mt_ipv4_reachability.mt_ipv4_reachability, is_container='container', yang_name="mt-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=mt_ipv4_reachability.mt_ipv4_reachability, is_container='container', yang_name="mt-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__mt_ipv4_reachability = t
@@ -2423,7 +2423,7 @@ in multi-topology environment.
       self._set()
 
   def _unset_mt_ipv4_reachability(self):
-    self.__mt_ipv4_reachability = YANGDynClass(base=mt_ipv4_reachability.mt_ipv4_reachability, is_container='container', yang_name="mt-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__mt_ipv4_reachability = YANGDynClass(base=mt_ipv4_reachability.mt_ipv4_reachability, is_container='container', yang_name="mt-ipv4-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
 
   def _get_mt_ipv6_reachability(self):
@@ -2449,12 +2449,12 @@ in multi - topology environment.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=mt_ipv6_reachability.mt_ipv6_reachability, is_container='container', yang_name="mt-ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+      t = YANGDynClass(v,base=mt_ipv6_reachability.mt_ipv6_reachability, is_container='container', yang_name="mt-ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """mt_ipv6_reachability must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=mt_ipv6_reachability.mt_ipv6_reachability, is_container='container', yang_name="mt-ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)""",
+          'generated-type': """YANGDynClass(base=mt_ipv6_reachability.mt_ipv6_reachability, is_container='container', yang_name="mt-ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)""",
         })
 
     self.__mt_ipv6_reachability = t
@@ -2462,7 +2462,7 @@ in multi - topology environment.
       self._set()
 
   def _unset_mt_ipv6_reachability(self):
-    self.__mt_ipv6_reachability = YANGDynClass(base=mt_ipv6_reachability.mt_ipv6_reachability, is_container='container', yang_name="mt-ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=False)
+    self.__mt_ipv6_reachability = YANGDynClass(base=mt_ipv6_reachability.mt_ipv6_reachability, is_container='container', yang_name="mt-ipv6-reachability", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis-lsp', yang_type='container', is_config=False)
 
   type = __builtin__.property(_get_type)
   state = __builtin__.property(_get_state)

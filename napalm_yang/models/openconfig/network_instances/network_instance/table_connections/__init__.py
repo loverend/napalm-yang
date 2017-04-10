@@ -28,7 +28,7 @@ between tables
     self._path_helper = False
 
     self._extmethods = False
-    self.__table_connection = YANGDynClass(base=YANGListType("src_protocol dst_protocol address_family",table_connection.table_connection, yang_name="table-connection", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='src-protocol dst-protocol address-family', extensions=None), is_container='list', yang_name="table-connection", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__table_connection = YANGDynClass(base=YANGListType("src_protocol dst_protocol address_family",table_connection.table_connection, yang_name="table-connection", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='src-protocol dst-protocol address-family', extensions=None), is_container='list', yang_name="table-connection", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -92,12 +92,12 @@ protocol to advertise, or match within its policies.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("src_protocol dst_protocol address_family",table_connection.table_connection, yang_name="table-connection", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='src-protocol dst-protocol address-family', extensions=None), is_container='list', yang_name="table-connection", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("src_protocol dst_protocol address_family",table_connection.table_connection, yang_name="table-connection", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='src-protocol dst-protocol address-family', extensions=None), is_container='list', yang_name="table-connection", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """table_connection must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("src_protocol dst_protocol address_family",table_connection.table_connection, yang_name="table-connection", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='src-protocol dst-protocol address-family', extensions=None), is_container='list', yang_name="table-connection", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("src_protocol dst_protocol address_family",table_connection.table_connection, yang_name="table-connection", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='src-protocol dst-protocol address-family', extensions=None), is_container='list', yang_name="table-connection", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)""",
         })
 
     self.__table_connection = t
@@ -105,7 +105,7 @@ protocol to advertise, or match within its policies.
       self._set()
 
   def _unset_table_connection(self):
-    self.__table_connection = YANGDynClass(base=YANGListType("src_protocol dst_protocol address_family",table_connection.table_connection, yang_name="table-connection", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='src-protocol dst-protocol address-family', extensions=None), is_container='list', yang_name="table-connection", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__table_connection = YANGDynClass(base=YANGListType("src_protocol dst_protocol address_family",table_connection.table_connection, yang_name="table-connection", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='src-protocol dst-protocol address-family', extensions=None), is_container='list', yang_name="table-connection", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
   table_connection = __builtin__.property(_get_table_connection, _set_table_connection)
 
@@ -135,7 +135,7 @@ between tables
     self._path_helper = False
 
     self._extmethods = False
-    self.__table_connection = YANGDynClass(base=YANGListType("src_protocol dst_protocol address_family",table_connection.table_connection, yang_name="table-connection", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='src-protocol dst-protocol address-family', extensions=None), is_container='list', yang_name="table-connection", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__table_connection = YANGDynClass(base=YANGListType("src_protocol dst_protocol address_family",table_connection.table_connection, yang_name="table-connection", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='src-protocol dst-protocol address-family', extensions=None), is_container='list', yang_name="table-connection", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -199,12 +199,12 @@ protocol to advertise, or match within its policies.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("src_protocol dst_protocol address_family",table_connection.table_connection, yang_name="table-connection", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='src-protocol dst-protocol address-family', extensions=None), is_container='list', yang_name="table-connection", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("src_protocol dst_protocol address_family",table_connection.table_connection, yang_name="table-connection", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='src-protocol dst-protocol address-family', extensions=None), is_container='list', yang_name="table-connection", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """table_connection must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("src_protocol dst_protocol address_family",table_connection.table_connection, yang_name="table-connection", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='src-protocol dst-protocol address-family', extensions=None), is_container='list', yang_name="table-connection", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("src_protocol dst_protocol address_family",table_connection.table_connection, yang_name="table-connection", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='src-protocol dst-protocol address-family', extensions=None), is_container='list', yang_name="table-connection", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)""",
         })
 
     self.__table_connection = t
@@ -212,7 +212,7 @@ protocol to advertise, or match within its policies.
       self._set()
 
   def _unset_table_connection(self):
-    self.__table_connection = YANGDynClass(base=YANGListType("src_protocol dst_protocol address_family",table_connection.table_connection, yang_name="table-connection", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='src-protocol dst-protocol address-family', extensions=None), is_container='list', yang_name="table-connection", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__table_connection = YANGDynClass(base=YANGListType("src_protocol dst_protocol address_family",table_connection.table_connection, yang_name="table-connection", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='src-protocol dst-protocol address-family', extensions=None), is_container='list', yang_name="table-connection", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
   table_connection = __builtin__.property(_get_table_connection, _set_table_connection)
 

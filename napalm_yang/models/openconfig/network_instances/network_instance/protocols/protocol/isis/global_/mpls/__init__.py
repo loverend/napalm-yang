@@ -28,7 +28,7 @@ features in IS-IS
     self._path_helper = False
 
     self._extmethods = False
-    self.__igp_ldp_sync = YANGDynClass(base=igp_ldp_sync.igp_ldp_sync, is_container='container', yang_name="igp-ldp-sync", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__igp_ldp_sync = YANGDynClass(base=igp_ldp_sync.igp_ldp_sync, is_container='container', yang_name="igp-ldp-sync", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -80,12 +80,12 @@ between the LDP and IS-IS
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=igp_ldp_sync.igp_ldp_sync, is_container='container', yang_name="igp-ldp-sync", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=igp_ldp_sync.igp_ldp_sync, is_container='container', yang_name="igp-ldp-sync", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """igp_ldp_sync must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=igp_ldp_sync.igp_ldp_sync, is_container='container', yang_name="igp-ldp-sync", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=igp_ldp_sync.igp_ldp_sync, is_container='container', yang_name="igp-ldp-sync", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)""",
         })
 
     self.__igp_ldp_sync = t
@@ -93,7 +93,7 @@ between the LDP and IS-IS
       self._set()
 
   def _unset_igp_ldp_sync(self):
-    self.__igp_ldp_sync = YANGDynClass(base=igp_ldp_sync.igp_ldp_sync, is_container='container', yang_name="igp-ldp-sync", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__igp_ldp_sync = YANGDynClass(base=igp_ldp_sync.igp_ldp_sync, is_container='container', yang_name="igp-ldp-sync", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
 
   igp_ldp_sync = __builtin__.property(_get_igp_ldp_sync, _set_igp_ldp_sync)
 
@@ -123,7 +123,7 @@ features in IS-IS
     self._path_helper = False
 
     self._extmethods = False
-    self.__igp_ldp_sync = YANGDynClass(base=igp_ldp_sync.igp_ldp_sync, is_container='container', yang_name="igp-ldp-sync", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__igp_ldp_sync = YANGDynClass(base=igp_ldp_sync.igp_ldp_sync, is_container='container', yang_name="igp-ldp-sync", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -175,12 +175,12 @@ between the LDP and IS-IS
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=igp_ldp_sync.igp_ldp_sync, is_container='container', yang_name="igp-ldp-sync", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=igp_ldp_sync.igp_ldp_sync, is_container='container', yang_name="igp-ldp-sync", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """igp_ldp_sync must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=igp_ldp_sync.igp_ldp_sync, is_container='container', yang_name="igp-ldp-sync", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=igp_ldp_sync.igp_ldp_sync, is_container='container', yang_name="igp-ldp-sync", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)""",
         })
 
     self.__igp_ldp_sync = t
@@ -188,7 +188,7 @@ between the LDP and IS-IS
       self._set()
 
   def _unset_igp_ldp_sync(self):
-    self.__igp_ldp_sync = YANGDynClass(base=igp_ldp_sync.igp_ldp_sync, is_container='container', yang_name="igp-ldp-sync", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__igp_ldp_sync = YANGDynClass(base=igp_ldp_sync.igp_ldp_sync, is_container='container', yang_name="igp-ldp-sync", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-isis', yang_type='container', is_config=True)
 
   igp_ldp_sync = __builtin__.property(_get_igp_ldp_sync, _set_igp_ldp_sync)
 

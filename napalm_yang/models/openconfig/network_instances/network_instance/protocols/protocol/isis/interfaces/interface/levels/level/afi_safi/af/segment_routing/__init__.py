@@ -29,8 +29,8 @@ routing for an interface within the IGP.
     self._path_helper = False
 
     self._extmethods = False
-    self.__adjacency_sids = YANGDynClass(base=adjacency_sids.adjacency_sids, is_container='container', yang_name="adjacency-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__prefix_sids = YANGDynClass(base=prefix_sids.prefix_sids, is_container='container', yang_name="prefix-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__adjacency_sids = YANGDynClass(base=adjacency_sids.adjacency_sids, is_container='container', yang_name="adjacency-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
+    self.__prefix_sids = YANGDynClass(base=prefix_sids.prefix_sids, is_container='container', yang_name="prefix-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -84,12 +84,12 @@ interface.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=prefix_sids.prefix_sids, is_container='container', yang_name="prefix-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=prefix_sids.prefix_sids, is_container='container', yang_name="prefix-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """prefix_sids must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=prefix_sids.prefix_sids, is_container='container', yang_name="prefix-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=prefix_sids.prefix_sids, is_container='container', yang_name="prefix-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)""",
         })
 
     self.__prefix_sids = t
@@ -97,7 +97,7 @@ interface.
       self._set()
 
   def _unset_prefix_sids(self):
-    self.__prefix_sids = YANGDynClass(base=prefix_sids.prefix_sids, is_container='container', yang_name="prefix-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__prefix_sids = YANGDynClass(base=prefix_sids.prefix_sids, is_container='container', yang_name="prefix-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
 
 
   def _get_adjacency_sids(self):
@@ -125,12 +125,12 @@ interface.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=adjacency_sids.adjacency_sids, is_container='container', yang_name="adjacency-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=adjacency_sids.adjacency_sids, is_container='container', yang_name="adjacency-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """adjacency_sids must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=adjacency_sids.adjacency_sids, is_container='container', yang_name="adjacency-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=adjacency_sids.adjacency_sids, is_container='container', yang_name="adjacency-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)""",
         })
 
     self.__adjacency_sids = t
@@ -138,7 +138,7 @@ interface.
       self._set()
 
   def _unset_adjacency_sids(self):
-    self.__adjacency_sids = YANGDynClass(base=adjacency_sids.adjacency_sids, is_container='container', yang_name="adjacency-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__adjacency_sids = YANGDynClass(base=adjacency_sids.adjacency_sids, is_container='container', yang_name="adjacency-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
 
   prefix_sids = __builtin__.property(_get_prefix_sids, _set_prefix_sids)
   adjacency_sids = __builtin__.property(_get_adjacency_sids, _set_adjacency_sids)
@@ -170,8 +170,8 @@ routing for an interface within the IGP.
     self._path_helper = False
 
     self._extmethods = False
-    self.__adjacency_sids = YANGDynClass(base=adjacency_sids.adjacency_sids, is_container='container', yang_name="adjacency-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__prefix_sids = YANGDynClass(base=prefix_sids.prefix_sids, is_container='container', yang_name="prefix-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__adjacency_sids = YANGDynClass(base=adjacency_sids.adjacency_sids, is_container='container', yang_name="adjacency-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
+    self.__prefix_sids = YANGDynClass(base=prefix_sids.prefix_sids, is_container='container', yang_name="prefix-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -225,12 +225,12 @@ interface.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=prefix_sids.prefix_sids, is_container='container', yang_name="prefix-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=prefix_sids.prefix_sids, is_container='container', yang_name="prefix-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """prefix_sids must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=prefix_sids.prefix_sids, is_container='container', yang_name="prefix-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=prefix_sids.prefix_sids, is_container='container', yang_name="prefix-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)""",
         })
 
     self.__prefix_sids = t
@@ -238,7 +238,7 @@ interface.
       self._set()
 
   def _unset_prefix_sids(self):
-    self.__prefix_sids = YANGDynClass(base=prefix_sids.prefix_sids, is_container='container', yang_name="prefix-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__prefix_sids = YANGDynClass(base=prefix_sids.prefix_sids, is_container='container', yang_name="prefix-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
 
 
   def _get_adjacency_sids(self):
@@ -266,12 +266,12 @@ interface.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=adjacency_sids.adjacency_sids, is_container='container', yang_name="adjacency-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=adjacency_sids.adjacency_sids, is_container='container', yang_name="adjacency-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """adjacency_sids must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=adjacency_sids.adjacency_sids, is_container='container', yang_name="adjacency-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=adjacency_sids.adjacency_sids, is_container='container', yang_name="adjacency-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)""",
         })
 
     self.__adjacency_sids = t
@@ -279,7 +279,7 @@ interface.
       self._set()
 
   def _unset_adjacency_sids(self):
-    self.__adjacency_sids = YANGDynClass(base=adjacency_sids.adjacency_sids, is_container='container', yang_name="adjacency-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__adjacency_sids = YANGDynClass(base=adjacency_sids.adjacency_sids, is_container='container', yang_name="adjacency-sids", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='container', is_config=True)
 
   prefix_sids = __builtin__.property(_get_prefix_sids, _set_prefix_sids)
   adjacency_sids = __builtin__.property(_get_adjacency_sids, _set_adjacency_sids)

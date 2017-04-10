@@ -29,9 +29,9 @@ class lsps(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__constrained_path = YANGDynClass(base=constrained_path.constrained_path, is_container='container', yang_name="constrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__unconstrained_path = YANGDynClass(base=unconstrained_path.unconstrained_path, is_container='container', yang_name="unconstrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__static_lsps = YANGDynClass(base=static_lsps.static_lsps, is_container='container', yang_name="static-lsps", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__constrained_path = YANGDynClass(base=constrained_path.constrained_path, is_container='container', yang_name="constrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
+    self.__unconstrained_path = YANGDynClass(base=unconstrained_path.unconstrained_path, is_container='container', yang_name="unconstrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
+    self.__static_lsps = YANGDynClass(base=static_lsps.static_lsps, is_container='container', yang_name="static-lsps", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -83,12 +83,12 @@ path computation and signaling methods
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=constrained_path.constrained_path, is_container='container', yang_name="constrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=constrained_path.constrained_path, is_container='container', yang_name="constrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """constrained_path must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=constrained_path.constrained_path, is_container='container', yang_name="constrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=constrained_path.constrained_path, is_container='container', yang_name="constrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)""",
         })
 
     self.__constrained_path = t
@@ -96,7 +96,7 @@ path computation and signaling methods
       self._set()
 
   def _unset_constrained_path(self):
-    self.__constrained_path = YANGDynClass(base=constrained_path.constrained_path, is_container='container', yang_name="constrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__constrained_path = YANGDynClass(base=constrained_path.constrained_path, is_container='container', yang_name="constrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
 
 
   def _get_unconstrained_path(self):
@@ -122,12 +122,12 @@ traffic-engineered, or non constrained-path
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=unconstrained_path.unconstrained_path, is_container='container', yang_name="unconstrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=unconstrained_path.unconstrained_path, is_container='container', yang_name="unconstrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """unconstrained_path must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=unconstrained_path.unconstrained_path, is_container='container', yang_name="unconstrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=unconstrained_path.unconstrained_path, is_container='container', yang_name="unconstrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)""",
         })
 
     self.__unconstrained_path = t
@@ -135,7 +135,7 @@ traffic-engineered, or non constrained-path
       self._set()
 
   def _unset_unconstrained_path(self):
-    self.__unconstrained_path = YANGDynClass(base=unconstrained_path.unconstrained_path, is_container='container', yang_name="unconstrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__unconstrained_path = YANGDynClass(base=unconstrained_path.unconstrained_path, is_container='container', yang_name="unconstrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
 
 
   def _get_static_lsps(self):
@@ -161,12 +161,12 @@ signaling
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=static_lsps.static_lsps, is_container='container', yang_name="static-lsps", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=static_lsps.static_lsps, is_container='container', yang_name="static-lsps", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """static_lsps must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=static_lsps.static_lsps, is_container='container', yang_name="static-lsps", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=static_lsps.static_lsps, is_container='container', yang_name="static-lsps", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)""",
         })
 
     self.__static_lsps = t
@@ -174,7 +174,7 @@ signaling
       self._set()
 
   def _unset_static_lsps(self):
-    self.__static_lsps = YANGDynClass(base=static_lsps.static_lsps, is_container='container', yang_name="static-lsps", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__static_lsps = YANGDynClass(base=static_lsps.static_lsps, is_container='container', yang_name="static-lsps", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
 
   constrained_path = __builtin__.property(_get_constrained_path, _set_constrained_path)
   unconstrained_path = __builtin__.property(_get_unconstrained_path, _set_unconstrained_path)
@@ -207,9 +207,9 @@ class lsps(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__constrained_path = YANGDynClass(base=constrained_path.constrained_path, is_container='container', yang_name="constrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__unconstrained_path = YANGDynClass(base=unconstrained_path.unconstrained_path, is_container='container', yang_name="unconstrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__static_lsps = YANGDynClass(base=static_lsps.static_lsps, is_container='container', yang_name="static-lsps", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__constrained_path = YANGDynClass(base=constrained_path.constrained_path, is_container='container', yang_name="constrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
+    self.__unconstrained_path = YANGDynClass(base=unconstrained_path.unconstrained_path, is_container='container', yang_name="unconstrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
+    self.__static_lsps = YANGDynClass(base=static_lsps.static_lsps, is_container='container', yang_name="static-lsps", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -261,12 +261,12 @@ path computation and signaling methods
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=constrained_path.constrained_path, is_container='container', yang_name="constrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=constrained_path.constrained_path, is_container='container', yang_name="constrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """constrained_path must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=constrained_path.constrained_path, is_container='container', yang_name="constrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=constrained_path.constrained_path, is_container='container', yang_name="constrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)""",
         })
 
     self.__constrained_path = t
@@ -274,7 +274,7 @@ path computation and signaling methods
       self._set()
 
   def _unset_constrained_path(self):
-    self.__constrained_path = YANGDynClass(base=constrained_path.constrained_path, is_container='container', yang_name="constrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__constrained_path = YANGDynClass(base=constrained_path.constrained_path, is_container='container', yang_name="constrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
 
 
   def _get_unconstrained_path(self):
@@ -300,12 +300,12 @@ traffic-engineered, or non constrained-path
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=unconstrained_path.unconstrained_path, is_container='container', yang_name="unconstrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=unconstrained_path.unconstrained_path, is_container='container', yang_name="unconstrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """unconstrained_path must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=unconstrained_path.unconstrained_path, is_container='container', yang_name="unconstrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=unconstrained_path.unconstrained_path, is_container='container', yang_name="unconstrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)""",
         })
 
     self.__unconstrained_path = t
@@ -313,7 +313,7 @@ traffic-engineered, or non constrained-path
       self._set()
 
   def _unset_unconstrained_path(self):
-    self.__unconstrained_path = YANGDynClass(base=unconstrained_path.unconstrained_path, is_container='container', yang_name="unconstrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__unconstrained_path = YANGDynClass(base=unconstrained_path.unconstrained_path, is_container='container', yang_name="unconstrained-path", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
 
 
   def _get_static_lsps(self):
@@ -339,12 +339,12 @@ signaling
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=static_lsps.static_lsps, is_container='container', yang_name="static-lsps", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=static_lsps.static_lsps, is_container='container', yang_name="static-lsps", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """static_lsps must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=static_lsps.static_lsps, is_container='container', yang_name="static-lsps", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=static_lsps.static_lsps, is_container='container', yang_name="static-lsps", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)""",
         })
 
     self.__static_lsps = t
@@ -352,7 +352,7 @@ signaling
       self._set()
 
   def _unset_static_lsps(self):
-    self.__static_lsps = YANGDynClass(base=static_lsps.static_lsps, is_container='container', yang_name="static-lsps", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__static_lsps = YANGDynClass(base=static_lsps.static_lsps, is_container='container', yang_name="static-lsps", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-mpls', yang_type='container', is_config=True)
 
   constrained_path = __builtin__.property(_get_constrained_path, _set_constrained_path)
   unconstrained_path = __builtin__.property(_get_unconstrained_path, _set_unconstrained_path)

@@ -28,7 +28,7 @@ instance
     self._path_helper = False
 
     self._extmethods = False
-    self.__table = YANGDynClass(base=YANGListType("protocol address_family",table.table, yang_name="table", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='protocol address-family', extensions=None), is_container='list', yang_name="table", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__table = YANGDynClass(base=YANGListType("protocol address_family",table.table, yang_name="table", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='protocol address-family', extensions=None), is_container='list', yang_name="table", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -112,12 +112,12 @@ address-family=IPv4 table is created by the system.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("protocol address_family",table.table, yang_name="table", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='protocol address-family', extensions=None), is_container='list', yang_name="table", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("protocol address_family",table.table, yang_name="table", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='protocol address-family', extensions=None), is_container='list', yang_name="table", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """table must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("protocol address_family",table.table, yang_name="table", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='protocol address-family', extensions=None), is_container='list', yang_name="table", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("protocol address_family",table.table, yang_name="table", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='protocol address-family', extensions=None), is_container='list', yang_name="table", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)""",
         })
 
     self.__table = t
@@ -125,7 +125,7 @@ address-family=IPv4 table is created by the system.
       self._set()
 
   def _unset_table(self):
-    self.__table = YANGDynClass(base=YANGListType("protocol address_family",table.table, yang_name="table", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='protocol address-family', extensions=None), is_container='list', yang_name="table", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__table = YANGDynClass(base=YANGListType("protocol address_family",table.table, yang_name="table", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='protocol address-family', extensions=None), is_container='list', yang_name="table", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
   table = __builtin__.property(_get_table, _set_table)
 
@@ -155,7 +155,7 @@ instance
     self._path_helper = False
 
     self._extmethods = False
-    self.__table = YANGDynClass(base=YANGListType("protocol address_family",table.table, yang_name="table", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='protocol address-family', extensions=None), is_container='list', yang_name="table", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__table = YANGDynClass(base=YANGListType("protocol address_family",table.table, yang_name="table", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='protocol address-family', extensions=None), is_container='list', yang_name="table", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -239,12 +239,12 @@ address-family=IPv4 table is created by the system.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("protocol address_family",table.table, yang_name="table", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='protocol address-family', extensions=None), is_container='list', yang_name="table", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("protocol address_family",table.table, yang_name="table", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='protocol address-family', extensions=None), is_container='list', yang_name="table", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """table must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("protocol address_family",table.table, yang_name="table", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='protocol address-family', extensions=None), is_container='list', yang_name="table", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("protocol address_family",table.table, yang_name="table", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='protocol address-family', extensions=None), is_container='list', yang_name="table", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)""",
         })
 
     self.__table = t
@@ -252,7 +252,7 @@ address-family=IPv4 table is created by the system.
       self._set()
 
   def _unset_table(self):
-    self.__table = YANGDynClass(base=YANGListType("protocol address_family",table.table, yang_name="table", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='protocol address-family', extensions=None), is_container='list', yang_name="table", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__table = YANGDynClass(base=YANGListType("protocol address_family",table.table, yang_name="table", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='protocol address-family', extensions=None), is_container='list', yang_name="table", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-network-instance', yang_type='list', is_config=True)
 
   table = __builtin__.property(_get_table, _set_table)
 

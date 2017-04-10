@@ -28,7 +28,7 @@ SRGBs defined for the system.
     self._path_helper = False
 
     self._extmethods = False
-    self.__srgb = YANGDynClass(base=YANGListType("local_id",srgb.srgb, yang_name="srgb", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='local-id', extensions=None), is_container='list', yang_name="srgb", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__srgb = YANGDynClass(base=YANGListType("local_id",srgb.srgb, yang_name="srgb", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='local-id', extensions=None), is_container='list', yang_name="srgb", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -80,12 +80,12 @@ sets of dataplane addresses (IPv6 addresses, or MPLS labels).
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("local_id",srgb.srgb, yang_name="srgb", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='local-id', extensions=None), is_container='list', yang_name="srgb", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("local_id",srgb.srgb, yang_name="srgb", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='local-id', extensions=None), is_container='list', yang_name="srgb", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """srgb must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("local_id",srgb.srgb, yang_name="srgb", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='local-id', extensions=None), is_container='list', yang_name="srgb", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("local_id",srgb.srgb, yang_name="srgb", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='local-id', extensions=None), is_container='list', yang_name="srgb", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='list', is_config=True)""",
         })
 
     self.__srgb = t
@@ -93,7 +93,7 @@ sets of dataplane addresses (IPv6 addresses, or MPLS labels).
       self._set()
 
   def _unset_srgb(self):
-    self.__srgb = YANGDynClass(base=YANGListType("local_id",srgb.srgb, yang_name="srgb", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='local-id', extensions=None), is_container='list', yang_name="srgb", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__srgb = YANGDynClass(base=YANGListType("local_id",srgb.srgb, yang_name="srgb", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='local-id', extensions=None), is_container='list', yang_name="srgb", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='list', is_config=True)
 
   srgb = __builtin__.property(_get_srgb, _set_srgb)
 
@@ -123,7 +123,7 @@ SRGBs defined for the system.
     self._path_helper = False
 
     self._extmethods = False
-    self.__srgb = YANGDynClass(base=YANGListType("local_id",srgb.srgb, yang_name="srgb", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='local-id', extensions=None), is_container='list', yang_name="srgb", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__srgb = YANGDynClass(base=YANGListType("local_id",srgb.srgb, yang_name="srgb", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='local-id', extensions=None), is_container='list', yang_name="srgb", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -175,12 +175,12 @@ sets of dataplane addresses (IPv6 addresses, or MPLS labels).
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("local_id",srgb.srgb, yang_name="srgb", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='local-id', extensions=None), is_container='list', yang_name="srgb", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("local_id",srgb.srgb, yang_name="srgb", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='local-id', extensions=None), is_container='list', yang_name="srgb", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """srgb must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("local_id",srgb.srgb, yang_name="srgb", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='local-id', extensions=None), is_container='list', yang_name="srgb", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("local_id",srgb.srgb, yang_name="srgb", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='local-id', extensions=None), is_container='list', yang_name="srgb", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='list', is_config=True)""",
         })
 
     self.__srgb = t
@@ -188,7 +188,7 @@ sets of dataplane addresses (IPv6 addresses, or MPLS labels).
       self._set()
 
   def _unset_srgb(self):
-    self.__srgb = YANGDynClass(base=YANGListType("local_id",srgb.srgb, yang_name="srgb", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='local-id', extensions=None), is_container='list', yang_name="srgb", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__srgb = YANGDynClass(base=YANGListType("local_id",srgb.srgb, yang_name="srgb", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='local-id', extensions=None), is_container='list', yang_name="srgb", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='list', is_config=True)
 
   srgb = __builtin__.property(_get_srgb, _set_srgb)
 

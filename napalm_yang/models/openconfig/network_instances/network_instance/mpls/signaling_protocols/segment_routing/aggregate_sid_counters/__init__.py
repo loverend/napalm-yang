@@ -27,7 +27,7 @@ class aggregate_sid_counters(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__aggregate_sid_counter = YANGDynClass(base=YANGListType("mpls_label",aggregate_sid_counter.aggregate_sid_counter, yang_name="aggregate-sid-counter", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='mpls-label', extensions=None), is_container='list', yang_name="aggregate-sid-counter", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__aggregate_sid_counter = YANGDynClass(base=YANGListType("mpls_label",aggregate_sid_counter.aggregate_sid_counter, yang_name="aggregate-sid-counter", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='mpls-label', extensions=None), is_container='list', yang_name="aggregate-sid-counter", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -81,12 +81,12 @@ particular SID
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("mpls_label",aggregate_sid_counter.aggregate_sid_counter, yang_name="aggregate-sid-counter", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='mpls-label', extensions=None), is_container='list', yang_name="aggregate-sid-counter", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("mpls_label",aggregate_sid_counter.aggregate_sid_counter, yang_name="aggregate-sid-counter", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='mpls-label', extensions=None), is_container='list', yang_name="aggregate-sid-counter", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """aggregate_sid_counter must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("mpls_label",aggregate_sid_counter.aggregate_sid_counter, yang_name="aggregate-sid-counter", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='mpls-label', extensions=None), is_container='list', yang_name="aggregate-sid-counter", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("mpls_label",aggregate_sid_counter.aggregate_sid_counter, yang_name="aggregate-sid-counter", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='mpls-label', extensions=None), is_container='list', yang_name="aggregate-sid-counter", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='list', is_config=True)""",
         })
 
     self.__aggregate_sid_counter = t
@@ -94,7 +94,7 @@ particular SID
       self._set()
 
   def _unset_aggregate_sid_counter(self):
-    self.__aggregate_sid_counter = YANGDynClass(base=YANGListType("mpls_label",aggregate_sid_counter.aggregate_sid_counter, yang_name="aggregate-sid-counter", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='mpls-label', extensions=None), is_container='list', yang_name="aggregate-sid-counter", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__aggregate_sid_counter = YANGDynClass(base=YANGListType("mpls_label",aggregate_sid_counter.aggregate_sid_counter, yang_name="aggregate-sid-counter", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='mpls-label', extensions=None), is_container='list', yang_name="aggregate-sid-counter", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='list', is_config=True)
 
   aggregate_sid_counter = __builtin__.property(_get_aggregate_sid_counter, _set_aggregate_sid_counter)
 
@@ -123,7 +123,7 @@ class aggregate_sid_counters(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__aggregate_sid_counter = YANGDynClass(base=YANGListType("mpls_label",aggregate_sid_counter.aggregate_sid_counter, yang_name="aggregate-sid-counter", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='mpls-label', extensions=None), is_container='list', yang_name="aggregate-sid-counter", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__aggregate_sid_counter = YANGDynClass(base=YANGListType("mpls_label",aggregate_sid_counter.aggregate_sid_counter, yang_name="aggregate-sid-counter", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='mpls-label', extensions=None), is_container='list', yang_name="aggregate-sid-counter", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -177,12 +177,12 @@ particular SID
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("mpls_label",aggregate_sid_counter.aggregate_sid_counter, yang_name="aggregate-sid-counter", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='mpls-label', extensions=None), is_container='list', yang_name="aggregate-sid-counter", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("mpls_label",aggregate_sid_counter.aggregate_sid_counter, yang_name="aggregate-sid-counter", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='mpls-label', extensions=None), is_container='list', yang_name="aggregate-sid-counter", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """aggregate_sid_counter must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("mpls_label",aggregate_sid_counter.aggregate_sid_counter, yang_name="aggregate-sid-counter", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='mpls-label', extensions=None), is_container='list', yang_name="aggregate-sid-counter", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("mpls_label",aggregate_sid_counter.aggregate_sid_counter, yang_name="aggregate-sid-counter", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='mpls-label', extensions=None), is_container='list', yang_name="aggregate-sid-counter", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='list', is_config=True)""",
         })
 
     self.__aggregate_sid_counter = t
@@ -190,7 +190,7 @@ particular SID
       self._set()
 
   def _unset_aggregate_sid_counter(self):
-    self.__aggregate_sid_counter = YANGDynClass(base=YANGListType("mpls_label",aggregate_sid_counter.aggregate_sid_counter, yang_name="aggregate-sid-counter", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='mpls-label', extensions=None), is_container='list', yang_name="aggregate-sid-counter", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__aggregate_sid_counter = YANGDynClass(base=YANGListType("mpls_label",aggregate_sid_counter.aggregate_sid_counter, yang_name="aggregate-sid-counter", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='mpls-label', extensions=None), is_container='list', yang_name="aggregate-sid-counter", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-segment-routing', yang_type='list', is_config=True)
 
   aggregate_sid_counter = __builtin__.property(_get_aggregate_sid_counter, _set_aggregate_sid_counter)
 

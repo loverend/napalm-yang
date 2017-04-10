@@ -28,7 +28,7 @@ OSPFv2 area.
     self._path_helper = False
 
     self._extmethods = False
-    self.__area = YANGDynClass(base=YANGListType("identifier",area.area, yang_name="area", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier', extensions=None), is_container='list', yang_name="area", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__area = YANGDynClass(base=YANGListType("identifier",area.area, yang_name="area", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier', extensions=None), is_container='list', yang_name="area", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -78,12 +78,12 @@ OSPFv2 area.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("identifier",area.area, yang_name="area", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier', extensions=None), is_container='list', yang_name="area", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("identifier",area.area, yang_name="area", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier', extensions=None), is_container='list', yang_name="area", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """area must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("identifier",area.area, yang_name="area", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier', extensions=None), is_container='list', yang_name="area", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("identifier",area.area, yang_name="area", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier', extensions=None), is_container='list', yang_name="area", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2', yang_type='list', is_config=True)""",
         })
 
     self.__area = t
@@ -91,7 +91,7 @@ OSPFv2 area.
       self._set()
 
   def _unset_area(self):
-    self.__area = YANGDynClass(base=YANGListType("identifier",area.area, yang_name="area", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier', extensions=None), is_container='list', yang_name="area", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__area = YANGDynClass(base=YANGListType("identifier",area.area, yang_name="area", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier', extensions=None), is_container='list', yang_name="area", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2', yang_type='list', is_config=True)
 
   area = __builtin__.property(_get_area, _set_area)
 
@@ -121,7 +121,7 @@ OSPFv2 area.
     self._path_helper = False
 
     self._extmethods = False
-    self.__area = YANGDynClass(base=YANGListType("identifier",area.area, yang_name="area", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier', extensions=None), is_container='list', yang_name="area", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__area = YANGDynClass(base=YANGListType("identifier",area.area, yang_name="area", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier', extensions=None), is_container='list', yang_name="area", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -171,12 +171,12 @@ OSPFv2 area.
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("identifier",area.area, yang_name="area", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier', extensions=None), is_container='list', yang_name="area", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("identifier",area.area, yang_name="area", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier', extensions=None), is_container='list', yang_name="area", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """area must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("identifier",area.area, yang_name="area", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier', extensions=None), is_container='list', yang_name="area", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("identifier",area.area, yang_name="area", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier', extensions=None), is_container='list', yang_name="area", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2', yang_type='list', is_config=True)""",
         })
 
     self.__area = t
@@ -184,7 +184,7 @@ OSPFv2 area.
       self._set()
 
   def _unset_area(self):
-    self.__area = YANGDynClass(base=YANGListType("identifier",area.area, yang_name="area", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier', extensions=None), is_container='list', yang_name="area", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__area = YANGDynClass(base=YANGListType("identifier",area.area, yang_name="area", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='identifier', extensions=None), is_container='list', yang_name="area", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2', yang_type='list', is_config=True)
 
   area = __builtin__.property(_get_area, _set_area)
 

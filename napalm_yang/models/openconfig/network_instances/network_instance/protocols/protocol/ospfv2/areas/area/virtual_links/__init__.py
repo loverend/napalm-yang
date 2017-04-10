@@ -28,7 +28,7 @@ links from the source area to a remote router
     self._path_helper = False
 
     self._extmethods = False
-    self.__virtual_link = YANGDynClass(base=YANGListType("remote_router_id",virtual_link.virtual_link, yang_name="virtual-link", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='remote-router-id', extensions=None), is_container='list', yang_name="virtual-link", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__virtual_link = YANGDynClass(base=YANGListType("remote_router_id",virtual_link.virtual_link, yang_name="virtual-link", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='remote-router-id', extensions=None), is_container='list', yang_name="virtual-link", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-area', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -80,12 +80,12 @@ virtual link
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("remote_router_id",virtual_link.virtual_link, yang_name="virtual-link", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='remote-router-id', extensions=None), is_container='list', yang_name="virtual-link", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("remote_router_id",virtual_link.virtual_link, yang_name="virtual-link", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='remote-router-id', extensions=None), is_container='list', yang_name="virtual-link", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-area', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """virtual_link must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("remote_router_id",virtual_link.virtual_link, yang_name="virtual-link", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='remote-router-id', extensions=None), is_container='list', yang_name="virtual-link", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("remote_router_id",virtual_link.virtual_link, yang_name="virtual-link", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='remote-router-id', extensions=None), is_container='list', yang_name="virtual-link", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-area', yang_type='list', is_config=True)""",
         })
 
     self.__virtual_link = t
@@ -93,7 +93,7 @@ virtual link
       self._set()
 
   def _unset_virtual_link(self):
-    self.__virtual_link = YANGDynClass(base=YANGListType("remote_router_id",virtual_link.virtual_link, yang_name="virtual-link", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='remote-router-id', extensions=None), is_container='list', yang_name="virtual-link", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__virtual_link = YANGDynClass(base=YANGListType("remote_router_id",virtual_link.virtual_link, yang_name="virtual-link", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='remote-router-id', extensions=None), is_container='list', yang_name="virtual-link", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-area', yang_type='list', is_config=True)
 
   virtual_link = __builtin__.property(_get_virtual_link, _set_virtual_link)
 
@@ -123,7 +123,7 @@ links from the source area to a remote router
     self._path_helper = False
 
     self._extmethods = False
-    self.__virtual_link = YANGDynClass(base=YANGListType("remote_router_id",virtual_link.virtual_link, yang_name="virtual-link", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='remote-router-id', extensions=None), is_container='list', yang_name="virtual-link", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__virtual_link = YANGDynClass(base=YANGListType("remote_router_id",virtual_link.virtual_link, yang_name="virtual-link", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='remote-router-id', extensions=None), is_container='list', yang_name="virtual-link", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-area', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -175,12 +175,12 @@ virtual link
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("remote_router_id",virtual_link.virtual_link, yang_name="virtual-link", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='remote-router-id', extensions=None), is_container='list', yang_name="virtual-link", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("remote_router_id",virtual_link.virtual_link, yang_name="virtual-link", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='remote-router-id', extensions=None), is_container='list', yang_name="virtual-link", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-area', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """virtual_link must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("remote_router_id",virtual_link.virtual_link, yang_name="virtual-link", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='remote-router-id', extensions=None), is_container='list', yang_name="virtual-link", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("remote_router_id",virtual_link.virtual_link, yang_name="virtual-link", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='remote-router-id', extensions=None), is_container='list', yang_name="virtual-link", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-area', yang_type='list', is_config=True)""",
         })
 
     self.__virtual_link = t
@@ -188,7 +188,7 @@ virtual link
       self._set()
 
   def _unset_virtual_link(self):
-    self.__virtual_link = YANGDynClass(base=YANGListType("remote_router_id",virtual_link.virtual_link, yang_name="virtual-link", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='remote-router-id', extensions=None), is_container='list', yang_name="virtual-link", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__virtual_link = YANGDynClass(base=YANGListType("remote_router_id",virtual_link.virtual_link, yang_name="virtual-link", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='remote-router-id', extensions=None), is_container='list', yang_name="virtual-link", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-area', yang_type='list', is_config=True)
 
   virtual_link = __builtin__.property(_get_virtual_link, _set_virtual_link)
 

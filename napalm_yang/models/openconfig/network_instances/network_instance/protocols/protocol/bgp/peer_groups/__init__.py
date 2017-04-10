@@ -27,7 +27,7 @@ class peer_groups(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__peer_group = YANGDynClass(base=YANGListType("peer_group_name",peer_group.peer_group, yang_name="peer-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='peer-group-name', extensions=None), is_container='list', yang_name="peer-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__peer_group = YANGDynClass(base=YANGListType("peer_group_name",peer_group.peer_group, yang_name="peer-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='peer-group-name', extensions=None), is_container='list', yang_name="peer-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-peer-group', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -79,12 +79,12 @@ uniquely identified by peer-group name
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("peer_group_name",peer_group.peer_group, yang_name="peer-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='peer-group-name', extensions=None), is_container='list', yang_name="peer-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("peer_group_name",peer_group.peer_group, yang_name="peer-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='peer-group-name', extensions=None), is_container='list', yang_name="peer-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-peer-group', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """peer_group must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("peer_group_name",peer_group.peer_group, yang_name="peer-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='peer-group-name', extensions=None), is_container='list', yang_name="peer-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("peer_group_name",peer_group.peer_group, yang_name="peer-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='peer-group-name', extensions=None), is_container='list', yang_name="peer-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-peer-group', yang_type='list', is_config=True)""",
         })
 
     self.__peer_group = t
@@ -92,7 +92,7 @@ uniquely identified by peer-group name
       self._set()
 
   def _unset_peer_group(self):
-    self.__peer_group = YANGDynClass(base=YANGListType("peer_group_name",peer_group.peer_group, yang_name="peer-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='peer-group-name', extensions=None), is_container='list', yang_name="peer-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__peer_group = YANGDynClass(base=YANGListType("peer_group_name",peer_group.peer_group, yang_name="peer-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='peer-group-name', extensions=None), is_container='list', yang_name="peer-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-peer-group', yang_type='list', is_config=True)
 
   peer_group = __builtin__.property(_get_peer_group, _set_peer_group)
 
@@ -121,7 +121,7 @@ class peer_groups(PybindBase):
     self._path_helper = False
 
     self._extmethods = False
-    self.__peer_group = YANGDynClass(base=YANGListType("peer_group_name",peer_group.peer_group, yang_name="peer-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='peer-group-name', extensions=None), is_container='list', yang_name="peer-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__peer_group = YANGDynClass(base=YANGListType("peer_group_name",peer_group.peer_group, yang_name="peer-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='peer-group-name', extensions=None), is_container='list', yang_name="peer-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-peer-group', yang_type='list', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -173,12 +173,12 @@ uniquely identified by peer-group name
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGListType("peer_group_name",peer_group.peer_group, yang_name="peer-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='peer-group-name', extensions=None), is_container='list', yang_name="peer-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+      t = YANGDynClass(v,base=YANGListType("peer_group_name",peer_group.peer_group, yang_name="peer-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='peer-group-name', extensions=None), is_container='list', yang_name="peer-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-peer-group', yang_type='list', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """peer_group must be of a type compatible with list""",
           'defined-type': "list",
-          'generated-type': """YANGDynClass(base=YANGListType("peer_group_name",peer_group.peer_group, yang_name="peer-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='peer-group-name', extensions=None), is_container='list', yang_name="peer-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)""",
+          'generated-type': """YANGDynClass(base=YANGListType("peer_group_name",peer_group.peer_group, yang_name="peer-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='peer-group-name', extensions=None), is_container='list', yang_name="peer-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-peer-group', yang_type='list', is_config=True)""",
         })
 
     self.__peer_group = t
@@ -186,7 +186,7 @@ uniquely identified by peer-group name
       self._set()
 
   def _unset_peer_group(self):
-    self.__peer_group = YANGDynClass(base=YANGListType("peer_group_name",peer_group.peer_group, yang_name="peer-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='peer-group-name', extensions=None), is_container='list', yang_name="peer-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='list', is_config=True)
+    self.__peer_group = YANGDynClass(base=YANGListType("peer_group_name",peer_group.peer_group, yang_name="peer-group", parent=self, is_container='list', user_ordered=False, path_helper=self._path_helper, yang_keys='peer-group-name', extensions=None), is_container='list', yang_name="peer-group", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-peer-group', yang_type='list', is_config=True)
 
   peer_group = __builtin__.property(_get_peer_group, _set_peer_group)
 

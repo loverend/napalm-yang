@@ -27,7 +27,7 @@ OSPFv2
     self._path_helper = False
 
     self._extmethods = False
-    self.__traffic_engineering_extensions = YANGDynClass(base=YANGBool, is_leaf=True, yang_name="traffic-engineering-extensions", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=False)
+    self.__traffic_engineering_extensions = YANGDynClass(base=YANGBool, is_leaf=True, yang_name="traffic-engineering-extensions", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='boolean', is_config=False)
 
     load = kwargs.pop("load", None)
     if args:
@@ -81,12 +81,12 @@ Opaque LSAs
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="traffic-engineering-extensions", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=False)
+      t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="traffic-engineering-extensions", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='boolean', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """traffic_engineering_extensions must be of a type compatible with boolean""",
           'defined-type': "boolean",
-          'generated-type': """YANGDynClass(base=YANGBool, is_leaf=True, yang_name="traffic-engineering-extensions", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=False)""",
+          'generated-type': """YANGDynClass(base=YANGBool, is_leaf=True, yang_name="traffic-engineering-extensions", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='boolean', is_config=False)""",
         })
 
     self.__traffic_engineering_extensions = t
@@ -94,7 +94,7 @@ Opaque LSAs
       self._set()
 
   def _unset_traffic_engineering_extensions(self):
-    self.__traffic_engineering_extensions = YANGDynClass(base=YANGBool, is_leaf=True, yang_name="traffic-engineering-extensions", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=False)
+    self.__traffic_engineering_extensions = YANGDynClass(base=YANGBool, is_leaf=True, yang_name="traffic-engineering-extensions", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='boolean', is_config=False)
 
   traffic_engineering_extensions = __builtin__.property(_get_traffic_engineering_extensions)
 
@@ -123,7 +123,7 @@ OSPFv2
     self._path_helper = False
 
     self._extmethods = False
-    self.__traffic_engineering_extensions = YANGDynClass(base=YANGBool, is_leaf=True, yang_name="traffic-engineering-extensions", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=False)
+    self.__traffic_engineering_extensions = YANGDynClass(base=YANGBool, is_leaf=True, yang_name="traffic-engineering-extensions", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='boolean', is_config=False)
 
     load = kwargs.pop("load", None)
     if args:
@@ -177,12 +177,12 @@ Opaque LSAs
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="traffic-engineering-extensions", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=False)
+      t = YANGDynClass(v,base=YANGBool, is_leaf=True, yang_name="traffic-engineering-extensions", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='boolean', is_config=False)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """traffic_engineering_extensions must be of a type compatible with boolean""",
           'defined-type': "boolean",
-          'generated-type': """YANGDynClass(base=YANGBool, is_leaf=True, yang_name="traffic-engineering-extensions", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=False)""",
+          'generated-type': """YANGDynClass(base=YANGBool, is_leaf=True, yang_name="traffic-engineering-extensions", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='boolean', is_config=False)""",
         })
 
     self.__traffic_engineering_extensions = t
@@ -190,7 +190,7 @@ Opaque LSAs
       self._set()
 
   def _unset_traffic_engineering_extensions(self):
-    self.__traffic_engineering_extensions = YANGDynClass(base=YANGBool, is_leaf=True, yang_name="traffic-engineering-extensions", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='boolean', is_config=False)
+    self.__traffic_engineering_extensions = YANGDynClass(base=YANGBool, is_leaf=True, yang_name="traffic-engineering-extensions", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-ospfv2-global', yang_type='boolean', is_config=False)
 
   traffic_engineering_extensions = __builtin__.property(_get_traffic_engineering_extensions)
 

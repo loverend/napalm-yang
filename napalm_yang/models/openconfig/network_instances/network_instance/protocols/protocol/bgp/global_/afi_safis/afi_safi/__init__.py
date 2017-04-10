@@ -42,22 +42,22 @@ neighbour or group
     self._path_helper = False
 
     self._extmethods = False
-    self.__l3vpn_ipv6_multicast = YANGDynClass(base=l3vpn_ipv6_multicast.l3vpn_ipv6_multicast, is_container='container', yang_name="l3vpn-ipv6-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__ipv6_unicast = YANGDynClass(base=ipv6_unicast.ipv6_unicast, is_container='container', yang_name="ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__l3vpn_ipv4_multicast = YANGDynClass(base=l3vpn_ipv4_multicast.l3vpn_ipv4_multicast, is_container='container', yang_name="l3vpn-ipv4-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__afi_safi_name = YANGDynClass(base=unicode, is_leaf=True, yang_name="afi-safi-name", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='leafref', is_config=True)
-    self.__use_multiple_paths = YANGDynClass(base=use_multiple_paths.use_multiple_paths, is_container='container', yang_name="use-multiple-paths", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__ipv6_labeled_unicast = YANGDynClass(base=ipv6_labeled_unicast.ipv6_labeled_unicast, is_container='container', yang_name="ipv6-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__ipv4_labeled_unicast = YANGDynClass(base=ipv4_labeled_unicast.ipv4_labeled_unicast, is_container='container', yang_name="ipv4-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__l2vpn_evpn = YANGDynClass(base=l2vpn_evpn.l2vpn_evpn, is_container='container', yang_name="l2vpn-evpn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__state = YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__l3vpn_ipv6_unicast = YANGDynClass(base=l3vpn_ipv6_unicast.l3vpn_ipv6_unicast, is_container='container', yang_name="l3vpn-ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__route_selection_options = YANGDynClass(base=route_selection_options.route_selection_options, is_container='container', yang_name="route-selection-options", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__l2vpn_vpls = YANGDynClass(base=l2vpn_vpls.l2vpn_vpls, is_container='container', yang_name="l2vpn-vpls", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__ipv4_unicast = YANGDynClass(base=ipv4_unicast.ipv4_unicast, is_container='container', yang_name="ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__config = YANGDynClass(base=config.config, is_container='container', yang_name="config", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__l3vpn_ipv4_unicast = YANGDynClass(base=l3vpn_ipv4_unicast.l3vpn_ipv4_unicast, is_container='container', yang_name="l3vpn-ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__graceful_restart = YANGDynClass(base=graceful_restart.graceful_restart, is_container='container', yang_name="graceful-restart", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__l3vpn_ipv6_multicast = YANGDynClass(base=l3vpn_ipv6_multicast.l3vpn_ipv6_multicast, is_container='container', yang_name="l3vpn-ipv6-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__ipv6_unicast = YANGDynClass(base=ipv6_unicast.ipv6_unicast, is_container='container', yang_name="ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__l3vpn_ipv4_multicast = YANGDynClass(base=l3vpn_ipv4_multicast.l3vpn_ipv4_multicast, is_container='container', yang_name="l3vpn-ipv4-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__afi_safi_name = YANGDynClass(base=unicode, is_leaf=True, yang_name="afi-safi-name", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='leafref', is_config=True)
+    self.__use_multiple_paths = YANGDynClass(base=use_multiple_paths.use_multiple_paths, is_container='container', yang_name="use-multiple-paths", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='container', is_config=True)
+    self.__ipv6_labeled_unicast = YANGDynClass(base=ipv6_labeled_unicast.ipv6_labeled_unicast, is_container='container', yang_name="ipv6-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__ipv4_labeled_unicast = YANGDynClass(base=ipv4_labeled_unicast.ipv4_labeled_unicast, is_container='container', yang_name="ipv4-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__l2vpn_evpn = YANGDynClass(base=l2vpn_evpn.l2vpn_evpn, is_container='container', yang_name="l2vpn-evpn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__state = YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
+    self.__l3vpn_ipv6_unicast = YANGDynClass(base=l3vpn_ipv6_unicast.l3vpn_ipv6_unicast, is_container='container', yang_name="l3vpn-ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__route_selection_options = YANGDynClass(base=route_selection_options.route_selection_options, is_container='container', yang_name="route-selection-options", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='container', is_config=True)
+    self.__l2vpn_vpls = YANGDynClass(base=l2vpn_vpls.l2vpn_vpls, is_container='container', yang_name="l2vpn-vpls", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__ipv4_unicast = YANGDynClass(base=ipv4_unicast.ipv4_unicast, is_container='container', yang_name="ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__config = YANGDynClass(base=config.config, is_container='container', yang_name="config", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
+    self.__l3vpn_ipv4_unicast = YANGDynClass(base=l3vpn_ipv4_unicast.l3vpn_ipv4_unicast, is_container='container', yang_name="l3vpn-ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__graceful_restart = YANGDynClass(base=graceful_restart.graceful_restart, is_container='container', yang_name="graceful-restart", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -114,12 +114,12 @@ for the AFI-SAFI list
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=unicode, is_leaf=True, yang_name="afi-safi-name", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='leafref', is_config=True)
+      t = YANGDynClass(v,base=unicode, is_leaf=True, yang_name="afi-safi-name", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='leafref', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """afi_safi_name must be of a type compatible with leafref""",
           'defined-type': "leafref",
-          'generated-type': """YANGDynClass(base=unicode, is_leaf=True, yang_name="afi-safi-name", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='leafref', is_config=True)""",
+          'generated-type': """YANGDynClass(base=unicode, is_leaf=True, yang_name="afi-safi-name", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='leafref', is_config=True)""",
         })
 
     self.__afi_safi_name = t
@@ -127,7 +127,7 @@ for the AFI-SAFI list
       self._set()
 
   def _unset_afi_safi_name(self):
-    self.__afi_safi_name = YANGDynClass(base=unicode, is_leaf=True, yang_name="afi-safi-name", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='leafref', is_config=True)
+    self.__afi_safi_name = YANGDynClass(base=unicode, is_leaf=True, yang_name="afi-safi-name", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='leafref', is_config=True)
 
 
   def _get_config(self):
@@ -151,12 +151,12 @@ for the AFI-SAFI list
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=config.config, is_container='container', yang_name="config", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=config.config, is_container='container', yang_name="config", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """config must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=config.config, is_container='container', yang_name="config", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=config.config, is_container='container', yang_name="config", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)""",
         })
 
     self.__config = t
@@ -164,7 +164,7 @@ for the AFI-SAFI list
       self._set()
 
   def _unset_config(self):
-    self.__config = YANGDynClass(base=config.config, is_container='container', yang_name="config", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__config = YANGDynClass(base=config.config, is_container='container', yang_name="config", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
 
 
   def _get_state(self):
@@ -188,12 +188,12 @@ for the AFI-SAFI list
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """state must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)""",
         })
 
     self.__state = t
@@ -201,7 +201,7 @@ for the AFI-SAFI list
       self._set()
 
   def _unset_state(self):
-    self.__state = YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__state = YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
 
 
   def _get_graceful_restart(self):
@@ -225,12 +225,12 @@ for the AFI-SAFI list
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=graceful_restart.graceful_restart, is_container='container', yang_name="graceful-restart", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=graceful_restart.graceful_restart, is_container='container', yang_name="graceful-restart", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """graceful_restart must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=graceful_restart.graceful_restart, is_container='container', yang_name="graceful-restart", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=graceful_restart.graceful_restart, is_container='container', yang_name="graceful-restart", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)""",
         })
 
     self.__graceful_restart = t
@@ -238,7 +238,7 @@ for the AFI-SAFI list
       self._set()
 
   def _unset_graceful_restart(self):
-    self.__graceful_restart = YANGDynClass(base=graceful_restart.graceful_restart, is_container='container', yang_name="graceful-restart", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__graceful_restart = YANGDynClass(base=graceful_restart.graceful_restart, is_container='container', yang_name="graceful-restart", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
 
 
   def _get_route_selection_options(self):
@@ -262,12 +262,12 @@ for the AFI-SAFI list
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=route_selection_options.route_selection_options, is_container='container', yang_name="route-selection-options", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=route_selection_options.route_selection_options, is_container='container', yang_name="route-selection-options", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """route_selection_options must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=route_selection_options.route_selection_options, is_container='container', yang_name="route-selection-options", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=route_selection_options.route_selection_options, is_container='container', yang_name="route-selection-options", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='container', is_config=True)""",
         })
 
     self.__route_selection_options = t
@@ -275,7 +275,7 @@ for the AFI-SAFI list
       self._set()
 
   def _unset_route_selection_options(self):
-    self.__route_selection_options = YANGDynClass(base=route_selection_options.route_selection_options, is_container='container', yang_name="route-selection-options", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__route_selection_options = YANGDynClass(base=route_selection_options.route_selection_options, is_container='container', yang_name="route-selection-options", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='container', is_config=True)
 
 
   def _get_use_multiple_paths(self):
@@ -301,12 +301,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=use_multiple_paths.use_multiple_paths, is_container='container', yang_name="use-multiple-paths", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=use_multiple_paths.use_multiple_paths, is_container='container', yang_name="use-multiple-paths", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """use_multiple_paths must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=use_multiple_paths.use_multiple_paths, is_container='container', yang_name="use-multiple-paths", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=use_multiple_paths.use_multiple_paths, is_container='container', yang_name="use-multiple-paths", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='container', is_config=True)""",
         })
 
     self.__use_multiple_paths = t
@@ -314,7 +314,7 @@ same NLRI
       self._set()
 
   def _unset_use_multiple_paths(self):
-    self.__use_multiple_paths = YANGDynClass(base=use_multiple_paths.use_multiple_paths, is_container='container', yang_name="use-multiple-paths", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__use_multiple_paths = YANGDynClass(base=use_multiple_paths.use_multiple_paths, is_container='container', yang_name="use-multiple-paths", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='container', is_config=True)
 
 
   def _get_ipv4_unicast(self):
@@ -338,12 +338,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv4_unicast.ipv4_unicast, is_container='container', yang_name="ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=ipv4_unicast.ipv4_unicast, is_container='container', yang_name="ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv4_unicast must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv4_unicast.ipv4_unicast, is_container='container', yang_name="ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=ipv4_unicast.ipv4_unicast, is_container='container', yang_name="ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__ipv4_unicast = t
@@ -351,7 +351,7 @@ same NLRI
       self._set()
 
   def _unset_ipv4_unicast(self):
-    self.__ipv4_unicast = YANGDynClass(base=ipv4_unicast.ipv4_unicast, is_container='container', yang_name="ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__ipv4_unicast = YANGDynClass(base=ipv4_unicast.ipv4_unicast, is_container='container', yang_name="ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_ipv6_unicast(self):
@@ -375,12 +375,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv6_unicast.ipv6_unicast, is_container='container', yang_name="ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=ipv6_unicast.ipv6_unicast, is_container='container', yang_name="ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv6_unicast must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv6_unicast.ipv6_unicast, is_container='container', yang_name="ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=ipv6_unicast.ipv6_unicast, is_container='container', yang_name="ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__ipv6_unicast = t
@@ -388,7 +388,7 @@ same NLRI
       self._set()
 
   def _unset_ipv6_unicast(self):
-    self.__ipv6_unicast = YANGDynClass(base=ipv6_unicast.ipv6_unicast, is_container='container', yang_name="ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__ipv6_unicast = YANGDynClass(base=ipv6_unicast.ipv6_unicast, is_container='container', yang_name="ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_ipv4_labeled_unicast(self):
@@ -412,12 +412,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv4_labeled_unicast.ipv4_labeled_unicast, is_container='container', yang_name="ipv4-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=ipv4_labeled_unicast.ipv4_labeled_unicast, is_container='container', yang_name="ipv4-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv4_labeled_unicast must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv4_labeled_unicast.ipv4_labeled_unicast, is_container='container', yang_name="ipv4-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=ipv4_labeled_unicast.ipv4_labeled_unicast, is_container='container', yang_name="ipv4-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__ipv4_labeled_unicast = t
@@ -425,7 +425,7 @@ same NLRI
       self._set()
 
   def _unset_ipv4_labeled_unicast(self):
-    self.__ipv4_labeled_unicast = YANGDynClass(base=ipv4_labeled_unicast.ipv4_labeled_unicast, is_container='container', yang_name="ipv4-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__ipv4_labeled_unicast = YANGDynClass(base=ipv4_labeled_unicast.ipv4_labeled_unicast, is_container='container', yang_name="ipv4-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_ipv6_labeled_unicast(self):
@@ -449,12 +449,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv6_labeled_unicast.ipv6_labeled_unicast, is_container='container', yang_name="ipv6-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=ipv6_labeled_unicast.ipv6_labeled_unicast, is_container='container', yang_name="ipv6-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv6_labeled_unicast must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv6_labeled_unicast.ipv6_labeled_unicast, is_container='container', yang_name="ipv6-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=ipv6_labeled_unicast.ipv6_labeled_unicast, is_container='container', yang_name="ipv6-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__ipv6_labeled_unicast = t
@@ -462,7 +462,7 @@ same NLRI
       self._set()
 
   def _unset_ipv6_labeled_unicast(self):
-    self.__ipv6_labeled_unicast = YANGDynClass(base=ipv6_labeled_unicast.ipv6_labeled_unicast, is_container='container', yang_name="ipv6-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__ipv6_labeled_unicast = YANGDynClass(base=ipv6_labeled_unicast.ipv6_labeled_unicast, is_container='container', yang_name="ipv6-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_l3vpn_ipv4_unicast(self):
@@ -486,12 +486,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=l3vpn_ipv4_unicast.l3vpn_ipv4_unicast, is_container='container', yang_name="l3vpn-ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=l3vpn_ipv4_unicast.l3vpn_ipv4_unicast, is_container='container', yang_name="l3vpn-ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """l3vpn_ipv4_unicast must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=l3vpn_ipv4_unicast.l3vpn_ipv4_unicast, is_container='container', yang_name="l3vpn-ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=l3vpn_ipv4_unicast.l3vpn_ipv4_unicast, is_container='container', yang_name="l3vpn-ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__l3vpn_ipv4_unicast = t
@@ -499,7 +499,7 @@ same NLRI
       self._set()
 
   def _unset_l3vpn_ipv4_unicast(self):
-    self.__l3vpn_ipv4_unicast = YANGDynClass(base=l3vpn_ipv4_unicast.l3vpn_ipv4_unicast, is_container='container', yang_name="l3vpn-ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__l3vpn_ipv4_unicast = YANGDynClass(base=l3vpn_ipv4_unicast.l3vpn_ipv4_unicast, is_container='container', yang_name="l3vpn-ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_l3vpn_ipv6_unicast(self):
@@ -523,12 +523,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=l3vpn_ipv6_unicast.l3vpn_ipv6_unicast, is_container='container', yang_name="l3vpn-ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=l3vpn_ipv6_unicast.l3vpn_ipv6_unicast, is_container='container', yang_name="l3vpn-ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """l3vpn_ipv6_unicast must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=l3vpn_ipv6_unicast.l3vpn_ipv6_unicast, is_container='container', yang_name="l3vpn-ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=l3vpn_ipv6_unicast.l3vpn_ipv6_unicast, is_container='container', yang_name="l3vpn-ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__l3vpn_ipv6_unicast = t
@@ -536,7 +536,7 @@ same NLRI
       self._set()
 
   def _unset_l3vpn_ipv6_unicast(self):
-    self.__l3vpn_ipv6_unicast = YANGDynClass(base=l3vpn_ipv6_unicast.l3vpn_ipv6_unicast, is_container='container', yang_name="l3vpn-ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__l3vpn_ipv6_unicast = YANGDynClass(base=l3vpn_ipv6_unicast.l3vpn_ipv6_unicast, is_container='container', yang_name="l3vpn-ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_l3vpn_ipv4_multicast(self):
@@ -560,12 +560,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=l3vpn_ipv4_multicast.l3vpn_ipv4_multicast, is_container='container', yang_name="l3vpn-ipv4-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=l3vpn_ipv4_multicast.l3vpn_ipv4_multicast, is_container='container', yang_name="l3vpn-ipv4-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """l3vpn_ipv4_multicast must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=l3vpn_ipv4_multicast.l3vpn_ipv4_multicast, is_container='container', yang_name="l3vpn-ipv4-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=l3vpn_ipv4_multicast.l3vpn_ipv4_multicast, is_container='container', yang_name="l3vpn-ipv4-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__l3vpn_ipv4_multicast = t
@@ -573,7 +573,7 @@ same NLRI
       self._set()
 
   def _unset_l3vpn_ipv4_multicast(self):
-    self.__l3vpn_ipv4_multicast = YANGDynClass(base=l3vpn_ipv4_multicast.l3vpn_ipv4_multicast, is_container='container', yang_name="l3vpn-ipv4-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__l3vpn_ipv4_multicast = YANGDynClass(base=l3vpn_ipv4_multicast.l3vpn_ipv4_multicast, is_container='container', yang_name="l3vpn-ipv4-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_l3vpn_ipv6_multicast(self):
@@ -597,12 +597,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=l3vpn_ipv6_multicast.l3vpn_ipv6_multicast, is_container='container', yang_name="l3vpn-ipv6-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=l3vpn_ipv6_multicast.l3vpn_ipv6_multicast, is_container='container', yang_name="l3vpn-ipv6-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """l3vpn_ipv6_multicast must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=l3vpn_ipv6_multicast.l3vpn_ipv6_multicast, is_container='container', yang_name="l3vpn-ipv6-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=l3vpn_ipv6_multicast.l3vpn_ipv6_multicast, is_container='container', yang_name="l3vpn-ipv6-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__l3vpn_ipv6_multicast = t
@@ -610,7 +610,7 @@ same NLRI
       self._set()
 
   def _unset_l3vpn_ipv6_multicast(self):
-    self.__l3vpn_ipv6_multicast = YANGDynClass(base=l3vpn_ipv6_multicast.l3vpn_ipv6_multicast, is_container='container', yang_name="l3vpn-ipv6-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__l3vpn_ipv6_multicast = YANGDynClass(base=l3vpn_ipv6_multicast.l3vpn_ipv6_multicast, is_container='container', yang_name="l3vpn-ipv6-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_l2vpn_vpls(self):
@@ -634,12 +634,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=l2vpn_vpls.l2vpn_vpls, is_container='container', yang_name="l2vpn-vpls", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=l2vpn_vpls.l2vpn_vpls, is_container='container', yang_name="l2vpn-vpls", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """l2vpn_vpls must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=l2vpn_vpls.l2vpn_vpls, is_container='container', yang_name="l2vpn-vpls", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=l2vpn_vpls.l2vpn_vpls, is_container='container', yang_name="l2vpn-vpls", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__l2vpn_vpls = t
@@ -647,7 +647,7 @@ same NLRI
       self._set()
 
   def _unset_l2vpn_vpls(self):
-    self.__l2vpn_vpls = YANGDynClass(base=l2vpn_vpls.l2vpn_vpls, is_container='container', yang_name="l2vpn-vpls", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__l2vpn_vpls = YANGDynClass(base=l2vpn_vpls.l2vpn_vpls, is_container='container', yang_name="l2vpn-vpls", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_l2vpn_evpn(self):
@@ -671,12 +671,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=l2vpn_evpn.l2vpn_evpn, is_container='container', yang_name="l2vpn-evpn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=l2vpn_evpn.l2vpn_evpn, is_container='container', yang_name="l2vpn-evpn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """l2vpn_evpn must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=l2vpn_evpn.l2vpn_evpn, is_container='container', yang_name="l2vpn-evpn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=l2vpn_evpn.l2vpn_evpn, is_container='container', yang_name="l2vpn-evpn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__l2vpn_evpn = t
@@ -684,7 +684,7 @@ same NLRI
       self._set()
 
   def _unset_l2vpn_evpn(self):
-    self.__l2vpn_evpn = YANGDynClass(base=l2vpn_evpn.l2vpn_evpn, is_container='container', yang_name="l2vpn-evpn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__l2vpn_evpn = YANGDynClass(base=l2vpn_evpn.l2vpn_evpn, is_container='container', yang_name="l2vpn-evpn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
   afi_safi_name = __builtin__.property(_get_afi_safi_name, _set_afi_safi_name)
   config = __builtin__.property(_get_config, _set_config)
@@ -743,22 +743,22 @@ neighbour or group
     self._path_helper = False
 
     self._extmethods = False
-    self.__l3vpn_ipv6_multicast = YANGDynClass(base=l3vpn_ipv6_multicast.l3vpn_ipv6_multicast, is_container='container', yang_name="l3vpn-ipv6-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__ipv6_unicast = YANGDynClass(base=ipv6_unicast.ipv6_unicast, is_container='container', yang_name="ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__l3vpn_ipv4_multicast = YANGDynClass(base=l3vpn_ipv4_multicast.l3vpn_ipv4_multicast, is_container='container', yang_name="l3vpn-ipv4-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__afi_safi_name = YANGDynClass(base=unicode, is_leaf=True, yang_name="afi-safi-name", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='leafref', is_config=True)
-    self.__use_multiple_paths = YANGDynClass(base=use_multiple_paths.use_multiple_paths, is_container='container', yang_name="use-multiple-paths", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__ipv6_labeled_unicast = YANGDynClass(base=ipv6_labeled_unicast.ipv6_labeled_unicast, is_container='container', yang_name="ipv6-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__ipv4_labeled_unicast = YANGDynClass(base=ipv4_labeled_unicast.ipv4_labeled_unicast, is_container='container', yang_name="ipv4-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__l2vpn_evpn = YANGDynClass(base=l2vpn_evpn.l2vpn_evpn, is_container='container', yang_name="l2vpn-evpn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__state = YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__l3vpn_ipv6_unicast = YANGDynClass(base=l3vpn_ipv6_unicast.l3vpn_ipv6_unicast, is_container='container', yang_name="l3vpn-ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__route_selection_options = YANGDynClass(base=route_selection_options.route_selection_options, is_container='container', yang_name="route-selection-options", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__l2vpn_vpls = YANGDynClass(base=l2vpn_vpls.l2vpn_vpls, is_container='container', yang_name="l2vpn-vpls", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__ipv4_unicast = YANGDynClass(base=ipv4_unicast.ipv4_unicast, is_container='container', yang_name="ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__config = YANGDynClass(base=config.config, is_container='container', yang_name="config", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__l3vpn_ipv4_unicast = YANGDynClass(base=l3vpn_ipv4_unicast.l3vpn_ipv4_unicast, is_container='container', yang_name="l3vpn-ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
-    self.__graceful_restart = YANGDynClass(base=graceful_restart.graceful_restart, is_container='container', yang_name="graceful-restart", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__l3vpn_ipv6_multicast = YANGDynClass(base=l3vpn_ipv6_multicast.l3vpn_ipv6_multicast, is_container='container', yang_name="l3vpn-ipv6-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__ipv6_unicast = YANGDynClass(base=ipv6_unicast.ipv6_unicast, is_container='container', yang_name="ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__l3vpn_ipv4_multicast = YANGDynClass(base=l3vpn_ipv4_multicast.l3vpn_ipv4_multicast, is_container='container', yang_name="l3vpn-ipv4-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__afi_safi_name = YANGDynClass(base=unicode, is_leaf=True, yang_name="afi-safi-name", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='leafref', is_config=True)
+    self.__use_multiple_paths = YANGDynClass(base=use_multiple_paths.use_multiple_paths, is_container='container', yang_name="use-multiple-paths", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='container', is_config=True)
+    self.__ipv6_labeled_unicast = YANGDynClass(base=ipv6_labeled_unicast.ipv6_labeled_unicast, is_container='container', yang_name="ipv6-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__ipv4_labeled_unicast = YANGDynClass(base=ipv4_labeled_unicast.ipv4_labeled_unicast, is_container='container', yang_name="ipv4-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__l2vpn_evpn = YANGDynClass(base=l2vpn_evpn.l2vpn_evpn, is_container='container', yang_name="l2vpn-evpn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__state = YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
+    self.__l3vpn_ipv6_unicast = YANGDynClass(base=l3vpn_ipv6_unicast.l3vpn_ipv6_unicast, is_container='container', yang_name="l3vpn-ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__route_selection_options = YANGDynClass(base=route_selection_options.route_selection_options, is_container='container', yang_name="route-selection-options", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='container', is_config=True)
+    self.__l2vpn_vpls = YANGDynClass(base=l2vpn_vpls.l2vpn_vpls, is_container='container', yang_name="l2vpn-vpls", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__ipv4_unicast = YANGDynClass(base=ipv4_unicast.ipv4_unicast, is_container='container', yang_name="ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__config = YANGDynClass(base=config.config, is_container='container', yang_name="config", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
+    self.__l3vpn_ipv4_unicast = YANGDynClass(base=l3vpn_ipv4_unicast.l3vpn_ipv4_unicast, is_container='container', yang_name="l3vpn-ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
+    self.__graceful_restart = YANGDynClass(base=graceful_restart.graceful_restart, is_container='container', yang_name="graceful-restart", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
 
     load = kwargs.pop("load", None)
     if args:
@@ -815,12 +815,12 @@ for the AFI-SAFI list
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=unicode, is_leaf=True, yang_name="afi-safi-name", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='leafref', is_config=True)
+      t = YANGDynClass(v,base=unicode, is_leaf=True, yang_name="afi-safi-name", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='leafref', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """afi_safi_name must be of a type compatible with leafref""",
           'defined-type': "leafref",
-          'generated-type': """YANGDynClass(base=unicode, is_leaf=True, yang_name="afi-safi-name", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='leafref', is_config=True)""",
+          'generated-type': """YANGDynClass(base=unicode, is_leaf=True, yang_name="afi-safi-name", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='leafref', is_config=True)""",
         })
 
     self.__afi_safi_name = t
@@ -828,7 +828,7 @@ for the AFI-SAFI list
       self._set()
 
   def _unset_afi_safi_name(self):
-    self.__afi_safi_name = YANGDynClass(base=unicode, is_leaf=True, yang_name="afi-safi-name", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='leafref', is_config=True)
+    self.__afi_safi_name = YANGDynClass(base=unicode, is_leaf=True, yang_name="afi-safi-name", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, is_keyval=True, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='leafref', is_config=True)
 
 
   def _get_config(self):
@@ -852,12 +852,12 @@ for the AFI-SAFI list
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=config.config, is_container='container', yang_name="config", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=config.config, is_container='container', yang_name="config", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """config must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=config.config, is_container='container', yang_name="config", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=config.config, is_container='container', yang_name="config", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)""",
         })
 
     self.__config = t
@@ -865,7 +865,7 @@ for the AFI-SAFI list
       self._set()
 
   def _unset_config(self):
-    self.__config = YANGDynClass(base=config.config, is_container='container', yang_name="config", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__config = YANGDynClass(base=config.config, is_container='container', yang_name="config", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
 
 
   def _get_state(self):
@@ -889,12 +889,12 @@ for the AFI-SAFI list
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """state must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)""",
         })
 
     self.__state = t
@@ -902,7 +902,7 @@ for the AFI-SAFI list
       self._set()
 
   def _unset_state(self):
-    self.__state = YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__state = YANGDynClass(base=state.state, is_container='container', yang_name="state", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
 
 
   def _get_graceful_restart(self):
@@ -926,12 +926,12 @@ for the AFI-SAFI list
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=graceful_restart.graceful_restart, is_container='container', yang_name="graceful-restart", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=graceful_restart.graceful_restart, is_container='container', yang_name="graceful-restart", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """graceful_restart must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=graceful_restart.graceful_restart, is_container='container', yang_name="graceful-restart", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=graceful_restart.graceful_restart, is_container='container', yang_name="graceful-restart", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)""",
         })
 
     self.__graceful_restart = t
@@ -939,7 +939,7 @@ for the AFI-SAFI list
       self._set()
 
   def _unset_graceful_restart(self):
-    self.__graceful_restart = YANGDynClass(base=graceful_restart.graceful_restart, is_container='container', yang_name="graceful-restart", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__graceful_restart = YANGDynClass(base=graceful_restart.graceful_restart, is_container='container', yang_name="graceful-restart", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-global', yang_type='container', is_config=True)
 
 
   def _get_route_selection_options(self):
@@ -963,12 +963,12 @@ for the AFI-SAFI list
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=route_selection_options.route_selection_options, is_container='container', yang_name="route-selection-options", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=route_selection_options.route_selection_options, is_container='container', yang_name="route-selection-options", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """route_selection_options must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=route_selection_options.route_selection_options, is_container='container', yang_name="route-selection-options", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=route_selection_options.route_selection_options, is_container='container', yang_name="route-selection-options", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='container', is_config=True)""",
         })
 
     self.__route_selection_options = t
@@ -976,7 +976,7 @@ for the AFI-SAFI list
       self._set()
 
   def _unset_route_selection_options(self):
-    self.__route_selection_options = YANGDynClass(base=route_selection_options.route_selection_options, is_container='container', yang_name="route-selection-options", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__route_selection_options = YANGDynClass(base=route_selection_options.route_selection_options, is_container='container', yang_name="route-selection-options", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='container', is_config=True)
 
 
   def _get_use_multiple_paths(self):
@@ -1002,12 +1002,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=use_multiple_paths.use_multiple_paths, is_container='container', yang_name="use-multiple-paths", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=use_multiple_paths.use_multiple_paths, is_container='container', yang_name="use-multiple-paths", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """use_multiple_paths must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=use_multiple_paths.use_multiple_paths, is_container='container', yang_name="use-multiple-paths", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=use_multiple_paths.use_multiple_paths, is_container='container', yang_name="use-multiple-paths", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='container', is_config=True)""",
         })
 
     self.__use_multiple_paths = t
@@ -1015,7 +1015,7 @@ same NLRI
       self._set()
 
   def _unset_use_multiple_paths(self):
-    self.__use_multiple_paths = YANGDynClass(base=use_multiple_paths.use_multiple_paths, is_container='container', yang_name="use-multiple-paths", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__use_multiple_paths = YANGDynClass(base=use_multiple_paths.use_multiple_paths, is_container='container', yang_name="use-multiple-paths", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common', yang_type='container', is_config=True)
 
 
   def _get_ipv4_unicast(self):
@@ -1039,12 +1039,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv4_unicast.ipv4_unicast, is_container='container', yang_name="ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=ipv4_unicast.ipv4_unicast, is_container='container', yang_name="ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv4_unicast must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv4_unicast.ipv4_unicast, is_container='container', yang_name="ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=ipv4_unicast.ipv4_unicast, is_container='container', yang_name="ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__ipv4_unicast = t
@@ -1052,7 +1052,7 @@ same NLRI
       self._set()
 
   def _unset_ipv4_unicast(self):
-    self.__ipv4_unicast = YANGDynClass(base=ipv4_unicast.ipv4_unicast, is_container='container', yang_name="ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__ipv4_unicast = YANGDynClass(base=ipv4_unicast.ipv4_unicast, is_container='container', yang_name="ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_ipv6_unicast(self):
@@ -1076,12 +1076,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv6_unicast.ipv6_unicast, is_container='container', yang_name="ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=ipv6_unicast.ipv6_unicast, is_container='container', yang_name="ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv6_unicast must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv6_unicast.ipv6_unicast, is_container='container', yang_name="ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=ipv6_unicast.ipv6_unicast, is_container='container', yang_name="ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__ipv6_unicast = t
@@ -1089,7 +1089,7 @@ same NLRI
       self._set()
 
   def _unset_ipv6_unicast(self):
-    self.__ipv6_unicast = YANGDynClass(base=ipv6_unicast.ipv6_unicast, is_container='container', yang_name="ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__ipv6_unicast = YANGDynClass(base=ipv6_unicast.ipv6_unicast, is_container='container', yang_name="ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_ipv4_labeled_unicast(self):
@@ -1113,12 +1113,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv4_labeled_unicast.ipv4_labeled_unicast, is_container='container', yang_name="ipv4-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=ipv4_labeled_unicast.ipv4_labeled_unicast, is_container='container', yang_name="ipv4-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv4_labeled_unicast must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv4_labeled_unicast.ipv4_labeled_unicast, is_container='container', yang_name="ipv4-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=ipv4_labeled_unicast.ipv4_labeled_unicast, is_container='container', yang_name="ipv4-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__ipv4_labeled_unicast = t
@@ -1126,7 +1126,7 @@ same NLRI
       self._set()
 
   def _unset_ipv4_labeled_unicast(self):
-    self.__ipv4_labeled_unicast = YANGDynClass(base=ipv4_labeled_unicast.ipv4_labeled_unicast, is_container='container', yang_name="ipv4-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__ipv4_labeled_unicast = YANGDynClass(base=ipv4_labeled_unicast.ipv4_labeled_unicast, is_container='container', yang_name="ipv4-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_ipv6_labeled_unicast(self):
@@ -1150,12 +1150,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=ipv6_labeled_unicast.ipv6_labeled_unicast, is_container='container', yang_name="ipv6-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=ipv6_labeled_unicast.ipv6_labeled_unicast, is_container='container', yang_name="ipv6-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """ipv6_labeled_unicast must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=ipv6_labeled_unicast.ipv6_labeled_unicast, is_container='container', yang_name="ipv6-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=ipv6_labeled_unicast.ipv6_labeled_unicast, is_container='container', yang_name="ipv6-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__ipv6_labeled_unicast = t
@@ -1163,7 +1163,7 @@ same NLRI
       self._set()
 
   def _unset_ipv6_labeled_unicast(self):
-    self.__ipv6_labeled_unicast = YANGDynClass(base=ipv6_labeled_unicast.ipv6_labeled_unicast, is_container='container', yang_name="ipv6-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__ipv6_labeled_unicast = YANGDynClass(base=ipv6_labeled_unicast.ipv6_labeled_unicast, is_container='container', yang_name="ipv6-labeled-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_l3vpn_ipv4_unicast(self):
@@ -1187,12 +1187,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=l3vpn_ipv4_unicast.l3vpn_ipv4_unicast, is_container='container', yang_name="l3vpn-ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=l3vpn_ipv4_unicast.l3vpn_ipv4_unicast, is_container='container', yang_name="l3vpn-ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """l3vpn_ipv4_unicast must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=l3vpn_ipv4_unicast.l3vpn_ipv4_unicast, is_container='container', yang_name="l3vpn-ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=l3vpn_ipv4_unicast.l3vpn_ipv4_unicast, is_container='container', yang_name="l3vpn-ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__l3vpn_ipv4_unicast = t
@@ -1200,7 +1200,7 @@ same NLRI
       self._set()
 
   def _unset_l3vpn_ipv4_unicast(self):
-    self.__l3vpn_ipv4_unicast = YANGDynClass(base=l3vpn_ipv4_unicast.l3vpn_ipv4_unicast, is_container='container', yang_name="l3vpn-ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__l3vpn_ipv4_unicast = YANGDynClass(base=l3vpn_ipv4_unicast.l3vpn_ipv4_unicast, is_container='container', yang_name="l3vpn-ipv4-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_l3vpn_ipv6_unicast(self):
@@ -1224,12 +1224,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=l3vpn_ipv6_unicast.l3vpn_ipv6_unicast, is_container='container', yang_name="l3vpn-ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=l3vpn_ipv6_unicast.l3vpn_ipv6_unicast, is_container='container', yang_name="l3vpn-ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """l3vpn_ipv6_unicast must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=l3vpn_ipv6_unicast.l3vpn_ipv6_unicast, is_container='container', yang_name="l3vpn-ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=l3vpn_ipv6_unicast.l3vpn_ipv6_unicast, is_container='container', yang_name="l3vpn-ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__l3vpn_ipv6_unicast = t
@@ -1237,7 +1237,7 @@ same NLRI
       self._set()
 
   def _unset_l3vpn_ipv6_unicast(self):
-    self.__l3vpn_ipv6_unicast = YANGDynClass(base=l3vpn_ipv6_unicast.l3vpn_ipv6_unicast, is_container='container', yang_name="l3vpn-ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__l3vpn_ipv6_unicast = YANGDynClass(base=l3vpn_ipv6_unicast.l3vpn_ipv6_unicast, is_container='container', yang_name="l3vpn-ipv6-unicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_l3vpn_ipv4_multicast(self):
@@ -1261,12 +1261,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=l3vpn_ipv4_multicast.l3vpn_ipv4_multicast, is_container='container', yang_name="l3vpn-ipv4-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=l3vpn_ipv4_multicast.l3vpn_ipv4_multicast, is_container='container', yang_name="l3vpn-ipv4-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """l3vpn_ipv4_multicast must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=l3vpn_ipv4_multicast.l3vpn_ipv4_multicast, is_container='container', yang_name="l3vpn-ipv4-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=l3vpn_ipv4_multicast.l3vpn_ipv4_multicast, is_container='container', yang_name="l3vpn-ipv4-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__l3vpn_ipv4_multicast = t
@@ -1274,7 +1274,7 @@ same NLRI
       self._set()
 
   def _unset_l3vpn_ipv4_multicast(self):
-    self.__l3vpn_ipv4_multicast = YANGDynClass(base=l3vpn_ipv4_multicast.l3vpn_ipv4_multicast, is_container='container', yang_name="l3vpn-ipv4-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__l3vpn_ipv4_multicast = YANGDynClass(base=l3vpn_ipv4_multicast.l3vpn_ipv4_multicast, is_container='container', yang_name="l3vpn-ipv4-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_l3vpn_ipv6_multicast(self):
@@ -1298,12 +1298,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=l3vpn_ipv6_multicast.l3vpn_ipv6_multicast, is_container='container', yang_name="l3vpn-ipv6-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=l3vpn_ipv6_multicast.l3vpn_ipv6_multicast, is_container='container', yang_name="l3vpn-ipv6-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """l3vpn_ipv6_multicast must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=l3vpn_ipv6_multicast.l3vpn_ipv6_multicast, is_container='container', yang_name="l3vpn-ipv6-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=l3vpn_ipv6_multicast.l3vpn_ipv6_multicast, is_container='container', yang_name="l3vpn-ipv6-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__l3vpn_ipv6_multicast = t
@@ -1311,7 +1311,7 @@ same NLRI
       self._set()
 
   def _unset_l3vpn_ipv6_multicast(self):
-    self.__l3vpn_ipv6_multicast = YANGDynClass(base=l3vpn_ipv6_multicast.l3vpn_ipv6_multicast, is_container='container', yang_name="l3vpn-ipv6-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__l3vpn_ipv6_multicast = YANGDynClass(base=l3vpn_ipv6_multicast.l3vpn_ipv6_multicast, is_container='container', yang_name="l3vpn-ipv6-multicast", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_l2vpn_vpls(self):
@@ -1335,12 +1335,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=l2vpn_vpls.l2vpn_vpls, is_container='container', yang_name="l2vpn-vpls", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=l2vpn_vpls.l2vpn_vpls, is_container='container', yang_name="l2vpn-vpls", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """l2vpn_vpls must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=l2vpn_vpls.l2vpn_vpls, is_container='container', yang_name="l2vpn-vpls", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=l2vpn_vpls.l2vpn_vpls, is_container='container', yang_name="l2vpn-vpls", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__l2vpn_vpls = t
@@ -1348,7 +1348,7 @@ same NLRI
       self._set()
 
   def _unset_l2vpn_vpls(self):
-    self.__l2vpn_vpls = YANGDynClass(base=l2vpn_vpls.l2vpn_vpls, is_container='container', yang_name="l2vpn-vpls", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__l2vpn_vpls = YANGDynClass(base=l2vpn_vpls.l2vpn_vpls, is_container='container', yang_name="l2vpn-vpls", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
 
   def _get_l2vpn_evpn(self):
@@ -1372,12 +1372,12 @@ same NLRI
     if hasattr(v, "_utype"):
       v = v._utype(v)
     try:
-      t = YANGDynClass(v,base=l2vpn_evpn.l2vpn_evpn, is_container='container', yang_name="l2vpn-evpn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+      t = YANGDynClass(v,base=l2vpn_evpn.l2vpn_evpn, is_container='container', yang_name="l2vpn-evpn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
     except (TypeError, ValueError):
       raise ValueError({
           'error-string': """l2vpn_evpn must be of a type compatible with container""",
           'defined-type': "container",
-          'generated-type': """YANGDynClass(base=l2vpn_evpn.l2vpn_evpn, is_container='container', yang_name="l2vpn-evpn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)""",
+          'generated-type': """YANGDynClass(base=l2vpn_evpn.l2vpn_evpn, is_container='container', yang_name="l2vpn-evpn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)""",
         })
 
     self.__l2vpn_evpn = t
@@ -1385,7 +1385,7 @@ same NLRI
       self._set()
 
   def _unset_l2vpn_evpn(self):
-    self.__l2vpn_evpn = YANGDynClass(base=l2vpn_evpn.l2vpn_evpn, is_container='container', yang_name="l2vpn-evpn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', yang_type='container', is_config=True)
+    self.__l2vpn_evpn = YANGDynClass(base=l2vpn_evpn.l2vpn_evpn, is_container='container', yang_name="l2vpn-evpn", parent=self, path_helper=self._path_helper, extmethods=self._extmethods, register_paths=True, extensions=None, namespace='http://openconfig.net/yang/network-instance', defining_module='openconfig-network-instance', original_module='openconfig-bgp-common-multiprotocol', yang_type='container', is_config=True)
 
   afi_safi_name = __builtin__.property(_get_afi_safi_name, _set_afi_safi_name)
   config = __builtin__.property(_get_config, _set_config)
