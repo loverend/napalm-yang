@@ -15,11 +15,11 @@ class Parser(object):
         self.device = device
         self.profile = profile or device.profile
         self.is_config = is_config
-        self._defining_module = model._defining_module
+        self._original_module = model._original_module
         self._yang_name = model._yang_name
 
         parser_path = os.path.join("parsers", "config" if is_config else "state")
-        self.mapping = helpers.read_yang_map(model._defining_module, model._yang_name,
+        self.mapping = helpers.read_yang_map(model._original_module, model._yang_name,
                                              self.profile, parser_path)
 
         self.keys = keys or {"parent_key": None}
@@ -93,8 +93,8 @@ class Parser(object):
                     and v._yang_type not in ("container", "list"):
                 continue
 
-            if v._defining_module != self._defining_module and v._defining_module is not None:
-                logger.debug("Skipping attribute: {}:{}".format(v._defining_module, attribute))
+            if v._original_module != self._original_module and v._original_module is not None:
+                logger.debug("Skipping attribute: {}:{}".format(v._original_module, attribute))
                 parser = Parser(v, self.device, self.profile, self.is_config, self.native,
                                 self.keys, self.bookmarks, self.extra_vars)
                 parser.parse()

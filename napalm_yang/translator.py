@@ -24,7 +24,7 @@ class Translator(object):
                  merge=None, replace=None, other=None):
         self.model = model
         self.profile = profile
-        self._defining_module = model._defining_module
+        self._original_module = model._original_module
         self._yang_name = model._yang_name
 
         self.translation = translation
@@ -35,7 +35,7 @@ class Translator(object):
         self.replace = replace
         self.other = other or merge or replace
 
-        self.mapping = helpers.read_yang_map(model._defining_module, model._yang_name,
+        self.mapping = helpers.read_yang_map(model._original_module, model._yang_name,
                                              self.profile, "translators")
 
         if self.mapping:
@@ -82,11 +82,11 @@ class Translator(object):
             logger.debug("Parsing attribute: {}".format(v._yang_path()))
             other_attr = getattr(other, k, None)
             if not v._is_config or k == "state":
-                logger.debug("Skipping attribute: {}:{}".format(v._defining_module, attribute))
+                logger.debug("Skipping attribute: {}:{}".format(v._original_module, attribute))
                 continue
 
-            if v._defining_module != self._defining_module and v._defining_module is not None:
-                logger.debug("Skipping attribute: {}:{}".format(v._defining_module, attribute))
+            if v._original_module != self._original_module and v._original_module is not None:
+                logger.debug("Skipping attribute: {}:{}".format(v._original_module, attribute))
                 translator = Translator(v, self.profile, translation_point, self.keys,
                                         self.bookmarks, self.merge, self.replace, other_attr)
                 translator.translate()
