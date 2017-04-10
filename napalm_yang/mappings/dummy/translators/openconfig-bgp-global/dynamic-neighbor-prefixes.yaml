@@ -1,0 +1,22 @@
+---
+metadata:
+    processor: unset
+
+dynamic-neighbor-prefixes:
+    _process: not_implemented
+    dynamic-neighbor-prefix:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            peer-group:
+                _process: not_implemented
+            prefix:
+                _process: not_implemented
+        prefix:
+            _process: not_implemented
+        state:
+            _process: not_implemented
+            peer-group:
+                _process: not_implemented
+            prefix:
+                _process: not_implemented

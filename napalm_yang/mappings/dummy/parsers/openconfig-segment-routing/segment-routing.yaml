@@ -1,0 +1,206 @@
+---
+metadata:
+    processor: unset
+
+segment-routing:
+    _process: not_implemented
+    adjacency-sids:
+        _process: not_implemented
+        adjacency-sid:
+            _process: not_implemented
+            config:
+                _process: not_implemented
+                group:
+                    _process: not_implemented
+                neighbor:
+                    _process: not_implemented
+                protection-eligible:
+                    _process: not_implemented
+                sid-id:
+                    _process: not_implemented
+            neighbor:
+                _process: not_implemented
+            sid-id:
+                _process: not_implemented
+            state:
+                _process: not_implemented
+                allocated-dynamic-local:
+                    _process: not_implemented
+                group:
+                    _process: not_implemented
+                neighbor:
+                    _process: not_implemented
+                protection-eligible:
+                    _process: not_implemented
+                sid-id:
+                    _process: not_implemented
+    aggregate-sid-counters:
+        _process: not_implemented
+        aggregate-sid-counter:
+            _process: not_implemented
+            mpls-label:
+                _process: not_implemented
+            state:
+                _process: not_implemented
+                in-octets:
+                    _process: not_implemented
+                in-pkts:
+                    _process: not_implemented
+                mpls-label:
+                    _process: not_implemented
+                out-octets:
+                    _process: not_implemented
+                out-pkts:
+                    _process: not_implemented
+    config:
+        _process: not_implemented
+        enabled:
+            _process: not_implemented
+        srgb:
+            _process: not_implemented
+        srlb:
+            _process: not_implemented
+    interfaces:
+        _process: not_implemented
+        interface:
+            _process: not_implemented
+            config:
+                _process: not_implemented
+                interface-id:
+                    _process: not_implemented
+            interface-id:
+                _process: not_implemented
+            sid-counters:
+                _process: not_implemented
+                sid-counter:
+                    _process: not_implemented
+                    forwarding-classes:
+                        _process: not_implemented
+                        forwarding-class:
+                            _process: not_implemented
+                            exp:
+                                _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                exp:
+                                    _process: not_implemented
+                                in-octets:
+                                    _process: not_implemented
+                                in-pkts:
+                                    _process: not_implemented
+                                out-octets:
+                                    _process: not_implemented
+                                out-pkts:
+                                    _process: not_implemented
+                    mpls-label:
+                        _process: not_implemented
+                    state:
+                        _process: not_implemented
+                        in-octets:
+                            _process: not_implemented
+                        in-pkts:
+                            _process: not_implemented
+                        mpls-label:
+                            _process: not_implemented
+                        out-octets:
+                            _process: not_implemented
+                        out-pkts:
+                            _process: not_implemented
+            state:
+                _process: not_implemented
+                in-octets:
+                    _process: not_implemented
+                in-pkts:
+                    _process: not_implemented
+                interface-id:
+                    _process: not_implemented
+                out-octets:
+                    _process: not_implemented
+                out-pkts:
+                    _process: not_implemented
+    prefix-sids:
+        _process: not_implemented
+        prefix-sid:
+            _process: not_implemented
+            config:
+                _process: not_implemented
+                label-options:
+                    _process: not_implemented
+                prefix:
+                    _process: not_implemented
+                sid-id:
+                    _process: not_implemented
+            prefix:
+                _process: not_implemented
+            state:
+                _process: not_implemented
+                label-options:
+                    _process: not_implemented
+                prefix:
+                    _process: not_implemented
+                sid-id:
+                    _process: not_implemented
+    srgbs:
+        _process: not_implemented
+        srgb:
+            _process: not_implemented
+            config:
+                _process: not_implemented
+                dataplane-type:
+                    _process: not_implemented
+                ipv6-prefixes:
+                    _process: not_implemented
+                local-id:
+                    _process: not_implemented
+                mpls-label-blocks:
+                    _process: not_implemented
+            local-id:
+                _process: not_implemented
+            state:
+                _process: not_implemented
+                dataplane-type:
+                    _process: not_implemented
+                ipv6-prefixes:
+                    _process: not_implemented
+                local-id:
+                    _process: not_implemented
+                mpls-label-blocks:
+                    _process: not_implemented
+                size:
+                    _process: not_implemented
+                used:
+                    _process: not_implemented
+    srlbs:
+        _process: not_implemented
+        srlb:
+            _process: not_implemented
+            config:
+                _process: not_implemented
+                dataplane-type:
+                    _process: not_implemented
+                ipv6-prefix:
+                    _process: not_implemented
+                local-id:
+                    _process: not_implemented
+                mpls-label-block:
+                    _process: not_implemented
+            local-id:
+                _process: not_implemented
+            state:
+                _process: not_implemented
+                dataplane-type:
+                    _process: not_implemented
+                ipv6-prefix:
+                    _process: not_implemented
+                local-id:
+                    _process: not_implemented
+                mpls-label-block:
+                    _process: not_implemented
+    state:
+        _process: not_implemented
+        enabled:
+            _process: not_implemented
+        srgb:
+            _process: not_implemented
+        srlb:
+            _process: not_implemented

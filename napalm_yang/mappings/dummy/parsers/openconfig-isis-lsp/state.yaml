@@ -1,0 +1,26 @@
+---
+metadata:
+    processor: unset
+
+state:
+    _process: not_implemented
+    checksum:
+        _process: not_implemented
+    id-length:
+        _process: not_implemented
+    lsp-id:
+        _process: not_implemented
+    maximum-area-addresses:
+        _process: not_implemented
+    pdu-length:
+        _process: not_implemented
+    pdu-type:
+        _process: not_implemented
+    remaining-lifetime:
+        _process: not_implemented
+    sequence-number:
+        _process: not_implemented
+    version:
+        _process: not_implemented
+    version2:
+        _process: not_implemented

@@ -1,0 +1,48 @@
+---
+metadata:
+    processor: unset
+
+fdb:
+    _process: not_implemented
+    config:
+        _process: not_implemented
+        mac-aging-time:
+            _process: not_implemented
+        mac-learning:
+            _process: not_implemented
+        maximum-entries:
+            _process: not_implemented
+    mac-table:
+        _process: not_implemented
+        entries:
+            _process: not_implemented
+            entry:
+                _process: not_implemented
+                config:
+                    _process: not_implemented
+                    mac-address:
+                        _process: not_implemented
+                    vlan:
+                        _process: not_implemented
+                interface:
+                    _process: not_implemented
+                mac-address:
+                    _process: not_implemented
+                state:
+                    _process: not_implemented
+                    age:
+                        _process: not_implemented
+                    entry-type:
+                        _process: not_implemented
+                    mac-address:
+                        _process: not_implemented
+                    vlan:
+                        _process: not_implemented
+    state:
+        _process: not_implemented
+        mac-aging-time:
+            _process: not_implemented
+        mac-learning:
+            _process: not_implemented
+        maximum-entries:
+            _process: not_implemented

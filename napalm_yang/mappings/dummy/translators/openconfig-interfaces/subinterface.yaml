@@ -1,0 +1,6 @@
+---
+metadata:
+    processor: unset
+
+subinterface:
+    _process: not_implemented

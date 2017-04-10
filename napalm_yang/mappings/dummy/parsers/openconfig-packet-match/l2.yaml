@@ -1,0 +1,30 @@
+---
+metadata:
+    processor: unset
+
+l2:
+    _process: not_implemented
+    config:
+        _process: not_implemented
+        destination-mac:
+            _process: not_implemented
+        destination-mac-mask:
+            _process: not_implemented
+        ethertype:
+            _process: not_implemented
+        source-mac:
+            _process: not_implemented
+        source-mac-mask:
+            _process: not_implemented
+    state:
+        _process: not_implemented
+        destination-mac:
+            _process: not_implemented
+        destination-mac-mask:
+            _process: not_implemented
+        ethertype:
+            _process: not_implemented
+        source-mac:
+            _process: not_implemented
+        source-mac-mask:
+            _process: not_implemented

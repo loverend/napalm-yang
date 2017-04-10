@@ -1,0 +1,292 @@
+---
+metadata:
+    processor: unset
+
+rsvp-te:
+    _process: not_implemented
+    global:
+        _process: not_implemented
+        graceful-restart:
+            _process: not_implemented
+            config:
+                _process: not_implemented
+                enable:
+                    _process: not_implemented
+                recovery-time:
+                    _process: not_implemented
+                restart-time:
+                    _process: not_implemented
+            state:
+                _process: not_implemented
+                enable:
+                    _process: not_implemented
+                recovery-time:
+                    _process: not_implemented
+                restart-time:
+                    _process: not_implemented
+        hellos:
+            _process: not_implemented
+            config:
+                _process: not_implemented
+                hello-interval:
+                    _process: not_implemented
+                refresh-reduction:
+                    _process: not_implemented
+            state:
+                _process: not_implemented
+                hello-interval:
+                    _process: not_implemented
+                refresh-reduction:
+                    _process: not_implemented
+        soft-preemption:
+            _process: not_implemented
+            config:
+                _process: not_implemented
+                enable:
+                    _process: not_implemented
+                soft-preemption-timeout:
+                    _process: not_implemented
+            state:
+                _process: not_implemented
+                enable:
+                    _process: not_implemented
+                soft-preemption-timeout:
+                    _process: not_implemented
+        state:
+            _process: not_implemented
+            counters:
+                _process: not_implemented
+                in-ack-messages:
+                    _process: not_implemented
+                in-hello-messages:
+                    _process: not_implemented
+                in-path-error-messages:
+                    _process: not_implemented
+                in-path-messages:
+                    _process: not_implemented
+                in-path-tear-messages:
+                    _process: not_implemented
+                in-reservation-error-messages:
+                    _process: not_implemented
+                in-reservation-messages:
+                    _process: not_implemented
+                in-reservation-tear-messages:
+                    _process: not_implemented
+                in-srefresh-messages:
+                    _process: not_implemented
+                out-ack-messages:
+                    _process: not_implemented
+                out-hello-messages:
+                    _process: not_implemented
+                out-path-error-messages:
+                    _process: not_implemented
+                out-path-messages:
+                    _process: not_implemented
+                out-path-tear-messages:
+                    _process: not_implemented
+                out-reservation-error-messages:
+                    _process: not_implemented
+                out-reservation-messages:
+                    _process: not_implemented
+                out-reservation-tear-messages:
+                    _process: not_implemented
+                out-srefresh-messages:
+                    _process: not_implemented
+                path-timeouts:
+                    _process: not_implemented
+                rate-limited-messages:
+                    _process: not_implemented
+                reservation-timeouts:
+                    _process: not_implemented
+    interface-attributes:
+        _process: not_implemented
+        interface:
+            _process: not_implemented
+            authentication:
+                _process: not_implemented
+                config:
+                    _process: not_implemented
+                    authentication-key:
+                        _process: not_implemented
+                    enable:
+                        _process: not_implemented
+                state:
+                    _process: not_implemented
+                    authentication-key:
+                        _process: not_implemented
+                    enable:
+                        _process: not_implemented
+            bandwidth-reservations:
+                _process: not_implemented
+                bandwidth-reservation:
+                    _process: not_implemented
+                    priority:
+                        _process: not_implemented
+                    state:
+                        _process: not_implemented
+                        active-reservations-count:
+                            _process: not_implemented
+                        available-bandwidth:
+                            _process: not_implemented
+                        highwater-mark:
+                            _process: not_implemented
+                        priority:
+                            _process: not_implemented
+                        reserved-bandwidth:
+                            _process: not_implemented
+            config:
+                _process: not_implemented
+                interface-id:
+                    _process: not_implemented
+            hellos:
+                _process: not_implemented
+                config:
+                    _process: not_implemented
+                    hello-interval:
+                        _process: not_implemented
+                    refresh-reduction:
+                        _process: not_implemented
+                state:
+                    _process: not_implemented
+                    hello-interval:
+                        _process: not_implemented
+                    refresh-reduction:
+                        _process: not_implemented
+            interface-id:
+                _process: not_implemented
+            protection:
+                _process: not_implemented
+                config:
+                    _process: not_implemented
+                    bypass-optimize-interval:
+                        _process: not_implemented
+                    link-protection-style-requested:
+                        _process: not_implemented
+                state:
+                    _process: not_implemented
+                    bypass-optimize-interval:
+                        _process: not_implemented
+                    link-protection-style-requested:
+                        _process: not_implemented
+            state:
+                _process: not_implemented
+                counters:
+                    _process: not_implemented
+                    in-ack-messages:
+                        _process: not_implemented
+                    in-hello-messages:
+                        _process: not_implemented
+                    in-path-error-messages:
+                        _process: not_implemented
+                    in-path-messages:
+                        _process: not_implemented
+                    in-path-tear-messages:
+                        _process: not_implemented
+                    in-reservation-error-messages:
+                        _process: not_implemented
+                    in-reservation-messages:
+                        _process: not_implemented
+                    in-reservation-tear-messages:
+                        _process: not_implemented
+                    in-srefresh-messages:
+                        _process: not_implemented
+                    out-ack-messages:
+                        _process: not_implemented
+                    out-hello-messages:
+                        _process: not_implemented
+                    out-path-error-messages:
+                        _process: not_implemented
+                    out-path-messages:
+                        _process: not_implemented
+                    out-path-tear-messages:
+                        _process: not_implemented
+                    out-reservation-error-messages:
+                        _process: not_implemented
+                    out-reservation-messages:
+                        _process: not_implemented
+                    out-reservation-tear-messages:
+                        _process: not_implemented
+                    out-srefresh-messages:
+                        _process: not_implemented
+                interface-id:
+                    _process: not_implemented
+            subscription:
+                _process: not_implemented
+                config:
+                    _process: not_implemented
+                    subscription:
+                        _process: not_implemented
+                state:
+                    _process: not_implemented
+                    subscription:
+                        _process: not_implemented
+    neighbors:
+        _process: not_implemented
+        neighbor:
+            _process: not_implemented
+            address:
+                _process: not_implemented
+            state:
+                _process: not_implemented
+                address:
+                    _process: not_implemented
+                detected-interface:
+                    _process: not_implemented
+                neighbor-status:
+                    _process: not_implemented
+                refresh-reduction:
+                    _process: not_implemented
+    sessions:
+        _process: not_implemented
+        session:
+            _process: not_implemented
+            local-index:
+                _process: not_implemented
+            record-route-objects:
+                _process: not_implemented
+                record-route-object:
+                    _process: not_implemented
+                    index:
+                        _process: not_implemented
+                    state:
+                        _process: not_implemented
+                        address:
+                            _process: not_implemented
+                        index:
+                            _process: not_implemented
+                        reported-flags:
+                            _process: not_implemented
+                        reported-label:
+                            _process: not_implemented
+            state:
+                _process: not_implemented
+                destination-address:
+                    _process: not_implemented
+                label-in:
+                    _process: not_implemented
+                label-out:
+                    _process: not_implemented
+                local-index:
+                    _process: not_implemented
+                lsp-id:
+                    _process: not_implemented
+                protection-requested:
+                    _process: not_implemented
+                sender-tspec:
+                    _process: not_implemented
+                    peak-data-rate:
+                        _process: not_implemented
+                    rate:
+                        _process: not_implemented
+                    size:
+                        _process: not_implemented
+                session-name:
+                    _process: not_implemented
+                source-address:
+                    _process: not_implemented
+                status:
+                    _process: not_implemented
+                tunnel-id:
+                    _process: not_implemented
+                type:
+                    _process: not_implemented

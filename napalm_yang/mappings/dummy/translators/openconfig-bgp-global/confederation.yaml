@@ -1,0 +1,22 @@
+---
+metadata:
+    processor: unset
+
+confederation:
+    _process: not_implemented
+    config:
+        _process: not_implemented
+        enabled:
+            _process: not_implemented
+        identifier:
+            _process: not_implemented
+        member-as:
+            _process: not_implemented
+    state:
+        _process: not_implemented
+        enabled:
+            _process: not_implemented
+        identifier:
+            _process: not_implemented
+        member-as:
+            _process: not_implemented

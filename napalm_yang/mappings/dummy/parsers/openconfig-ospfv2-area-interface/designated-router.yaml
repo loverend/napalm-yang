@@ -1,0 +1,6 @@
+---
+metadata:
+    processor: unset
+
+designated-router:
+    _process: not_implemented

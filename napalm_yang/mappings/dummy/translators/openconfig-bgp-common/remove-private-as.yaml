@@ -1,0 +1,6 @@
+---
+metadata:
+    processor: unset
+
+remove-private-as:
+    _process: not_implemented

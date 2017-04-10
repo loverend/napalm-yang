@@ -1,0 +1,38 @@
+---
+metadata:
+    processor: unset
+
+use-multiple-paths:
+    _process: not_implemented
+    config:
+        _process: not_implemented
+        enabled:
+            _process: not_implemented
+    ebgp:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            allow-multiple-as:
+                _process: not_implemented
+            maximum-paths:
+                _process: not_implemented
+        state:
+            _process: not_implemented
+            allow-multiple-as:
+                _process: not_implemented
+            maximum-paths:
+                _process: not_implemented
+    ibgp:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            maximum-paths:
+                _process: not_implemented
+        state:
+            _process: not_implemented
+            maximum-paths:
+                _process: not_implemented
+    state:
+        _process: not_implemented
+        enabled:
+            _process: not_implemented

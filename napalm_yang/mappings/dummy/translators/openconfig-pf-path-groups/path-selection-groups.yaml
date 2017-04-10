@@ -1,0 +1,22 @@
+---
+metadata:
+    processor: unset
+
+path-selection-groups:
+    _process: not_implemented
+    path-selection-group:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            group-id:
+                _process: not_implemented
+            mpls-lsp:
+                _process: not_implemented
+        group-id:
+            _process: not_implemented
+        state:
+            _process: not_implemented
+            group-id:
+                _process: not_implemented
+            mpls-lsp:
+                _process: not_implemented

@@ -1,0 +1,6 @@
+---
+metadata:
+    processor: unset
+
+allow-own-as:
+    _process: not_implemented

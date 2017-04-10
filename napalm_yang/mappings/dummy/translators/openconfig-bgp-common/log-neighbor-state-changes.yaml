@@ -1,0 +1,6 @@
+---
+metadata:
+    processor: unset
+
+log-neighbor-state-changes:
+    _process: not_implemented

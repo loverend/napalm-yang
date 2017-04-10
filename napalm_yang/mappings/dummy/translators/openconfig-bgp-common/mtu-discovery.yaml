@@ -1,0 +1,6 @@
+---
+metadata:
+    processor: unset
+
+mtu-discovery:
+    _process: not_implemented

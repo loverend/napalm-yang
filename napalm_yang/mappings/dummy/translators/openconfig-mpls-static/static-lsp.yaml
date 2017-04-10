@@ -1,0 +1,70 @@
+---
+metadata:
+    processor: unset
+
+static-lsp:
+    _process: not_implemented
+    config:
+        _process: not_implemented
+        name:
+            _process: not_implemented
+    egress:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            incoming-label:
+                _process: not_implemented
+            next-hop:
+                _process: not_implemented
+            push-label:
+                _process: not_implemented
+        state:
+            _process: not_implemented
+            incoming-label:
+                _process: not_implemented
+            next-hop:
+                _process: not_implemented
+            push-label:
+                _process: not_implemented
+    ingress:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            incoming-label:
+                _process: not_implemented
+            next-hop:
+                _process: not_implemented
+            push-label:
+                _process: not_implemented
+        state:
+            _process: not_implemented
+            incoming-label:
+                _process: not_implemented
+            next-hop:
+                _process: not_implemented
+            push-label:
+                _process: not_implemented
+    name:
+        _process: not_implemented
+    state:
+        _process: not_implemented
+        name:
+            _process: not_implemented
+    transit:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            incoming-label:
+                _process: not_implemented
+            next-hop:
+                _process: not_implemented
+            push-label:
+                _process: not_implemented
+        state:
+            _process: not_implemented
+            incoming-label:
+                _process: not_implemented
+            next-hop:
+                _process: not_implemented
+            push-label:
+                _process: not_implemented

@@ -1,0 +1,12 @@
+---
+metadata:
+    processor: unset
+
+bgp:
+    _process: not_implemented
+    global:
+        _process: not_implemented
+    neighbors:
+        _process: not_implemented
+    peer-groups:
+        _process: not_implemented

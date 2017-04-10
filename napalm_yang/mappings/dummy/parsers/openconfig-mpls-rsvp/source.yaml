@@ -1,0 +1,6 @@
+---
+metadata:
+    processor: unset
+
+source:
+    _process: not_implemented

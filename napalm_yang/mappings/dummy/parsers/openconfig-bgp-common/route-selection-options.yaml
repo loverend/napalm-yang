@@ -1,0 +1,34 @@
+---
+metadata:
+    processor: unset
+
+route-selection-options:
+    _process: not_implemented
+    config:
+        _process: not_implemented
+        advertise-inactive-routes:
+            _process: not_implemented
+        always-compare-med:
+            _process: not_implemented
+        enable-aigp:
+            _process: not_implemented
+        external-compare-router-id:
+            _process: not_implemented
+        ignore-as-path-length:
+            _process: not_implemented
+        ignore-next-hop-igp-metric:
+            _process: not_implemented
+    state:
+        _process: not_implemented
+        advertise-inactive-routes:
+            _process: not_implemented
+        always-compare-med:
+            _process: not_implemented
+        enable-aigp:
+            _process: not_implemented
+        external-compare-router-id:
+            _process: not_implemented
+        ignore-as-path-length:
+            _process: not_implemented
+        ignore-next-hop-igp-metric:
+            _process: not_implemented

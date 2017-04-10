@@ -1,0 +1,6 @@
+---
+metadata:
+    processor: unset
+
+allow-multiple-as:
+    _process: not_implemented

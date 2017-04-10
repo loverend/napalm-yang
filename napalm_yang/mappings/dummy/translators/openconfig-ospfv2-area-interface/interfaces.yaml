@@ -1,0 +1,128 @@
+---
+metadata:
+    processor: unset
+
+interfaces:
+    _process: not_implemented
+    interface:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            authentication-type:
+                _process: not_implemented
+            hide-network:
+                _process: not_implemented
+            id:
+                _process: not_implemented
+            metric:
+                _process: not_implemented
+            multi-area-adjacency-primary:
+                _process: not_implemented
+            network-type:
+                _process: not_implemented
+            passive:
+                _process: not_implemented
+            priority:
+                _process: not_implemented
+        id:
+            _process: not_implemented
+        lsa-filter:
+            _process: not_implemented
+            config:
+                _process: not_implemented
+                all:
+                    _process: not_implemented
+            state:
+                _process: not_implemented
+                all:
+                    _process: not_implemented
+        mpls:
+            _process: not_implemented
+            config:
+                _process: not_implemented
+                traffic-engineering-metric:
+                    _process: not_implemented
+            igp-ldp-sync:
+                _process: not_implemented
+                config:
+                    _process: not_implemented
+                state:
+                    _process: not_implemented
+                    synchronized:
+                        _process: not_implemented
+            state:
+                _process: not_implemented
+                traffic-engineering-metric:
+                    _process: not_implemented
+        neighbors:
+            _process: not_implemented
+            neighbor:
+                _process: not_implemented
+                config:
+                    _process: not_implemented
+                    metric:
+                        _process: not_implemented
+                    router-id:
+                        _process: not_implemented
+                router-id:
+                    _process: not_implemented
+                state:
+                    _process: not_implemented
+                    adjacency-state:
+                        _process: not_implemented
+                    backup-designated-router:
+                        _process: not_implemented
+                    dead-time:
+                        _process: not_implemented
+                    designated-router:
+                        _process: not_implemented
+                    last-established-time:
+                        _process: not_implemented
+                    metric:
+                        _process: not_implemented
+                    optional-capabilities:
+                        _process: not_implemented
+                    priority:
+                        _process: not_implemented
+                    retranmission-queue-length:
+                        _process: not_implemented
+                    router-id:
+                        _process: not_implemented
+                    state-changes:
+                        _process: not_implemented
+        state:
+            _process: not_implemented
+            authentication-type:
+                _process: not_implemented
+            hide-network:
+                _process: not_implemented
+            id:
+                _process: not_implemented
+            metric:
+                _process: not_implemented
+            multi-area-adjacency-primary:
+                _process: not_implemented
+            network-type:
+                _process: not_implemented
+            passive:
+                _process: not_implemented
+            priority:
+                _process: not_implemented
+        timers:
+            _process: not_implemented
+            config:
+                _process: not_implemented
+                dead-interval:
+                    _process: not_implemented
+                hello-interval:
+                    _process: not_implemented
+                retransmission-interval:
+                    _process: not_implemented
+            state:
+                _process: not_implemented
+                dead-interval:
+                    _process: not_implemented
+                hello-interval:
+                    _process: not_implemented
+                retransmission-interval:
+                    _process: not_implemented

@@ -1,0 +1,20 @@
+---
+metadata:
+    processor: unset
+
+afi-safis:
+    _process: not_implemented
+    afi-safi:
+        _process: not_implemented
+        afi-safi-name:
+            _process: not_implemented
+        config:
+            _process: not_implemented
+        graceful-restart:
+            _process: not_implemented
+            config:
+                _process: not_implemented
+            state:
+                _process: not_implemented
+        state:
+            _process: not_implemented

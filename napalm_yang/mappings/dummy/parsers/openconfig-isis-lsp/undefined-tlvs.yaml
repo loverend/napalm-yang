@@ -1,0 +1,18 @@
+---
+metadata:
+    processor: unset
+
+undefined-tlvs:
+    _process: not_implemented
+    undefined-tlv:
+        _process: not_implemented
+        state:
+            _process: not_implemented
+            length:
+                _process: not_implemented
+            type:
+                _process: not_implemented
+            value:
+                _process: not_implemented
+        type:
+            _process: not_implemented

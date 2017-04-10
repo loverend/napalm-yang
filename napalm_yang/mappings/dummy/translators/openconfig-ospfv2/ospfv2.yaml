@@ -1,0 +1,12 @@
+---
+metadata:
+    processor: unset
+
+ospfv2:
+    _process: not_implemented
+    areas:
+        _process: not_implemented
+        area:
+            _process: not_implemented
+            identifier:
+                _process: not_implemented

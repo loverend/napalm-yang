@@ -1,0 +1,18 @@
+---
+metadata:
+    processor: unset
+
+virtual-links:
+    _process: not_implemented
+    virtual-link:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            remote-router-id:
+                _process: not_implemented
+        remote-router-id:
+            _process: not_implemented
+        state:
+            _process: not_implemented
+            remote-router-id:
+                _process: not_implemented

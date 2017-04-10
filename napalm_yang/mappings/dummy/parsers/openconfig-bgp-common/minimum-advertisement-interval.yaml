@@ -1,0 +1,6 @@
+---
+metadata:
+    processor: unset
+
+minimum-advertisement-interval:
+    _process: not_implemented

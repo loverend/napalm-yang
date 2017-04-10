@@ -1,0 +1,6 @@
+---
+metadata:
+    processor: unset
+
+passive-mode:
+    _process: not_implemented

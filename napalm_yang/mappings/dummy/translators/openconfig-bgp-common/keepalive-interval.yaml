@@ -1,0 +1,6 @@
+---
+metadata:
+    processor: unset
+
+keepalive-interval:
+    _process: not_implemented

@@ -1,0 +1,1778 @@
+---
+metadata:
+    processor: unset
+
+tlvs:
+    _process: not_implemented
+    tlv:
+        _process: not_implemented
+        area-address:
+            _process: not_implemented
+            state:
+                _process: not_implemented
+                area-address:
+                    _process: not_implemented
+                type:
+                    _process: not_implemented
+        authentication:
+            _process: not_implemented
+            state:
+                _process: not_implemented
+                authentication-key:
+                    _process: not_implemented
+                crypto-type:
+                    _process: not_implemented
+                type:
+                    _process: not_implemented
+        extended-ipv4-reachability:
+            _process: not_implemented
+            prefixes:
+                _process: not_implemented
+                prefix:
+                    _process: not_implemented
+                    state:
+                        _process: not_implemented
+                        ipv4-prefix:
+                            _process: not_implemented
+                        metric:
+                            _process: not_implemented
+                        s-bit:
+                            _process: not_implemented
+                        up-down:
+                            _process: not_implemented
+                    subTLVs:
+                        _process: not_implemented
+                        subTLVs:
+                            _process: not_implemented
+                            flags:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    flags:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv4-source-router-id:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv4-source-router-id:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv6-source-router-id:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv6-source-router-id:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            prefix-sid:
+                                _process: not_implemented
+                                sid:
+                                    _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        algorithm:
+                                            _process: not_implemented
+                                        flags:
+                                            _process: not_implemented
+                                        subtlv-type:
+                                            _process: not_implemented
+                                        value:
+                                            _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                subtlv-type:
+                                    _process: not_implemented
+                            subtlv-type:
+                                _process: not_implemented
+                            tag:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    tag32:
+                                        _process: not_implemented
+                            tag64:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    tag64:
+                                        _process: not_implemented
+                    undefined-subtlvs:
+                        _process: not_implemented
+                        undefined-subtlv:
+                            _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                length:
+                                    _process: not_implemented
+                                type:
+                                    _process: not_implemented
+                                value:
+                                    _process: not_implemented
+                            type:
+                                _process: not_implemented
+            state:
+                _process: not_implemented
+                type:
+                    _process: not_implemented
+        extended-is-reachability:
+            _process: not_implemented
+            neighbors:
+                _process: not_implemented
+                neighbors:
+                    _process: not_implemented
+                    state:
+                        _process: not_implemented
+                        metric:
+                            _process: not_implemented
+                        system-id:
+                            _process: not_implemented
+                    subTLVs:
+                        _process: not_implemented
+                        subTLVs:
+                            _process: not_implemented
+                            adjacency-sid:
+                                _process: not_implemented
+                                sid:
+                                    _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        flags:
+                                            _process: not_implemented
+                                        value:
+                                            _process: not_implemented
+                                        weight:
+                                            _process: not_implemented
+                            admin-group:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    admin-group:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            available-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    available-bandwidth:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            bandwidth-constraints:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    bandwidth-constraints:
+                                        _process: not_implemented
+                                    model-id:
+                                        _process: not_implemented
+                                    reserved:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            extended-admin-group:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    extended-admin-group:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv4-interface-address:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv4-interface-address:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv4-neighbor-address:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv4-neighbor-address:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv6-interface-address:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv6-interface-address:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv6-neighbor-address:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv6-neighbor-address:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            lan-adjacency-sid:
+                                _process: not_implemented
+                                sid:
+                                    _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        flags:
+                                            _process: not_implemented
+                                        neighbor-id:
+                                            _process: not_implemented
+                                        value:
+                                            _process: not_implemented
+                                        weight:
+                                            _process: not_implemented
+                            link-attributes:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    local-protection:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            link-delay:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    a-bit:
+                                        _process: not_implemented
+                                    delay:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            link-delay-variation:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    delay:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            link-loss:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    a-bit:
+                                        _process: not_implemented
+                                    link-loss:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            link-protection-type:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    link-protection-type:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            max-link-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    max-link-bandwidth:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            max-reservable-link-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    max-reservable-link-bandwidth:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            min-max-link-delay:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    a-bit:
+                                        _process: not_implemented
+                                    max-delay:
+                                        _process: not_implemented
+                                    min-delay:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            residual-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    residual-bandwidth:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                subtlv-type:
+                                    _process: not_implemented
+                            subtlv-type:
+                                _process: not_implemented
+                            te-default-metric:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    te-default-metric:
+                                        _process: not_implemented
+                            unconstrained-lsp:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    unconstrained-lsp:
+                                        _process: not_implemented
+                            unreserved-bandwidth:
+                                _process: not_implemented
+                                setup-priority:
+                                    _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        setup-priority:
+                                            _process: not_implemented
+                                        subtlv-type:
+                                            _process: not_implemented
+                                        unreserved-bandwidth:
+                                            _process: not_implemented
+                            utilized-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    utilized-bandwidth:
+                                        _process: not_implemented
+                    undefined-subtlvs:
+                        _process: not_implemented
+                        undefined-subtlv:
+                            _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                length:
+                                    _process: not_implemented
+                                type:
+                                    _process: not_implemented
+                                value:
+                                    _process: not_implemented
+                            type:
+                                _process: not_implemented
+            state:
+                _process: not_implemented
+                type:
+                    _process: not_implemented
+        hostname:
+            _process: not_implemented
+            state:
+                _process: not_implemented
+                hostname:
+                    _process: not_implemented
+                type:
+                    _process: not_implemented
+        instance-id:
+            _process: not_implemented
+            state:
+                _process: not_implemented
+                instance-id:
+                    _process: not_implemented
+                topology-id:
+                    _process: not_implemented
+                type:
+                    _process: not_implemented
+        ipv4-external-reachability:
+            _process: not_implemented
+            prefixes:
+                _process: not_implemented
+                prefixes:
+                    _process: not_implemented
+                    default-metric:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            default-metric:
+                                _process: not_implemented
+                            flags:
+                                _process: not_implemented
+                    delay-metric:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            flags:
+                                _process: not_implemented
+                            metric:
+                                _process: not_implemented
+                    error-metric:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            flags:
+                                _process: not_implemented
+                            metric:
+                                _process: not_implemented
+                    expense-metric:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            flags:
+                                _process: not_implemented
+                            metric:
+                                _process: not_implemented
+                    state:
+                        _process: not_implemented
+                        ipv4-prefix:
+                            _process: not_implemented
+                        up-down:
+                            _process: not_implemented
+            state:
+                _process: not_implemented
+                type:
+                    _process: not_implemented
+        ipv4-interface-addresses:
+            _process: not_implemented
+            state:
+                _process: not_implemented
+                ipv4-interface-addresses:
+                    _process: not_implemented
+                type:
+                    _process: not_implemented
+        ipv4-internal-reachability:
+            _process: not_implemented
+            prefixes:
+                _process: not_implemented
+                prefixes:
+                    _process: not_implemented
+                    default-metric:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            default-metric:
+                                _process: not_implemented
+                            flags:
+                                _process: not_implemented
+                    delay-metric:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            flags:
+                                _process: not_implemented
+                            metric:
+                                _process: not_implemented
+                    error-metric:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            flags:
+                                _process: not_implemented
+                            metric:
+                                _process: not_implemented
+                    expense-metric:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            flags:
+                                _process: not_implemented
+                            metric:
+                                _process: not_implemented
+                    state:
+                        _process: not_implemented
+                        ipv4-prefix:
+                            _process: not_implemented
+                        up-down:
+                            _process: not_implemented
+            state:
+                _process: not_implemented
+                type:
+                    _process: not_implemented
+        ipv4-srlg:
+            _process: not_implemented
+            state:
+                _process: not_implemented
+                flags:
+                    _process: not_implemented
+                ipv4-interface-address:
+                    _process: not_implemented
+                ipv4-neighbor-address:
+                    _process: not_implemented
+                psn-number:
+                    _process: not_implemented
+                srlg-value:
+                    _process: not_implemented
+                system-id:
+                    _process: not_implemented
+                type:
+                    _process: not_implemented
+        ipv4-te-router-id:
+            _process: not_implemented
+            state:
+                _process: not_implemented
+                ipv4-te-router-id:
+                    _process: not_implemented
+                type:
+                    _process: not_implemented
+        ipv6-interface-addresses:
+            _process: not_implemented
+            state:
+                _process: not_implemented
+                ipv6-interface-addresses:
+                    _process: not_implemented
+                type:
+                    _process: not_implemented
+        ipv6-reachability:
+            _process: not_implemented
+            prefixes:
+                _process: not_implemented
+                prefixes:
+                    _process: not_implemented
+                    state:
+                        _process: not_implemented
+                        ipv6-prefix:
+                            _process: not_implemented
+                        metric:
+                            _process: not_implemented
+                        s-bit:
+                            _process: not_implemented
+                        up-down:
+                            _process: not_implemented
+                        x-bit:
+                            _process: not_implemented
+                    subTLVs:
+                        _process: not_implemented
+                        subTLVs:
+                            _process: not_implemented
+                            flags:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    flags:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv4-source-router-id:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv4-source-router-id:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv6-source-router-id:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv6-source-router-id:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            prefix-sid:
+                                _process: not_implemented
+                                sid:
+                                    _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        algorithm:
+                                            _process: not_implemented
+                                        flags:
+                                            _process: not_implemented
+                                        subtlv-type:
+                                            _process: not_implemented
+                                        value:
+                                            _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                subtlv-type:
+                                    _process: not_implemented
+                            subtlv-type:
+                                _process: not_implemented
+                            tag:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    tag32:
+                                        _process: not_implemented
+                            tag64:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    tag64:
+                                        _process: not_implemented
+                    undefined-subtlvs:
+                        _process: not_implemented
+                        undefined-subtlv:
+                            _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                length:
+                                    _process: not_implemented
+                                type:
+                                    _process: not_implemented
+                                value:
+                                    _process: not_implemented
+                            type:
+                                _process: not_implemented
+            state:
+                _process: not_implemented
+                type:
+                    _process: not_implemented
+        ipv6-srlg:
+            _process: not_implemented
+            state:
+                _process: not_implemented
+                flags:
+                    _process: not_implemented
+                ipv6-interface-address:
+                    _process: not_implemented
+                ipv6-neighbor-address:
+                    _process: not_implemented
+                psn-number:
+                    _process: not_implemented
+                srlg-value:
+                    _process: not_implemented
+                system-id:
+                    _process: not_implemented
+                type:
+                    _process: not_implemented
+        ipv6-te-router-id:
+            _process: not_implemented
+            state:
+                _process: not_implemented
+                ipv6-te-router-id:
+                    _process: not_implemented
+                type:
+                    _process: not_implemented
+        is-reachability:
+            _process: not_implemented
+            neighbors:
+                _process: not_implemented
+                neighbors:
+                    _process: not_implemented
+                    default-metric:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            default-metric:
+                                _process: not_implemented
+                            flags:
+                                _process: not_implemented
+                    delay-metric:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            flags:
+                                _process: not_implemented
+                            metric:
+                                _process: not_implemented
+                    error-metric:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            flags:
+                                _process: not_implemented
+                            metric:
+                                _process: not_implemented
+                    expense-metric:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            flags:
+                                _process: not_implemented
+                            metric:
+                                _process: not_implemented
+                    state:
+                        _process: not_implemented
+                        system-id:
+                            _process: not_implemented
+            state:
+                _process: not_implemented
+                type:
+                    _process: not_implemented
+        isis-alias-id:
+            _process: not_implemented
+            state:
+                _process: not_implemented
+                alias-id:
+                    _process: not_implemented
+                type:
+                    _process: not_implemented
+        isis-neighbor-attribute:
+            _process: not_implemented
+            neighbors:
+                _process: not_implemented
+                neighbor:
+                    _process: not_implemented
+                    state:
+                        _process: not_implemented
+                        metric:
+                            _process: not_implemented
+                        system-id:
+                            _process: not_implemented
+                    subTLVs:
+                        _process: not_implemented
+                        subTLVs:
+                            _process: not_implemented
+                            adjacency-sid:
+                                _process: not_implemented
+                                sid:
+                                    _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        flags:
+                                            _process: not_implemented
+                                        value:
+                                            _process: not_implemented
+                                        weight:
+                                            _process: not_implemented
+                            admin-group:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    admin-group:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            available-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    available-bandwidth:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            bandwidth-constraints:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    bandwidth-constraints:
+                                        _process: not_implemented
+                                    model-id:
+                                        _process: not_implemented
+                                    reserved:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            extended-admin-group:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    extended-admin-group:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv4-interface-address:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv4-interface-address:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv4-neighbor-address:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv4-neighbor-address:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv6-interface-address:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv6-interface-address:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv6-neighbor-address:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv6-neighbor-address:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            lan-adjacency-sid:
+                                _process: not_implemented
+                                sid:
+                                    _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        flags:
+                                            _process: not_implemented
+                                        neighbor-id:
+                                            _process: not_implemented
+                                        value:
+                                            _process: not_implemented
+                                        weight:
+                                            _process: not_implemented
+                            link-attributes:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    local-protection:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            link-delay:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    a-bit:
+                                        _process: not_implemented
+                                    delay:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            link-delay-variation:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    delay:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            link-loss:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    a-bit:
+                                        _process: not_implemented
+                                    link-loss:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            link-protection-type:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    link-protection-type:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            max-link-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    max-link-bandwidth:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            max-reservable-link-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    max-reservable-link-bandwidth:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            min-max-link-delay:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    a-bit:
+                                        _process: not_implemented
+                                    max-delay:
+                                        _process: not_implemented
+                                    min-delay:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            residual-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    residual-bandwidth:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                subtlv-type:
+                                    _process: not_implemented
+                            subtlv-type:
+                                _process: not_implemented
+                            te-default-metric:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    te-default-metric:
+                                        _process: not_implemented
+                            unconstrained-lsp:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    unconstrained-lsp:
+                                        _process: not_implemented
+                            unreserved-bandwidth:
+                                _process: not_implemented
+                                setup-priority:
+                                    _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        setup-priority:
+                                            _process: not_implemented
+                                        subtlv-type:
+                                            _process: not_implemented
+                                        unreserved-bandwidth:
+                                            _process: not_implemented
+                            utilized-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    utilized-bandwidth:
+                                        _process: not_implemented
+                    undefined-subtlvs:
+                        _process: not_implemented
+                        undefined-subtlv:
+                            _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                length:
+                                    _process: not_implemented
+                                type:
+                                    _process: not_implemented
+                                value:
+                                    _process: not_implemented
+                            type:
+                                _process: not_implemented
+            state:
+                _process: not_implemented
+                type:
+                    _process: not_implemented
+        mt-ipv4-reachability:
+            _process: not_implemented
+            prefixes:
+                _process: not_implemented
+                prefix:
+                    _process: not_implemented
+                    mt:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            mt-id:
+                                _process: not_implemented
+                    state:
+                        _process: not_implemented
+                        ipv4-prefix:
+                            _process: not_implemented
+                        metric:
+                            _process: not_implemented
+                        s-bit:
+                            _process: not_implemented
+                        up-down:
+                            _process: not_implemented
+                    subTLVs:
+                        _process: not_implemented
+                        subTLVs:
+                            _process: not_implemented
+                            flags:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    flags:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv4-source-router-id:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv4-source-router-id:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv6-source-router-id:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv6-source-router-id:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            prefix-sid:
+                                _process: not_implemented
+                                sid:
+                                    _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        algorithm:
+                                            _process: not_implemented
+                                        flags:
+                                            _process: not_implemented
+                                        subtlv-type:
+                                            _process: not_implemented
+                                        value:
+                                            _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                subtlv-type:
+                                    _process: not_implemented
+                            subtlv-type:
+                                _process: not_implemented
+                            tag:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    tag32:
+                                        _process: not_implemented
+                            tag64:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    tag64:
+                                        _process: not_implemented
+                    undefined-subtlvs:
+                        _process: not_implemented
+                        undefined-subtlv:
+                            _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                length:
+                                    _process: not_implemented
+                                type:
+                                    _process: not_implemented
+                                value:
+                                    _process: not_implemented
+                            type:
+                                _process: not_implemented
+            state:
+                _process: not_implemented
+                type:
+                    _process: not_implemented
+        mt-ipv6-reachability:
+            _process: not_implemented
+            prefixes:
+                _process: not_implemented
+                prefix:
+                    _process: not_implemented
+                    mt:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            mt-id:
+                                _process: not_implemented
+                    state:
+                        _process: not_implemented
+                        ipv6-prefix:
+                            _process: not_implemented
+                        metric:
+                            _process: not_implemented
+                        s-bit:
+                            _process: not_implemented
+                        up-down:
+                            _process: not_implemented
+                        x-bit:
+                            _process: not_implemented
+                    subTLVs:
+                        _process: not_implemented
+                        subTLVs:
+                            _process: not_implemented
+                            flags:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    flags:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv4-source-router-id:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv4-source-router-id:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv6-source-router-id:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv6-source-router-id:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            prefix-sid:
+                                _process: not_implemented
+                                sid:
+                                    _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        algorithm:
+                                            _process: not_implemented
+                                        flags:
+                                            _process: not_implemented
+                                        subtlv-type:
+                                            _process: not_implemented
+                                        value:
+                                            _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                subtlv-type:
+                                    _process: not_implemented
+                            subtlv-type:
+                                _process: not_implemented
+                            tag:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    tag32:
+                                        _process: not_implemented
+                            tag64:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    tag64:
+                                        _process: not_implemented
+                    undefined-subtlvs:
+                        _process: not_implemented
+                        undefined-subtlv:
+                            _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                length:
+                                    _process: not_implemented
+                                type:
+                                    _process: not_implemented
+                                value:
+                                    _process: not_implemented
+                            type:
+                                _process: not_implemented
+            state:
+                _process: not_implemented
+                type:
+                    _process: not_implemented
+        mt-isis-neighbor-attribute:
+            _process: not_implemented
+            neighbors:
+                _process: not_implemented
+                neighbor:
+                    _process: not_implemented
+                    state:
+                        _process: not_implemented
+                        metric:
+                            _process: not_implemented
+                        mt-id:
+                            _process: not_implemented
+                        system-id:
+                            _process: not_implemented
+                    subTLVs:
+                        _process: not_implemented
+                        subTLVs:
+                            _process: not_implemented
+                            adjacency-sid:
+                                _process: not_implemented
+                                sid:
+                                    _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        flags:
+                                            _process: not_implemented
+                                        value:
+                                            _process: not_implemented
+                                        weight:
+                                            _process: not_implemented
+                            admin-group:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    admin-group:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            available-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    available-bandwidth:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            bandwidth-constraints:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    bandwidth-constraints:
+                                        _process: not_implemented
+                                    model-id:
+                                        _process: not_implemented
+                                    reserved:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            extended-admin-group:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    extended-admin-group:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv4-interface-address:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv4-interface-address:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv4-neighbor-address:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv4-neighbor-address:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv6-interface-address:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv6-interface-address:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv6-neighbor-address:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv6-neighbor-address:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            lan-adjacency-sid:
+                                _process: not_implemented
+                                sid:
+                                    _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        flags:
+                                            _process: not_implemented
+                                        neighbor-id:
+                                            _process: not_implemented
+                                        value:
+                                            _process: not_implemented
+                                        weight:
+                                            _process: not_implemented
+                            link-attributes:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    local-protection:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            link-delay:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    a-bit:
+                                        _process: not_implemented
+                                    delay:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            link-delay-variation:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    delay:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            link-loss:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    a-bit:
+                                        _process: not_implemented
+                                    link-loss:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            link-protection-type:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    link-protection-type:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            max-link-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    max-link-bandwidth:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            max-reservable-link-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    max-reservable-link-bandwidth:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            min-max-link-delay:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    a-bit:
+                                        _process: not_implemented
+                                    max-delay:
+                                        _process: not_implemented
+                                    min-delay:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            residual-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    residual-bandwidth:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                subtlv-type:
+                                    _process: not_implemented
+                            subtlv-type:
+                                _process: not_implemented
+                            te-default-metric:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    te-default-metric:
+                                        _process: not_implemented
+                            unconstrained-lsp:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    unconstrained-lsp:
+                                        _process: not_implemented
+                            unreserved-bandwidth:
+                                _process: not_implemented
+                                setup-priority:
+                                    _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        setup-priority:
+                                            _process: not_implemented
+                                        subtlv-type:
+                                            _process: not_implemented
+                                        unreserved-bandwidth:
+                                            _process: not_implemented
+                            utilized-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    utilized-bandwidth:
+                                        _process: not_implemented
+                    undefined-subtlvs:
+                        _process: not_implemented
+                        undefined-subtlv:
+                            _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                length:
+                                    _process: not_implemented
+                                type:
+                                    _process: not_implemented
+                                value:
+                                    _process: not_implemented
+                            type:
+                                _process: not_implemented
+            state:
+                _process: not_implemented
+                type:
+                    _process: not_implemented
+        mt-isn:
+            _process: not_implemented
+            neighbors:
+                _process: not_implemented
+                neighbor:
+                    _process: not_implemented
+                    state:
+                        _process: not_implemented
+                        metric:
+                            _process: not_implemented
+                        mt-id:
+                            _process: not_implemented
+                        system-id:
+                            _process: not_implemented
+                    subTLVs:
+                        _process: not_implemented
+                        subTLVs:
+                            _process: not_implemented
+                            adjacency-sid:
+                                _process: not_implemented
+                                sid:
+                                    _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        flags:
+                                            _process: not_implemented
+                                        value:
+                                            _process: not_implemented
+                                        weight:
+                                            _process: not_implemented
+                            admin-group:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    admin-group:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            available-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    available-bandwidth:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            bandwidth-constraints:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    bandwidth-constraints:
+                                        _process: not_implemented
+                                    model-id:
+                                        _process: not_implemented
+                                    reserved:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            extended-admin-group:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    extended-admin-group:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv4-interface-address:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv4-interface-address:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv4-neighbor-address:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv4-neighbor-address:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv6-interface-address:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv6-interface-address:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            ipv6-neighbor-address:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    ipv6-neighbor-address:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            lan-adjacency-sid:
+                                _process: not_implemented
+                                sid:
+                                    _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        flags:
+                                            _process: not_implemented
+                                        neighbor-id:
+                                            _process: not_implemented
+                                        value:
+                                            _process: not_implemented
+                                        weight:
+                                            _process: not_implemented
+                            link-attributes:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    local-protection:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            link-delay:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    a-bit:
+                                        _process: not_implemented
+                                    delay:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            link-delay-variation:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    delay:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            link-loss:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    a-bit:
+                                        _process: not_implemented
+                                    link-loss:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            link-protection-type:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    link-protection-type:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            max-link-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    max-link-bandwidth:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            max-reservable-link-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    max-reservable-link-bandwidth:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            min-max-link-delay:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    a-bit:
+                                        _process: not_implemented
+                                    max-delay:
+                                        _process: not_implemented
+                                    min-delay:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            residual-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    residual-bandwidth:
+                                        _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                subtlv-type:
+                                    _process: not_implemented
+                            subtlv-type:
+                                _process: not_implemented
+                            te-default-metric:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    te-default-metric:
+                                        _process: not_implemented
+                            unconstrained-lsp:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    unconstrained-lsp:
+                                        _process: not_implemented
+                            unreserved-bandwidth:
+                                _process: not_implemented
+                                setup-priority:
+                                    _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        setup-priority:
+                                            _process: not_implemented
+                                        subtlv-type:
+                                            _process: not_implemented
+                                        unreserved-bandwidth:
+                                            _process: not_implemented
+                            utilized-bandwidth:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    subtlv-type:
+                                        _process: not_implemented
+                                    utilized-bandwidth:
+                                        _process: not_implemented
+                    undefined-subtlvs:
+                        _process: not_implemented
+                        undefined-subtlv:
+                            _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                length:
+                                    _process: not_implemented
+                                type:
+                                    _process: not_implemented
+                                value:
+                                    _process: not_implemented
+                            type:
+                                _process: not_implemented
+            state:
+                _process: not_implemented
+                type:
+                    _process: not_implemented
+        multi-topology:
+            _process: not_implemented
+            state:
+                _process: not_implemented
+                type:
+                    _process: not_implemented
+            topologies:
+                _process: not_implemented
+                topology:
+                    _process: not_implemented
+                    state:
+                        MT-ID:
+                            _process: not_implemented
+                        _process: not_implemented
+                        attributes:
+                            _process: not_implemented
+        nlpid:
+            _process: not_implemented
+            state:
+                _process: not_implemented
+                nlpid:
+                    _process: not_implemented
+                type:
+                    _process: not_implemented
+        purge-oi:
+            _process: not_implemented
+            state:
+                _process: not_implemented
+                received-system-id:
+                    _process: not_implemented
+                source-system-id:
+                    _process: not_implemented
+                system-id-count:
+                    _process: not_implemented
+                type:
+                    _process: not_implemented
+        router-capabilities:
+            _process: not_implemented
+            router-capability:
+                _process: not_implemented
+                state:
+                    _process: not_implemented
+                    flags:
+                        _process: not_implemented
+                    router-id:
+                        _process: not_implemented
+                    type:
+                        _process: not_implemented
+                subtlvs:
+                    _process: not_implemented
+                    subtlvs:
+                        _process: not_implemented
+                        segment-routing-algorithm:
+                            _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                segment-routing-algorithm:
+                                    _process: not_implemented
+                        segment-routing-capability:
+                            _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                flags:
+                                    _process: not_implemented
+                                label:
+                                    _process: not_implemented
+                                range:
+                                    _process: not_implemented
+                                subtlv-type:
+                                    _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            subtlv-type:
+                                _process: not_implemented
+                        subtlv-type:
+                            _process: not_implemented
+                undefined-subtlvs:
+                    _process: not_implemented
+                    undefined-subtlv:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            length:
+                                _process: not_implemented
+                            type:
+                                _process: not_implemented
+                            value:
+                                _process: not_implemented
+                        type:
+                            _process: not_implemented
+        state:
+            _process: not_implemented
+            type:
+                _process: not_implemented
+        type:
+            _process: not_implemented
+        type-block:
+            _process: not_implemented
+            state:
+                _process: not_implemented
+                flags:
+                    _process: not_implemented
+                is-type:
+                    _process: not_implemented

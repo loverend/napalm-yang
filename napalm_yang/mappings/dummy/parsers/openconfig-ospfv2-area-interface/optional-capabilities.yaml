@@ -1,0 +1,6 @@
+---
+metadata:
+    processor: unset
+
+optional-capabilities:
+    _process: not_implemented

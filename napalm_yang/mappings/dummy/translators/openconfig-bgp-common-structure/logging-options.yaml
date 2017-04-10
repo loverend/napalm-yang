@@ -1,0 +1,10 @@
+---
+metadata:
+    processor: unset
+
+logging-options:
+    _process: not_implemented
+    config:
+        _process: not_implemented
+    state:
+        _process: not_implemented

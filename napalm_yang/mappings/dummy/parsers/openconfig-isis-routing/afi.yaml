@@ -1,0 +1,20 @@
+---
+metadata:
+    processor: unset
+
+afi:
+    _process: not_implemented
+    afi-name:
+        _process: not_implemented
+    config:
+        _process: not_implemented
+        afi-name:
+            _process: not_implemented
+        nh-type:
+            _process: not_implemented
+    state:
+        _process: not_implemented
+        afi-name:
+            _process: not_implemented
+        nh-type:
+            _process: not_implemented

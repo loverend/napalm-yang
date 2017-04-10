@@ -1,0 +1,6 @@
+---
+metadata:
+    processor: unset
+
+default-import-policy:
+    _process: not_implemented

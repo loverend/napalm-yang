@@ -1,0 +1,48 @@
+---
+metadata:
+    processor: unset
+
+static-routes:
+    _process: not_implemented
+    static:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            prefix:
+                _process: not_implemented
+            set-tag:
+                _process: not_implemented
+        next-hops:
+            _process: not_implemented
+            next-hop:
+                _process: not_implemented
+                config:
+                    _process: not_implemented
+                    index:
+                        _process: not_implemented
+                    metric:
+                        _process: not_implemented
+                    next-hop:
+                        _process: not_implemented
+                    recurse:
+                        _process: not_implemented
+                index:
+                    _process: not_implemented
+                state:
+                    _process: not_implemented
+                    index:
+                        _process: not_implemented
+                    metric:
+                        _process: not_implemented
+                    next-hop:
+                        _process: not_implemented
+                    recurse:
+                        _process: not_implemented
+        prefix:
+            _process: not_implemented
+        state:
+            _process: not_implemented
+            prefix:
+                _process: not_implemented
+            set-tag:
+                _process: not_implemented

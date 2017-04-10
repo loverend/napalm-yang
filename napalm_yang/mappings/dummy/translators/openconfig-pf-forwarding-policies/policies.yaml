@@ -1,0 +1,62 @@
+---
+metadata:
+    processor: unset
+
+policies:
+    _process: not_implemented
+    policy:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            policy-id:
+                _process: not_implemented
+        policy-id:
+            _process: not_implemented
+        rules:
+            _process: not_implemented
+            rule:
+                _process: not_implemented
+                action:
+                    _process: not_implemented
+                    config:
+                        _process: not_implemented
+                        decapsulate-gre:
+                            _process: not_implemented
+                        discard:
+                            _process: not_implemented
+                        network-instance:
+                            _process: not_implemented
+                        next-hop:
+                            _process: not_implemented
+                        path-selection-group:
+                            _process: not_implemented
+                    state:
+                        _process: not_implemented
+                        decapsulate-gre:
+                            _process: not_implemented
+                        discard:
+                            _process: not_implemented
+                        network-instance:
+                            _process: not_implemented
+                        next-hop:
+                            _process: not_implemented
+                        path-selection-group:
+                            _process: not_implemented
+                config:
+                    _process: not_implemented
+                    sequence-id:
+                        _process: not_implemented
+                sequence-id:
+                    _process: not_implemented
+                state:
+                    _process: not_implemented
+                    matched-octets:
+                        _process: not_implemented
+                    matched-pkts:
+                        _process: not_implemented
+                    sequence-id:
+                        _process: not_implemented
+        state:
+            _process: not_implemented
+            policy-id:
+                _process: not_implemented

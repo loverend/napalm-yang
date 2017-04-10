@@ -9,9 +9,9 @@ import yaml
 
 models = [
     napalm_yang.models.openconfig_network_instance,
-    napalm_yang.models.openconfig_interfaces,
-    napalm_yang.models.openconfig_platform,
-    napalm_yang.models.openconfig_vlan,
+    #  napalm_yang.models.openconfig_interfaces,
+    #  napalm_yang.models.openconfig_platform,
+    #  napalm_yang.models.openconfig_vlan,
 ]
 
 profile = "dummy"
@@ -33,12 +33,12 @@ def process(model, r):
     for k, v in ctr:
         rr = r[model._yang_name]
         rr["_process"] = "not_implemented"
-        process_module(v, model._defining_module, rr)
+        process_module(v, model._original_module, rr)
 
 
 def process_module(model, module, r):
-    if model._defining_module != module:
-        r = result[os.path.join(model._defining_module,
+    if model._original_module != module:
+        r = result[os.path.join(model._original_module,
                                 "{}.yaml".format(model._yang_name))]
 
     process(model, r)

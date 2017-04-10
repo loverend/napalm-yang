@@ -1,0 +1,28 @@
+---
+metadata:
+    processor: unset
+
+l3vpn-ipv6-unicast:
+    _process: not_implemented
+    prefix-limit:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            max-prefixes:
+                _process: not_implemented
+            prevent-teardown:
+                _process: not_implemented
+            restart-timer:
+                _process: not_implemented
+            shutdown-threshold-pct:
+                _process: not_implemented
+        state:
+            _process: not_implemented
+            max-prefixes:
+                _process: not_implemented
+            prevent-teardown:
+                _process: not_implemented
+            restart-timer:
+                _process: not_implemented
+            shutdown-threshold-pct:
+                _process: not_implemented

@@ -1,0 +1,156 @@
+---
+metadata:
+    processor: unset
+
+mpls:
+    _process: not_implemented
+    global:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            null-label:
+                _process: not_implemented
+        interface-attributes:
+            _process: not_implemented
+            interface:
+                _process: not_implemented
+                config:
+                    _process: not_implemented
+                    interface-id:
+                        _process: not_implemented
+                    mpls-enabled:
+                        _process: not_implemented
+                interface-id:
+                    _process: not_implemented
+                state:
+                    _process: not_implemented
+                    interface-id:
+                        _process: not_implemented
+                    mpls-enabled:
+                        _process: not_implemented
+        reserved-label-blocks:
+            _process: not_implemented
+            reserved-label-block:
+                _process: not_implemented
+                config:
+                    _process: not_implemented
+                    local-id:
+                        _process: not_implemented
+                    lower-bound:
+                        _process: not_implemented
+                    upper-bound:
+                        _process: not_implemented
+                local-id:
+                    _process: not_implemented
+                state:
+                    _process: not_implemented
+                    local-id:
+                        _process: not_implemented
+                    lower-bound:
+                        _process: not_implemented
+                    upper-bound:
+                        _process: not_implemented
+        state:
+            _process: not_implemented
+            null-label:
+                _process: not_implemented
+    lsps:
+        _process: not_implemented
+        constrained-path:
+            _process: not_implemented
+        static-lsps:
+            _process: not_implemented
+        unconstrained-path:
+            _process: not_implemented
+    signaling-protocols:
+        _process: not_implemented
+    te-global-attributes:
+        _process: not_implemented
+        mpls-admin-groups:
+            _process: not_implemented
+            admin-group:
+                _process: not_implemented
+                admin-group-name:
+                    _process: not_implemented
+                config:
+                    _process: not_implemented
+                    admin-group-name:
+                        _process: not_implemented
+                    bit-position:
+                        _process: not_implemented
+                state:
+                    _process: not_implemented
+                    admin-group-name:
+                        _process: not_implemented
+                    bit-position:
+                        _process: not_implemented
+        te-lsp-timers:
+            _process: not_implemented
+            config:
+                _process: not_implemented
+                cleanup-delay:
+                    _process: not_implemented
+                install-delay:
+                    _process: not_implemented
+            state:
+                _process: not_implemented
+                cleanup-delay:
+                    _process: not_implemented
+                install-delay:
+                    _process: not_implemented
+    te-interface-attributes:
+        _process: not_implemented
+        interface:
+            _process: not_implemented
+            config:
+                _process: not_implemented
+                admin-group:
+                    _process: not_implemented
+                interface-id:
+                    _process: not_implemented
+                srlg-membership:
+                    _process: not_implemented
+                te-metric:
+                    _process: not_implemented
+            igp-flooding-bandwidth:
+                _process: not_implemented
+                config:
+                    _process: not_implemented
+                    delta-percentage:
+                        _process: not_implemented
+                    down-thresholds:
+                        _process: not_implemented
+                    threshold-specification:
+                        _process: not_implemented
+                    threshold-type:
+                        _process: not_implemented
+                    up-down-thresholds:
+                        _process: not_implemented
+                    up-thresholds:
+                        _process: not_implemented
+                state:
+                    _process: not_implemented
+                    delta-percentage:
+                        _process: not_implemented
+                    down-thresholds:
+                        _process: not_implemented
+                    threshold-specification:
+                        _process: not_implemented
+                    threshold-type:
+                        _process: not_implemented
+                    up-down-thresholds:
+                        _process: not_implemented
+                    up-thresholds:
+                        _process: not_implemented
+            interface-id:
+                _process: not_implemented
+            state:
+                _process: not_implemented
+                admin-group:
+                    _process: not_implemented
+                interface-id:
+                    _process: not_implemented
+                srlg-membership:
+                    _process: not_implemented
+                te-metric:
+                    _process: not_implemented

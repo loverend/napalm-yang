@@ -1,0 +1,10 @@
+---
+metadata:
+    processor: unset
+
+config:
+    _process: not_implemented
+    as:
+        _process: not_implemented
+    router-id:
+        _process: not_implemented

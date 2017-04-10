@@ -1,0 +1,40 @@
+---
+metadata:
+    processor: unset
+
+named-explicit-paths:
+    _process: not_implemented
+    named-explicit-path:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            name:
+                _process: not_implemented
+        explicit-route-objects:
+            _process: not_implemented
+            explicit-route-object:
+                _process: not_implemented
+                config:
+                    _process: not_implemented
+                    address:
+                        _process: not_implemented
+                    hop-type:
+                        _process: not_implemented
+                    index:
+                        _process: not_implemented
+                index:
+                    _process: not_implemented
+                state:
+                    _process: not_implemented
+                    address:
+                        _process: not_implemented
+                    hop-type:
+                        _process: not_implemented
+                    index:
+                        _process: not_implemented
+        name:
+            _process: not_implemented
+        state:
+            _process: not_implemented
+            name:
+                _process: not_implemented

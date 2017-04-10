@@ -1,0 +1,48 @@
+---
+metadata:
+    processor: unset
+
+srlgs:
+    _process: not_implemented
+    srlg:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            cost:
+                _process: not_implemented
+            flooding-type:
+                _process: not_implemented
+            name:
+                _process: not_implemented
+            value:
+                _process: not_implemented
+        name:
+            _process: not_implemented
+        state:
+            _process: not_implemented
+            cost:
+                _process: not_implemented
+            flooding-type:
+                _process: not_implemented
+            name:
+                _process: not_implemented
+            value:
+                _process: not_implemented
+        static-srlg-members:
+            _process: not_implemented
+            members-list:
+                _process: not_implemented
+                config:
+                    _process: not_implemented
+                    from-address:
+                        _process: not_implemented
+                    to-address:
+                        _process: not_implemented
+                from-address:
+                    _process: not_implemented
+                state:
+                    _process: not_implemented
+                    from-address:
+                        _process: not_implemented
+                    to-address:
+                        _process: not_implemented

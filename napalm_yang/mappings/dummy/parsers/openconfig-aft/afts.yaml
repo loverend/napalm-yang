@@ -1,0 +1,86 @@
+---
+metadata:
+    processor: unset
+
+afts:
+    _process: not_implemented
+    aft:
+        _process: not_implemented
+        address-family:
+            _process: not_implemented
+        config:
+            _process: not_implemented
+            address-family:
+                _process: not_implemented
+        entries:
+            _process: not_implemented
+            entry:
+                _process: not_implemented
+                config:
+                    _process: not_implemented
+                    index:
+                        _process: not_implemented
+                index:
+                    _process: not_implemented
+                match:
+                    _process: not_implemented
+                    state:
+                        _process: not_implemented
+                        ip-dscp:
+                            _process: not_implemented
+                        ip-prefix:
+                            _process: not_implemented
+                        ip-protocol:
+                            _process: not_implemented
+                        l4-dst-port:
+                            _process: not_implemented
+                        l4-src-port:
+                            _process: not_implemented
+                        mac-address:
+                            _process: not_implemented
+                        mpls-label:
+                            _process: not_implemented
+                        mpls-tc:
+                            _process: not_implemented
+                next-hops:
+                    _process: not_implemented
+                    next-hop:
+                        _process: not_implemented
+                        config:
+                            _process: not_implemented
+                            index:
+                                _process: not_implemented
+                        index:
+                            _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            decapsulate-header:
+                                _process: not_implemented
+                            encapsulate-header:
+                                _process: not_implemented
+                            index:
+                                _process: not_implemented
+                            ip-address:
+                                _process: not_implemented
+                            mac-address:
+                                _process: not_implemented
+                            origin-protocol:
+                                _process: not_implemented
+                            popped-mpls-label-stack:
+                                _process: not_implemented
+                            pushed-mpls-label-stack:
+                                _process: not_implemented
+                            weight:
+                                _process: not_implemented
+                state:
+                    _process: not_implemented
+                    index:
+                        _process: not_implemented
+                    octets-forwarded:
+                        _process: not_implemented
+                    packets-forwarded:
+                        _process: not_implemented
+        state:
+            _process: not_implemented
+            address-family:
+                _process: not_implemented

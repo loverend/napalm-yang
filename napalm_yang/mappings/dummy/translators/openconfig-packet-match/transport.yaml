@@ -1,0 +1,22 @@
+---
+metadata:
+    processor: unset
+
+transport:
+    _process: not_implemented
+    config:
+        _process: not_implemented
+        destination-port:
+            _process: not_implemented
+        source-port:
+            _process: not_implemented
+        tcp-flags:
+            _process: not_implemented
+    state:
+        _process: not_implemented
+        destination-port:
+            _process: not_implemented
+        source-port:
+            _process: not_implemented
+        tcp-flags:
+            _process: not_implemented

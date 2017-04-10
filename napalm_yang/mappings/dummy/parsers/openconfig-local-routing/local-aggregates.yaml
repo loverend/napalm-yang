@@ -1,0 +1,26 @@
+---
+metadata:
+    processor: unset
+
+local-aggregates:
+    _process: not_implemented
+    aggregate:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            discard:
+                _process: not_implemented
+            prefix:
+                _process: not_implemented
+            set-tag:
+                _process: not_implemented
+        prefix:
+            _process: not_implemented
+        state:
+            _process: not_implemented
+            discard:
+                _process: not_implemented
+            prefix:
+                _process: not_implemented
+            set-tag:
+                _process: not_implemented

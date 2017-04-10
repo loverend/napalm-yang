@@ -1,0 +1,26 @@
+---
+metadata:
+    processor: unset
+
+apply-policy:
+    _process: not_implemented
+    config:
+        _process: not_implemented
+        default-export-policy:
+            _process: not_implemented
+        default-import-policy:
+            _process: not_implemented
+        export-policy:
+            _process: not_implemented
+        import-policy:
+            _process: not_implemented
+    state:
+        _process: not_implemented
+        default-export-policy:
+            _process: not_implemented
+        default-import-policy:
+            _process: not_implemented
+        export-policy:
+            _process: not_implemented
+        import-policy:
+            _process: not_implemented

@@ -1,0 +1,42 @@
+---
+metadata:
+    processor: unset
+
+ip:
+    _process: not_implemented
+    config:
+        _process: not_implemented
+        destination-ip-address:
+            _process: not_implemented
+        destination-ip-flow-label:
+            _process: not_implemented
+        dscp:
+            _process: not_implemented
+        hop-limit:
+            _process: not_implemented
+        ip-version:
+            _process: not_implemented
+        protocol:
+            _process: not_implemented
+        source-ip-address:
+            _process: not_implemented
+        source-ip-flow-label:
+            _process: not_implemented
+    state:
+        _process: not_implemented
+        destination-ip-address:
+            _process: not_implemented
+        destination-ip-flow-label:
+            _process: not_implemented
+        dscp:
+            _process: not_implemented
+        hop-limit:
+            _process: not_implemented
+        ip-version:
+            _process: not_implemented
+        protocol:
+            _process: not_implemented
+        source-ip-address:
+            _process: not_implemented
+        source-ip-flow-label:
+            _process: not_implemented

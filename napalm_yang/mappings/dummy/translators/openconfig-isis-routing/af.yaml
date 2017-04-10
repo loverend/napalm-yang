@@ -1,0 +1,46 @@
+---
+metadata:
+    processor: unset
+
+af:
+    _process: not_implemented
+    afi-name:
+        _process: not_implemented
+    config:
+        _process: not_implemented
+        afi-name:
+            _process: not_implemented
+        enabled:
+            _process: not_implemented
+        metric:
+            _process: not_implemented
+        safi-name:
+            _process: not_implemented
+    multi-topology:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            afi-name:
+                _process: not_implemented
+            safi-name:
+                _process: not_implemented
+        state:
+            _process: not_implemented
+            afi-name:
+                _process: not_implemented
+            enabled:
+                _process: not_implemented
+            safi-name:
+                _process: not_implemented
+    safi-name:
+        _process: not_implemented
+    state:
+        _process: not_implemented
+        afi-name:
+            _process: not_implemented
+        enabled:
+            _process: not_implemented
+        metric:
+            _process: not_implemented
+        safi-name:
+            _process: not_implemented

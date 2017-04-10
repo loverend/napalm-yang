@@ -1,0 +1,22 @@
+---
+metadata:
+    processor: unset
+
+interfaces:
+    _process: not_implemented
+    interface:
+        _process: not_implemented
+        config:
+            _process: not_implemented
+            apply-forwarding-policy:
+                _process: not_implemented
+            interface-id:
+                _process: not_implemented
+        interface-id:
+            _process: not_implemented
+        state:
+            _process: not_implemented
+            apply-forwarding-policy:
+                _process: not_implemented
+            interface-id:
+                _process: not_implemented

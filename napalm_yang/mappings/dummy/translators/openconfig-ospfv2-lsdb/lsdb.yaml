@@ -1,0 +1,558 @@
+---
+metadata:
+    processor: unset
+
+lsdb:
+    _process: not_implemented
+    lsa-types:
+        _process: not_implemented
+        lsa-type:
+            _process: not_implemented
+            lsas:
+                _process: not_implemented
+                lsa:
+                    _process: not_implemented
+                    as-external-lsa:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            external-route-tag:
+                                _process: not_implemented
+                            forwarding-address:
+                                _process: not_implemented
+                            mask:
+                                _process: not_implemented
+                            metric:
+                                _process: not_implemented
+                            metric-type:
+                                _process: not_implemented
+                        types-of-service:
+                            _process: not_implemented
+                            type-of-service:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    external-route-tag:
+                                        _process: not_implemented
+                                    forwarding-address:
+                                        _process: not_implemented
+                                    metric:
+                                        _process: not_implemented
+                                    tos:
+                                        _process: not_implemented
+                                tos:
+                                    _process: not_implemented
+                    link-state-id:
+                        _process: not_implemented
+                    network-lsa:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            attached-router:
+                                _process: not_implemented
+                            network-mask:
+                                _process: not_implemented
+                    nssa-external-lsa:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            external-route-tag:
+                                _process: not_implemented
+                            forwarding-address:
+                                _process: not_implemented
+                            mask:
+                                _process: not_implemented
+                            metric:
+                                _process: not_implemented
+                            metric-type:
+                                _process: not_implemented
+                            propagate:
+                                _process: not_implemented
+                        types-of-service:
+                            _process: not_implemented
+                            type-of-service:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    external-route-tag:
+                                        _process: not_implemented
+                                    forwarding-address:
+                                        _process: not_implemented
+                                    metric:
+                                        _process: not_implemented
+                                    tos:
+                                        _process: not_implemented
+                                tos:
+                                    _process: not_implemented
+                    opaque-lsa:
+                        _process: not_implemented
+                        extended-link:
+                            _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                link-data:
+                                    _process: not_implemented
+                                link-id:
+                                    _process: not_implemented
+                                link-type:
+                                    _process: not_implemented
+                            tlvs:
+                                _process: not_implemented
+                                tlv:
+                                    _process: not_implemented
+                                    adjacency-sid:
+                                        _process: not_implemented
+                                        state:
+                                            _process: not_implemented
+                                            backup:
+                                                _process: not_implemented
+                                            group:
+                                                _process: not_implemented
+                                            multi-topology-identifier:
+                                                _process: not_implemented
+                                            sid-type:
+                                                _process: not_implemented
+                                            sid-value:
+                                                _process: not_implemented
+                                            weight:
+                                                _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        type:
+                                            _process: not_implemented
+                                    unknown-tlv:
+                                        _process: not_implemented
+                                        state:
+                                            _process: not_implemented
+                                            length:
+                                                _process: not_implemented
+                                            type:
+                                                _process: not_implemented
+                                            value:
+                                                _process: not_implemented
+                        extended-prefix:
+                            _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                address-family:
+                                    _process: not_implemented
+                                attached:
+                                    _process: not_implemented
+                                node:
+                                    _process: not_implemented
+                                prefix:
+                                    _process: not_implemented
+                                prefix-length:
+                                    _process: not_implemented
+                                route-type:
+                                    _process: not_implemented
+                            tlvs:
+                                _process: not_implemented
+                                tlv:
+                                    _process: not_implemented
+                                    extended-prefix-range:
+                                        _process: not_implemented
+                                        state:
+                                            _process: not_implemented
+                                            address-family:
+                                                _process: not_implemented
+                                            inter-area:
+                                                _process: not_implemented
+                                            prefix:
+                                                _process: not_implemented
+                                            prefix-length:
+                                                _process: not_implemented
+                                            range-size:
+                                                _process: not_implemented
+                                    prefix-sid:
+                                        _process: not_implemented
+                                        state:
+                                            _process: not_implemented
+                                            algorithm:
+                                                _process: not_implemented
+                                            explicit-null:
+                                                _process: not_implemented
+                                            mapping-server:
+                                                _process: not_implemented
+                                            multi-topology-identifier:
+                                                _process: not_implemented
+                                            no-php:
+                                                _process: not_implemented
+                                            sid-scope:
+                                                _process: not_implemented
+                                            sid-value:
+                                                _process: not_implemented
+                                            sid-value-type:
+                                                _process: not_implemented
+                                    sid-label-binding:
+                                        _process: not_implemented
+                                        state:
+                                            _process: not_implemented
+                                            mirroring:
+                                                _process: not_implemented
+                                            multi-topology-identifier:
+                                                _process: not_implemented
+                                            weight:
+                                                _process: not_implemented
+                                        tlvs:
+                                            _process: not_implemented
+                                            tlv:
+                                                _process: not_implemented
+                                                ero-metric:
+                                                    _process: not_implemented
+                                                    state:
+                                                        _process: not_implemented
+                                                        metric:
+                                                            _process: not_implemented
+                                                ero-path:
+                                                    _process: not_implemented
+                                                    segments:
+                                                        _process: not_implemented
+                                                        segment:
+                                                            _process: not_implemented
+                                                            ipv4-segment:
+                                                                _process: not_implemented
+                                                                state:
+                                                                    _process: not_implemented
+                                                                    address:
+                                                                        _process: not_implemented
+                                                            state:
+                                                                _process: not_implemented
+                                                                loose:
+                                                                    _process: not_implemented
+                                                                type:
+                                                                    _process: not_implemented
+                                                            unnumbered-hop:
+                                                                _process: not_implemented
+                                                                state:
+                                                                    _process: not_implemented
+                                                                    interface-id:
+                                                                        _process: not_implemented
+                                                                    router-id:
+                                                                        _process: not_implemented
+                                                sid-label-binding:
+                                                    _process: not_implemented
+                                                    state:
+                                                        _process: not_implemented
+                                                        sid-type:
+                                                            _process: not_implemented
+                                                        sid-value:
+                                                            _process: not_implemented
+                                                state:
+                                                    _process: not_implemented
+                                                    type:
+                                                        _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        type:
+                                            _process: not_implemented
+                                    unknown-tlv:
+                                        _process: not_implemented
+                                        state:
+                                            _process: not_implemented
+                                            length:
+                                                _process: not_implemented
+                                            type:
+                                                _process: not_implemented
+                                            value:
+                                                _process: not_implemented
+                        grace-lsa:
+                            _process: not_implemented
+                            tlvs:
+                                _process: not_implemented
+                                tlv:
+                                    _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        ip-interface-address:
+                                            _process: not_implemented
+                                        period:
+                                            _process: not_implemented
+                                        reason:
+                                            _process: not_implemented
+                                        type:
+                                            _process: not_implemented
+                                    unknown-tlv:
+                                        _process: not_implemented
+                                        state:
+                                            _process: not_implemented
+                                            length:
+                                                _process: not_implemented
+                                            type:
+                                                _process: not_implemented
+                                            value:
+                                                _process: not_implemented
+                        router-information:
+                            _process: not_implemented
+                            tlvs:
+                                _process: not_implemented
+                                tlv:
+                                    _process: not_implemented
+                                    informational-capabilities:
+                                        _process: not_implemented
+                                        state:
+                                            _process: not_implemented
+                                            experimental-te:
+                                                _process: not_implemented
+                                            graceful-restart-capable:
+                                                _process: not_implemented
+                                            graceful-restart-helper:
+                                                _process: not_implemented
+                                            point-to-point-over-lan:
+                                                _process: not_implemented
+                                            stub-router:
+                                                _process: not_implemented
+                                            traffic-engineering:
+                                                _process: not_implemented
+                                    node-administrative-tags:
+                                        _process: not_implemented
+                                        state:
+                                            _process: not_implemented
+                                            administrative-tags:
+                                                _process: not_implemented
+                                    segment-routing-algorithm:
+                                        _process: not_implemented
+                                        state:
+                                            _process: not_implemented
+                                            supported-algorithms:
+                                                _process: not_implemented
+                                    segment-routing-sid-label-range:
+                                        _process: not_implemented
+                                        tlvs:
+                                            _process: not_implemented
+                                            tlv:
+                                                _process: not_implemented
+                                                sid-label:
+                                                    _process: not_implemented
+                                                    state:
+                                                        _process: not_implemented
+                                                        entry-type:
+                                                            _process: not_implemented
+                                                        first-value:
+                                                            _process: not_implemented
+                                                state:
+                                                    _process: not_implemented
+                                                    range-size:
+                                                        _process: not_implemented
+                                                    type:
+                                                        _process: not_implemented
+                                                unknown-tlv:
+                                                    _process: not_implemented
+                                                    state:
+                                                        _process: not_implemented
+                                                        length:
+                                                            _process: not_implemented
+                                                        type:
+                                                            _process: not_implemented
+                                                        value:
+                                                            _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        type:
+                                            _process: not_implemented
+                                    unknown-tlv:
+                                        _process: not_implemented
+                                        state:
+                                            _process: not_implemented
+                                            length:
+                                                _process: not_implemented
+                                            type:
+                                                _process: not_implemented
+                                            value:
+                                                _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            scope:
+                                _process: not_implemented
+                            type:
+                                _process: not_implemented
+                        traffic-engineering:
+                            _process: not_implemented
+                            tlvs:
+                                _process: not_implemented
+                                tlv:
+                                    _process: not_implemented
+                                    link:
+                                        _process: not_implemented
+                                        sub-tlvs:
+                                            _process: not_implemented
+                                            sub-tlv:
+                                                _process: not_implemented
+                                                administrative-groups:
+                                                    _process: not_implemented
+                                                    admin-group:
+                                                        _process: not_implemented
+                                                        bit-index:
+                                                            _process: not_implemented
+                                                        state:
+                                                            _process: not_implemented
+                                                            bit-index:
+                                                                _process: not_implemented
+                                                            set:
+                                                                _process: not_implemented
+                                                state:
+                                                    _process: not_implemented
+                                                    link-id:
+                                                        _process: not_implemented
+                                                    link-type:
+                                                        _process: not_implemented
+                                                    local-ip-address:
+                                                        _process: not_implemented
+                                                    maximum-bandwidth:
+                                                        _process: not_implemented
+                                                    maximum-reservable-bandwidth:
+                                                        _process: not_implemented
+                                                    metric:
+                                                        _process: not_implemented
+                                                    remote-ip-address:
+                                                        _process: not_implemented
+                                                    type:
+                                                        _process: not_implemented
+                                                    unknown-type:
+                                                        _process: not_implemented
+                                                    unknown-value:
+                                                        _process: not_implemented
+                                                unknown-subtlv:
+                                                    _process: not_implemented
+                                                    state:
+                                                        _process: not_implemented
+                                                        length:
+                                                            _process: not_implemented
+                                                        type:
+                                                            _process: not_implemented
+                                                        value:
+                                                            _process: not_implemented
+                                                unreserved-bandwidths:
+                                                    _process: not_implemented
+                                                    unreserved-bandwidth:
+                                                        _process: not_implemented
+                                                        priority:
+                                                            _process: not_implemented
+                                                        state:
+                                                            _process: not_implemented
+                                                            priority:
+                                                                _process: not_implemented
+                                                            unreserved-bandwidth:
+                                                                _process: not_implemented
+                                    node-attribute:
+                                        _process: not_implemented
+                                        sub-tlvs:
+                                            _process: not_implemented
+                                            sub-tlv:
+                                                _process: not_implemented
+                                                state:
+                                                    _process: not_implemented
+                                                    local-ipv4-addresses:
+                                                        _process: not_implemented
+                                                    local-ipv6-addresses:
+                                                        _process: not_implemented
+                                                    type:
+                                                        _process: not_implemented
+                                                unknown-subtlv:
+                                                    _process: not_implemented
+                                                    state:
+                                                        _process: not_implemented
+                                                        length:
+                                                            _process: not_implemented
+                                                        type:
+                                                            _process: not_implemented
+                                                        value:
+                                                            _process: not_implemented
+                                    router-address:
+                                        _process: not_implemented
+                                        state:
+                                            _process: not_implemented
+                                            address:
+                                                _process: not_implemented
+                                    state:
+                                        _process: not_implemented
+                                        type:
+                                            _process: not_implemented
+                                    unknown-tlv:
+                                        _process: not_implemented
+                                        state:
+                                            _process: not_implemented
+                                            length:
+                                                _process: not_implemented
+                                            type:
+                                                _process: not_implemented
+                                            value:
+                                                _process: not_implemented
+                        unknown-tlv:
+                            _process: not_implemented
+                            state:
+                                _process: not_implemented
+                                length:
+                                    _process: not_implemented
+                                type:
+                                    _process: not_implemented
+                                value:
+                                    _process: not_implemented
+                    router-lsa:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            link-data:
+                                _process: not_implemented
+                            link-id:
+                                _process: not_implemented
+                            metric:
+                                _process: not_implemented
+                            number-links:
+                                _process: not_implemented
+                            number-tos-metrics:
+                                _process: not_implemented
+                            type:
+                                _process: not_implemented
+                        types-of-service:
+                            _process: not_implemented
+                            type-of-service:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    metric:
+                                        _process: not_implemented
+                                    tos:
+                                        _process: not_implemented
+                                tos:
+                                    _process: not_implemented
+                    state:
+                        _process: not_implemented
+                        advertising-router:
+                            _process: not_implemented
+                        age:
+                            _process: not_implemented
+                        checksum:
+                            _process: not_implemented
+                        link-state-id:
+                            _process: not_implemented
+                        sequence-number:
+                            _process: not_implemented
+                    summary-lsa:
+                        _process: not_implemented
+                        state:
+                            _process: not_implemented
+                            network-mask:
+                                _process: not_implemented
+                        types-of-service:
+                            _process: not_implemented
+                            type-of-service:
+                                _process: not_implemented
+                                state:
+                                    _process: not_implemented
+                                    metric:
+                                        _process: not_implemented
+                                    tos:
+                                        _process: not_implemented
+                                tos:
+                                    _process: not_implemented
+            state:
+                _process: not_implemented
+                type:
+                    _process: not_implemented
+            type:
+                _process: not_implemented
+    state:
+        _process: not_implemented
+        identifier:
+            _process: not_implemented
